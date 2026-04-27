@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+  Spilwerk visitekaartje · ACHTERZIJDE
+  Formaat: 91mm × 61mm (85×55 met 3mm bleed rondom)
+  Veilige zone: 6mm naar binnen vanaf de rand
+-->
+<svg xmlns="http://www.w3.org/2000/svg"
+     width="91mm" height="61mm"
+     viewBox="0 0 91 61">
+
+  <!-- Achtergrond: groen -->
+  <rect width="91" height="61" fill="#4A7C59"/>
+
+  <!-- Veilige zone outline (alleen preview, weghalen voor druk) -->
+  <!--<rect x="6" y="6" width="79" height="49" fill="none" stroke="#FBF6EE" stroke-width="0.1" stroke-dasharray="0.5,0.5"/>-->
+
+  <!-- Telefoon (primaire CTA) -->
+  <text x="8" y="17"
+        font-family="Manrope, 'Helvetica Neue', Arial, sans-serif"
+        font-size="6" font-weight="700"
+        fill="#FBF6EE">06 — XX XX XX XX</text>
+
+  <!-- E-mail -->
+  <text x="8" y="24"
+        font-family="Manrope, 'Helvetica Neue', Arial, sans-serif"
+        font-size="2.7" font-weight="500"
+        fill="#FBF6EE" fill-opacity="0.92">emmanueltekle@gmail.com</text>
+
+  <!-- Website -->
+  <text x="8" y="29"
+        font-family="Manrope, 'Helvetica Neue', Arial, sans-serif"
+        font-size="2.7" font-weight="600"
+        fill="#FBF6EE" fill-opacity="0.92">spilwerk.nl</text>
+
+  <!-- Divider -->
+  <line x1="8" y1="35" x2="32" y2="35"
+        stroke="#FBF6EE" stroke-opacity="0.45" stroke-width="0.3"/>
+
+  <!-- Tagline -->
+  <text x="8" y="41"
+        font-family="Manrope, 'Helvetica Neue', Arial, sans-serif"
+        font-size="2.6" font-weight="600"
+        fill="#FBF6EE">Vanaf €55 · werkt het niet = €0</text>
+
+  <!-- Diensten -->
+  <text x="8" y="51"
+        font-family="Manrope, 'Helvetica Neue', Arial, sans-serif"
+        font-size="2.4" font-weight="500"
+        fill="#FBF6EE" fill-opacity="0.85">Computer · Wifi · Telefoon</text>
+  <text x="8" y="55.5"
+        font-family="Manrope, 'Helvetica Neue', Arial, sans-serif"
+        font-size="2.4" font-weight="500"
+        fill="#FBF6EE" fill-opacity="0.85">Backup · Voor zelfstandigen</text>
+
+</svg>

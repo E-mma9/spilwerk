@@ -1,0 +1,25 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.env
+
+# Editors
+.vscode/
+.idea/
+*.swp
+.DS_Store
+Thumbs.db
+
+# Leadgen output (contains lead names — keep local)
+leadgen/output/
+!leadgen/output/.gitkeep
+
+# Klant-data: nooit in git
+offertes/
+boekhouding/
+
+# Build artifacts
+node_modules/
+dist/

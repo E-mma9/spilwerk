@@ -1,0 +1,124 @@
+<!doctype html>
+<html lang="nl">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>Total Tankstation — Excel-rooster werd één app · Spilwerk</title>
+<meta name="description" content="Hoe het maandelijkse Excel-rooster van Total Tankstation werd vervangen door een React/Node/Postgres webapp met JWT-auth, e-mail notificaties en automatische backups." />
+<link rel="stylesheet" href="../assets/style.css" />
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Ccircle cx='16' cy='16' r='14' fill='%234A7C59'/%3E%3Ccircle cx='16' cy='16' r='5' fill='%23FBF6EE'/%3E%3C/svg%3E" />
+</head>
+<body>
+
+<header class="site-header">
+  <div class="container">
+    <a class="brand" href="../"><span class="brand-dot" aria-hidden="true"></span> Spilwerk</a>
+    <nav>
+      <a class="btn-ghost hide-sm" href="../#diensten">Wat ik doe</a>
+      <a class="btn-ghost hide-sm" href="../#prijzen">Prijzen</a>
+      <a class="btn btn-primary" href="../#contact">Plan een afspraak</a>
+    </nav>
+  </div>
+</header>
+
+<main>
+
+  <section class="case-hero">
+    <div class="container">
+      <span class="eyebrow">Werk · Voor zelfstandige professionals</span>
+      <h1 style="max-width: 18ch;">Vier Excel-versies werden <span style="color: var(--accent-2);">één app.</span></h1>
+      <p class="lede" style="margin-top: 1.5rem;">
+        Total Tankstation had elke maand hetzelfde verhaal: een Excel-rooster dat in vier versies tegelijk circuleerde, ruilverzoeken via WhatsApp, en niemand wist meer wat de meest recente waarheid was.
+      </p>
+      <div class="case-meta-row">
+        <span><b>Klant</b>Total Tankstation</span>
+        <span><b>Sector</b>Retail / Tankstations</span>
+        <span><b>Periode</b>2026</span>
+        <span><b>Status</b>In productie</span>
+        <span><b>Stack</b>React · Node · Postgres · Docker</span>
+      </div>
+    </div>
+  </section>
+
+  <section class="section-tight">
+    <div class="container case-body">
+      <article class="prose">
+        <h3>Het probleem</h3>
+        <p>Een tankstation draait 24/7. Het rooster is daarmee het belangrijkste document van de operatie — als het niet klopt, staat de pomp leeg of staat er één te veel. De manager bouwde elke maand het rooster in Excel, mailde het rond, en daarna begon het echte werk: medewerkers gaven ruilverzoeken door via WhatsApp, de manager paste het Excel-bestand handmatig aan, en mailde een nieuwe versie. Halverwege de maand circuleerden er typisch <strong>vier versies</strong> tegelijk. De vraag "welke versie geldt?" werd vaker gesteld dan ik wil opschrijven.</p>
+
+        <p>Daarbovenop: geen mobiele weergave (iedereen op een laptop met een file met 30 kolommen), geen logging (wie heeft wat goedgekeurd?), en als de manager op vakantie was viel alles stil.</p>
+
+        <div class="before-after">
+          <div class="before">
+            <p class="label">VOOR</p>
+            <ul style="padding-left: 1.1rem; margin: 0; color: var(--ink-2);">
+              <li>4 Excel-versies per maand</li>
+              <li>Ruilverzoeken via WhatsApp</li>
+              <li>Geen mobiel</li>
+              <li>Geen audit trail</li>
+              <li>Manager-afhankelijk</li>
+            </ul>
+          </div>
+          <div class="after">
+            <p class="label">NA</p>
+            <ul style="padding-left: 1.1rem; margin: 0; color: var(--ink-2);">
+              <li>Eén bron van waarheid</li>
+              <li>Ruilen in-app, met goedkeuring</li>
+              <li>Mobiel-eerst</li>
+              <li>Volledige audit log</li>
+              <li>Automatische e-mail reminders</li>
+            </ul>
+          </div>
+        </div>
+
+        <h3>De oplossing</h3>
+        <p>Een webapplicatie die het Excel-bestand letterlijk vervangt. Niet "meer features" — minder. De manager bouwt het rooster in een kalender-grid, publiceert het, en medewerkers zien direct hun diensten op hun telefoon. Beschikbaarheid en vrije dagen worden in-app aangevraagd. Diensten ruilen werkt met een tweezijdige goedkeuring (collega akkoord → manager akkoord → rooster bijgewerkt) — geen WhatsApp meer.</p>
+
+        <h3>Wat er onder de motorkap zit</h3>
+        <ul>
+          <li><span class="pill">Frontend</span> React 18 + Vite + TailwindCSS + Zustand. Mobile-first.</li>
+          <li><span class="pill">Backend</span> Node.js 20 + Express + Prisma ORM</li>
+          <li><span class="pill">Database</span> PostgreSQL 16, met dagelijkse off-site backups</li>
+          <li><span class="pill">Auth</span> JWT — 15-min access token + 7-daags httpOnly refresh-cookie, met token-rotatie</li>
+          <li><span class="pill">Notificaties</span> In-app belletje + e-mail (cron-job 18:00 voor dienst-reminders, 09:00 voor manager-reminders)</li>
+          <li><span class="pill">Deployment</span> Docker Compose + nginx op Hetzner (~€10/maand)</li>
+        </ul>
+
+        <h3>Wat het opleverde</h3>
+        <p>De maandelijkse rooster-cyclus is van een week-met-mailtjes naar een middag-in-de-app gegaan. Versie-conflicten: nul. Ruilverzoeken die "zoek raken" in WhatsApp: nul. Iedere medewerker heeft op zijn telefoon altijd het actuele rooster, met een notificatie de avond voor zijn dienst.</p>
+        <p>Belangrijkste minder-zichtbare winst: de manager hoeft niet meer in vakantie bereikbaar te zijn voor "welke versie geldt nu?". Het systeem is de bron van waarheid.</p>
+
+      </article>
+
+      <aside>
+        <div class="aside-card">
+          <h4>Snelle feiten</h4>
+          <dl>
+            <dt>Stack</dt><dd>React · Node · Postgres</dd>
+            <dt>Hosting</dt><dd>Hetzner · Docker</dd>
+            <dt>Backups</dt><dd>Dagelijks · off-site</dd>
+            <dt>Code-omvang</dt><dd>~14k regels</dd>
+            <dt>Bouwperiode</dt><dd>~7 weken</dd>
+          </dl>
+        </div>
+        <div class="aside-card">
+          <h4>Past dit bij jouw situatie?</h4>
+          <p style="margin: 0 0 1rem; color: var(--ink-2);">Heb je een Excel of Google Sheet dat te belangrijk is geworden voor wat het is? Een screenshot is genoeg om te peilen of het iets voor mij is.</p>
+          <a class="btn btn-primary" href="../#contact">Stuur me je vraag</a>
+        </div>
+      </aside>
+    </div>
+  </section>
+
+</main>
+
+<footer class="site-footer">
+  <div class="container">
+    <span>© 2026 Spilwerk — Emmanuel Tekle</span>
+    <span>Twente · Heel Overijssel · KvK volgt</span>
+  </div>
+</footer>
+
+<script src="../assets/script.js"></script>
+</body>
+</html>

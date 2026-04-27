@@ -1,0 +1,138 @@
+<!doctype html>
+<html lang="nl">
+<head>
+<meta charset="utf-8" />
+<title>Spilwerk visitekaartje — preview</title>
+<link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+<style>
+  :root {
+    --paper: #FBF6EE;
+    --green: #4A7C59;
+    --ink: #2A2A28;
+    --ink-2: #4F4D48;
+    --ink-3: #807D75;
+  }
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+  body {
+    font-family: 'Manrope', sans-serif;
+    background: #E8E4DA;
+    padding: 30px 20px;
+    color: var(--ink);
+  }
+  h1 { font-size: 1.5rem; margin-bottom: 0.5rem; font-weight: 700; }
+  .intro { color: var(--ink-2); margin-bottom: 2rem; font-size: 0.95rem; max-width: 50ch; }
+  .cards { display: flex; gap: 2rem; flex-wrap: wrap; }
+
+  .card {
+    width: 91mm;
+    height: 61mm;
+    box-shadow: 0 8px 24px rgba(0,0,0,0.18);
+    border-radius: 4px;
+    overflow: hidden;
+    position: relative;
+    flex-shrink: 0;
+  }
+  .card-label {
+    position: absolute;
+    top: -1.6rem; left: 0;
+    font-size: 0.78rem;
+    font-weight: 700;
+    color: var(--ink-3);
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+  }
+
+  /* ─── VOORZIJDE ─── */
+  .front {
+    background: var(--paper);
+    padding: 6mm;
+    display: flex; flex-direction: column;
+  }
+  .front-brand { display: flex; align-items: center; gap: 4.5mm; margin-top: 4mm; }
+  .front-dot { width: 4.8mm; height: 4.8mm; border-radius: 50%; background: var(--green); }
+  .front-name { font-size: 6.5mm; font-weight: 800; letter-spacing: -0.4mm; line-height: 1; color: var(--ink); }
+  .front-sub { font-size: 3mm; font-weight: 500; color: var(--ink-2); margin: 1.5mm 0 0 9.3mm; }
+  .front-line { width: 14mm; height: 0.5mm; background: var(--green); border-radius: 1mm; margin: 8mm 0 auto; }
+  .front-person-name { font-size: 3.8mm; font-weight: 700; color: var(--ink); }
+  .front-person-role { font-size: 2.7mm; font-weight: 500; color: var(--ink-3); margin-top: 1mm; }
+
+  /* ─── ACHTERZIJDE ─── */
+  .back {
+    background: var(--green);
+    color: var(--paper);
+    padding: 6mm;
+    display: flex; flex-direction: column;
+  }
+  .back-phone { font-size: 6mm; font-weight: 700; line-height: 1; margin-top: 3mm; }
+  .back-contact { font-size: 2.7mm; font-weight: 500; opacity: 0.92; margin-top: 2mm; line-height: 1.4; }
+  .back-divider { width: 24mm; height: 0.3mm; background: var(--paper); opacity: 0.45; margin: 4mm 0 2mm; }
+  .back-tag { font-size: 2.6mm; font-weight: 600; }
+  .back-services { font-size: 2.4mm; font-weight: 500; opacity: 0.85; line-height: 1.55; margin-top: auto; }
+
+  .legend {
+    margin-top: 3rem;
+    background: white;
+    padding: 1.25rem 1.5rem;
+    border-radius: 8px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.06);
+    font-size: 0.92rem;
+    max-width: 50ch;
+  }
+  .legend ul { padding-left: 1.2rem; margin-top: 0.5rem; }
+  .legend li { margin: 0.3rem 0; }
+  .legend strong { color: var(--ink); }
+
+  @media print {
+    body { background: white; padding: 0; }
+    h1, .intro, .legend, .card-label { display: none !important; }
+    .card { box-shadow: none; border-radius: 0; }
+    .cards { gap: 0; }
+    .card { page-break-after: always; }
+    .card:last-child { page-break-after: auto; }
+    @page { size: 91mm 61mm; margin: 0; }
+  }
+</style>
+</head>
+<body>
+
+<h1>Spilwerk visitekaartje · preview op werkelijke grootte</h1>
+<p class="intro">
+  Beide kanten op 91×61mm (85×55mm + 3mm bleed). Open in browser, print → "PDF opslaan", upload bij drukker.
+  Vergeet niet eerst je 06-nummer in te vullen — pas <code>achterzijde.svg</code> en/of <code>voorzijde.svg</code> aan.
+</p>
+
+<div class="cards">
+  <div class="card front">
+    <div class="card-label">Voorzijde</div>
+    <div class="front-brand">
+      <div class="front-dot"></div>
+      <div class="front-name">SPILWERK</div>
+    </div>
+    <div class="front-sub">IT-hulp aan huis · heel Overijssel</div>
+    <div class="front-line"></div>
+    <div class="front-person-name">Emmanuel Tekle</div>
+    <div class="front-person-role">Eigenaar</div>
+  </div>
+
+  <div class="card back">
+    <div class="card-label">Achterzijde</div>
+    <div class="back-phone">06 — XX XX XX XX</div>
+    <div class="back-contact">emmanueltekle@gmail.com<br>spilwerk.nl</div>
+    <div class="back-divider"></div>
+    <div class="back-tag">Vanaf €55 · werkt het niet = €0</div>
+    <div class="back-services">Computer · Wifi · Telefoon<br>Backup · Voor zelfstandigen</div>
+  </div>
+</div>
+
+<div class="legend">
+  <strong>Voor druk:</strong>
+  <ul>
+    <li>Vul je <strong>06-nummer</strong> in op de SVG-bestanden (zoek "XX XX XX XX")</li>
+    <li>Bestel als <strong>dubbelzijdig</strong>, formaat <strong>85 × 55 mm</strong> (NL standaard)</li>
+    <li>Papier: <strong>350 gr/m² mat-laminaat</strong> of <strong>recycled silk</strong> — voelt premium</li>
+    <li>Aantal: <strong>250 stuks</strong> (prijs/stuk daalt sterk vanaf 250)</li>
+  </ul>
+</div>
+
+</body>
+</html>
