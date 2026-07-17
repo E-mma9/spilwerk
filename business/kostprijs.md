@@ -25,12 +25,15 @@ Plus eenmalig: KvK-inschrijving €82,25.
 
 | Soort werk | Tarief |
 |---|---:|
-| Bezoek aan huis (1e uur, incl. voorrijden binnen Overijssel) | €55 |
-| Daarna per begonnen kwartier | €12 (= €48/u) |
-| Hulp op afstand (TeamViewer / videocall) | €40/u |
-| Klein klusje &lt;30 min op afstand | €25 |
-| Avond &amp; weekend | +20% |
-| Werkt het niet | €0 |
+| Bezoek aan huis in Twente (1e uur, incl. voorrijden) | €60 |
+| Voorrijden buiten Twente (Zwolle, Deventer, Kampen, Steenwijk e.o.) | +€30 |
+| Daarna per begonnen kwartier | €15 (= €60/u) |
+| Hulp op afstand (TeamViewer / videocall) | €45/u |
+| Klein klusje &lt;30 min op afstand | €30 |
+| Avond &amp; weekend | +25% |
+| Werkt het niet | €0 voor de reparatiepoging — niet voor voorrijden/diagnose als hardware al kapot bleek |
+
+**Waarom zone-tarief:** "heel Overijssel incl. voorrijden" voor €60 klinkt sympathiek maar is een margeval. Enschede–Kampen is ~1u15 enkele reis. Een €60-klus in Kampen kost je 2,5u rijden + brandstof — effectief ruim onder €15/u. Twente (waar de meeste klanten zitten) kan voorrijden gratis absorberen; daarbuiten niet.
 
 ### Vaste prijzen (bekende klusjes met voorspelbare scope)
 
@@ -48,17 +51,19 @@ Plus eenmalig: KvK-inschrijving €82,25.
 
 | Klus | Prijs | Tijd-investering |
 |---|---:|---:|
-| Werkplek-setup nieuwe medewerker | €135 | ~2,5u |
-| Gedeelde printer in netwerk (tot 5 werkplekken) | €95 | ~1,5u |
-| Gedeelde mappen instellen (SharePoint / Drive / NAS) | €125 | ~2u |
-| Bedrijfs-backup (3-2-1 strategie + getest herstel) | €225 | ~4u |
-| Synology / NAS basis-setup | €145 | ~3u |
-| Vertrekkende medewerker offboarden | €85 | ~1,5u |
-| Halve dag op locatie (e-mail + boekhouding + backup) | €175 | ~5u (incl. reis) |
+| Werkplek-setup nieuwe medewerker | €185 | ~2,5u |
+| Gedeelde printer in netwerk (tot 5 werkplekken) | €130 | ~1,5u |
+| Gedeelde mappen instellen (SharePoint / Drive / NAS) | €170 | ~2u |
+| Bedrijfs-backup (3-2-1 strategie + getest herstel) | €300 | ~4u |
+| Synology / NAS basis-setup | €195 | ~3u |
+| Vertrekkende medewerker offboarden | €115 | ~1,5u |
+| Halve dag op locatie (e-mail + boekhouding + backup) | €250 | ~5u (incl. reis) |
+
+**Waarom +30-40% boven particulier-niveau:** een halve dag voor €175 was ~€35/u — voor werk waar een IT-dienstverlener €90-120/u voor rekent. Bedrijven kopen geen uurtje korting, ze kopen "dit wordt goed opgelost en ik ben gedekt". Als niemand ooit tegen je zakelijke prijs pusht, staat-ie te laag.
 
 ## Kostprijs per type bezoek
 
-### Bezoek aan huis — gemiddeld
+### Bezoek aan huis in Twente — gemiddeld
 
 | | Korte klus | Standaard | Langere klus |
 |---|---:|---:|---:|
@@ -67,10 +72,24 @@ Plus eenmalig: KvK-inschrijving €82,25.
 | Voorbereiding + verslag | 0,25u | 0,5u | 0,75u |
 | **Totale tijd-investering** | **1,75u** | **2,5u** | **3,75u** |
 | Variabele kosten (km @ €0,23/km, gem. 30 km) | €7 | €7 | €7 |
-| **Inkomsten excl. btw** | €55 | €67 (1u + €12) | €103 (2u + €48) |
-| Effectief uurtarief | €31/u | €27/u | €27/u |
+| **Inkomsten excl. btw** | €60 | €75 (1u + €15) | €120 (2u + €60) |
+| Effectief uurtarief | €34/u | €30/u | €32/u |
 
-🟡 **Marge dun** vanwege reistijd. Compenseer dit door **clustering**: meerdere bezoeken op één dag in dezelfde stad → reistijd valt weg over meerdere klussen.
+🟡 **Marge dun binnen Twente** vanwege reistijd. Compenseer dit door **clustering**: meerdere bezoeken op één dag in dezelfde stad → reistijd valt weg over meerdere klussen.
+
+### Bezoek aan huis buiten Twente — per stad
+
+De €30 voorrijtoeslag dekt de extra reistijd **niet volledig** bij de verste steden — dat is een bewuste keuze (marktconform blijven), geen rekenfout. Zie het als ondergrens, niet als kostendekkend tarief:
+
+| Stad | Enkele reistijd vanaf Enschede | Retour | Extra reistijd t.o.v. Twente-bezoek | Voorrijtoeslag dekt reistijd? |
+|---|---:|---:|---:|---|
+| Deventer | ~45 min | 1,5u | ~30 min | Grotendeels — €30 ≈ 30 min à €60/u |
+| Zwolle | ~55 min | 1,8u | ~50 min | Deels — tekort ~€20 in reistijd-waarde |
+| Hardenberg | ~50 min | 1,7u | ~40 min | Deels — tekort ~€10 |
+| Kampen | ~65 min | 2,2u | ~1u10 | Nee — tekort ~€40 |
+| Steenwijk | ~70-75 min | 2,4u | ~1u20 | Nee — tekort ~€50 |
+
+**Praktisch:** voor Kampen/Steenwijk-achtige afstanden trekt de vaste €30 het niet helemaal recht — bij een standaard-klus (1e uur) zak je daar effectief richting €20-25/u. Twee opties zodra dat type klant vaker voorkomt: (1) vraag bij bezoeken >1u reistijd een hogere voorrijtoeslag (€40-50), of (2) stuur die klanten waar mogelijk eerst naar hulp op afstand en bewaar het bezoek voor als het niet anders kan. Voor nu, bij lage volumes, is de vlakke €30 prima — het is een verbetering t.o.v. gratis voorrijden voor heel Overijssel, en het signaal ("we rekenen reistijd door") is belangrijker dan de laatste euro correct doorbelast krijgen.
 
 ### Hulp op afstand — beste marge
 
@@ -80,8 +99,8 @@ Plus eenmalig: KvK-inschrijving €82,25.
 | Voorbereiding + verslag | 0,15u |
 | **Totale tijd** | **1,15u** |
 | Variabele kosten | €0 |
-| **Inkomsten** | **€40** |
-| Effectief uurtarief | **€35/u** |
+| **Inkomsten** | **€45** |
+| Effectief uurtarief | **€39/u** |
 
 🟢 **Beste marge.** Stuur klanten waar mogelijk naar remote-eerst — sneller, goedkoper voor hen, beter voor jou.
 
@@ -94,8 +113,8 @@ Plus eenmalig: KvK-inschrijving €82,25.
 | SSD-upgrade + Windows clonen | €85 | 1,5u + 1u reis = 2,5u | €34/u |
 | RAM-upgrade | €55 | 30 min + 1u reis = 1,5u | €37/u |
 | Wifi-versterking | €95 | 1,5u + 1u reis = 2,5u | €38/u |
-| **Synology / NAS basis-setup** | €145 | 3u + 1u reis = 4u | **€36/u** |
-| **Halve dag zelfstandige** | €175 | 4u + 1u reis = 5u | **€35/u** |
+| **Synology / NAS basis-setup** | €195 | 3u + 1u reis = 4u | **€49/u** |
+| **Halve dag zelfstandige** | €250 | 4u + 1u reis = 5u | **€50/u** |
 
 🟢 **Vaste-prijs klusjes hebben betere marge dan losse uren** omdat je weet wat het kost en geen kwartiertjes hoeft te tellen. Push klanten richting vaste-prijs klusjes wanneer mogelijk.
 
@@ -105,34 +124,34 @@ Plus eenmalig: KvK-inschrijving €82,25.
 
 ### Conservatief (8u/wk effectief = ~32u/mnd)
 
-- 5× bezoek aan huis @ €55 = €275
-- 3× verlengde bezoeken (extra ~uur) = €144
-- 3× remote @ €40 = €120
-- 2× klein remote klusje @ €25 = €50
+- 5× bezoek aan huis @ €60 = €300
+- 3× verlengde bezoeken (extra ~uur = 4× €15) = €180
+- 3× remote @ €45 = €135
+- 2× klein remote klusje @ €30 = €60
 - 1× vaste-prijs klus (laptop instellen / backup-setup) @ €95 = €95
-- **Totaal: ~€684/mnd** → minus vaste kosten €143 → **netto ~€541**
+- **Totaal: ~€770/mnd** → minus vaste kosten €143 → **netto ~€627**
 
 ### Realistisch (12u/wk = ~48u/mnd)
 
-- 9× bezoek aan huis = €495
-- 5× verlengde bezoeken = €240
-- 6× remote @ €40 = €240
-- 4× klein remote klusje = €100
+- 9× bezoek aan huis @ €60 = €540
+- 5× verlengde bezoeken @ €60 = €300
+- 6× remote @ €45 = €270
+- 4× klein remote klusje @ €30 = €120
 - 2× vaste-prijs klus (€85-95) = €180
-- 1× halve dag zelfstandige = €175
-- **Totaal: ~€1.430/mnd** → minus €143 → **netto ~€1.287**
+- 1× halve dag zelfstandige @ €250 = €250
+- **Totaal: ~€1.660/mnd** → minus €143 → **netto ~€1.517**
 
 ### Goed jaar (15u/wk = ~60u/mnd)
 
-- 12× bezoek aan huis = €660
-- 7× verlengde bezoeken = €336
-- 8× remote = €320
-- 6× klein remote = €150
+- 12× bezoek aan huis @ €60 = €720
+- 7× verlengde bezoeken @ €60 = €420
+- 8× remote @ €45 = €360
+- 6× klein remote @ €30 = €180
 - 3× vaste-prijs klus = €270
-- 2× halve dag zelfstandige = €350
-- 1× NAS-setup = €145
-- 1× extra werk avond +20% = €80
-- **Totaal: ~€2.311/mnd** → minus €143 → **netto ~€2.168**
+- 2× halve dag zelfstandige @ €250 = €500
+- 1× NAS-setup @ €195 = €195
+- 1× extra werk avond +25% (op een standaard-bezoek) = ~€19
+- **Totaal: ~€2.664/mnd** → minus €143 → **netto ~€2.521**
 
 ## Hoe je je marge verbetert
 
@@ -158,11 +177,11 @@ Particulieren betalen het bedrag inclusief btw. Voor zelfstandige-professionals 
 | % remote vs bezoek | >30% remote | >40% remote |
 | Aantal terugkerende klanten | 3-5 | 10-15 |
 | Vaste kosten ratio | <15% omzet | <10% omzet |
-| Effectief uurtarief gemiddeld | >€32/u | >€38/u |
+| Effectief uurtarief gemiddeld | >€35/u | >€42/u |
 
 ## Hoe je je marge verhoogt na 6 maanden
 
-Eerste vaste-prijs klusjes (€85-€175) zijn op basis van inschatting. Na 5-10× hetzelfde klusje weet je écht hoeveel tijd het kost — dan kun je prijzen verfijnen:
+Eerste vaste-prijs klusjes (€55-€300) zijn op basis van inschatting. Na 5-10× hetzelfde klusje weet je écht hoeveel tijd het kost — dan kun je prijzen verfijnen:
 
 - **Klus duurt structureel korter dan ingeschat** → prijs gelijk laten, jij krijgt hogere effectieve uurtarief (= goed)
 - **Klus duurt structureel langer dan ingeschat** → prijs voorzichtig verhogen, of scope nauwer afbakenen

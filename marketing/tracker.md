@@ -146,7 +146,7 @@ TELEFOON DOET RAAR?
 Ik kom langs.
 
 Spilwerk · IT-hulp aan huis
-heel Overijssel · vanaf €55
+heel Overijssel · vanaf €60
 
 📞 06-XXXXXXXX
 🌐 spilwerk.nl
@@ -269,7 +269,7 @@ SPILWERK
 IT-hulp aan huis · heel Overijssel
 Computer | Wifi | Telefoon | Backup
 
-Vanaf €55 · werkt het niet → geen kosten
+Vanaf €60 · werkt het niet → geen kosten
 06-XXXXXXXX · spilwerk.nl
 ```
 
@@ -323,7 +323,7 @@ Drie senioren-koepelorganisaties met afdelingen in heel Overijssel. Alle drie he
 
 **Aanpak**: bel/mail het lokale bestuur. Bied:
 1. Gratis lezing voor de leden (1 uur, ~20-50 senioren)
-2. **Speciaal Spilwerk-tarief voor leden**: €50 i.p.v. €55 voor 1e uur (klein gebaar, voelt als korting)
+2. **Speciaal Spilwerk-tarief voor leden**: €50 i.p.v. €60 voor 1e uur (klein gebaar, voelt als korting)
 3. Vermelding in hun nieuwsbrief
 
 Eén lezing → 3-5 directe klanten + langere staartwerking via mond-tot-mond.

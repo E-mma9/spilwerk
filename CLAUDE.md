@@ -33,18 +33,29 @@ Bij wijzigingen aan diensten **drie plekken synchroon houden**:
 | Wifi & internet | vanaf €60/bezoek | Particulier |
 | Telefoon & tablet | vanaf €60/bezoek | Particulier (vaak senioren) |
 | Veilig online | vanaf €60/bezoek | Particulier + zelfstandigen |
-| Voor zelfstandigen (zakelijk e-mail, boekhouding-koppeling) | vanaf €195/halve dag | ZZP / zelfstandige professional |
+| Voor zelfstandigen (zakelijk e-mail, boekhouding-koppeling) | vanaf €250/halve dag | ZZP / zelfstandige professional |
 
 Plus optioneel: webapp-bouw zoals Total Tankstation (case study staat op `/werk/tankstation.html`) — niet als hoofdaanbod, wel als bewijs dat hij grotere dingen aankan.
 
 ## Tariefstructuur (uurbasis, niet pakket-prijs)
 
-- **Bezoek aan huis (1e uur incl. voorrijden binnen Overijssel):** €60
+- **Bezoek aan huis in Twente (1e uur incl. voorrijden):** €60
+- **Voorrijden buiten Twente** (Zwolle, Deventer, Kampen, Steenwijk, Hardenberg e.o.): +€30 — reistijd is daar te groot om gratis in te calculeren
 - **Daarna per begonnen kwartier:** €15 (= €60/u)
 - **Hulp op afstand:** €45/u
 - **Klein klusje <30 min op afstand:** €30
 - **Avond/weekend:** +25%
-- **Werkt het niet:** €0 (geen kosten als probleem niet opgelost)
+- **Werkt het niet:** €0 voor de reparatiepoging — geldt niet voor voorrijden/diagnosetijd als hardware al kapot blijkt vóór het bezoek
+
+**Zakelijke vaste prijzen** (zelfstandigen & kleine kantoren — bewust +30-40% boven particulier-niveau, want bedrijven kopen op "dit wordt opgelost en ik ben gedekt", niet op prijs):
+
+- Werkplek-setup nieuwe medewerker: €185
+- Gedeelde printer in netwerk (tot 5 werkplekken): €130
+- Gedeelde mappen instellen: €170
+- Bedrijfs-backup (3-2-1 + getest herstel): €300
+- Synology / NAS basis-setup: €195
+- Vertrekkende medewerker offboarden: €115
+- Halve dag op locatie: €250 minimum
 
 ## Brand & toon
 
@@ -58,7 +69,7 @@ Plus optioneel: webapp-bouw zoals Total Tankstation (case study staat op `/werk/
 - Domein `spilwerk.nl` is **nog niet geregistreerd**.
 - KvK-inschrijving wordt opgepakt; Emmanuel wil dit voor expense-aftrek + officieel kunnen factureren.
 - Telefoon/WhatsApp-nummer **nog niet ingevuld** — placeholders staan in `site/assets/script.js` (zoek "EDIT HERE") en in `site/index.html` contact-sectie (`tel:+31600000000` en `wa.me/31600000000`). Hij vult dit in zodra hij een zakelijk 06-nummer heeft.
-- Werkgebied: **heel Overijssel** (Hengelo, Enschede, Almelo, Borne, Oldenzaal, Haaksbergen, Zwolle, Deventer, Kampen, Steenwijk, etc.)
+- Werkgebied: **heel Overijssel**, maar met zone-tarief — Twente (Hengelo, Enschede, Almelo, Borne, Oldenzaal, Haaksbergen) incl. voorrijden, de rest van Overijssel (Zwolle, Deventer, Kampen, Steenwijk, etc.) +€30 voorrijkosten. Zonder die zone-splitsing kost een bezoek in Kampen of Zwolle meer reistijd dan er in het uurtarief zit.
 - Total Tankstation case study staat live als `werk/tankstation.html` — gebruik 'm voor zelfstandige-professionals doelgroep, niet als hoofdverhaal voor particulieren.
 - Emmanuel is 21, 3e jaar HBO ICT (Cloud & Cybersecurity, Saxion), parttime helpdesk-engineer bij Livio. Eerlijk over student-status op site — geen schande, juist credibility-boost.
 

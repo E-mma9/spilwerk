@@ -50,7 +50,7 @@ Lay-out:
 │   ✉  emmanueltekle@gmail.com       │
 │   🌐 spilwerk.nl                   │
 │                                    │
-│   Heel Overijssel · vanaf €55      │
+│   Heel Overijssel · vanaf €60      │
 │                                    │
 │   • Computer-hulp                  │
 │   • Wifi & internet                │
@@ -165,7 +165,7 @@ Magnetische deurborden voor je auto (~30×40 cm). Je plakt ze op je auto-deuren 
 │      IT-hulp aan huis                 │
 │                                       │
 │      ▶ heel Overijssel                │
-│      ▶ vanaf €55                      │
+│      ▶ vanaf €60                      │
 │                                       │
 │      📞 06–XXXX XXXX                  │
 │      🌐 spilwerk.nl                   │
@@ -242,7 +242,7 @@ Voor jou nu (eerste 3 maanden): **dat geld beter besteden aan visitekaartjes + w
 
 **Headline 1** (30 tekens): `Computer Kapot? Ik Kom Langs.`
 **Headline 2** (30 tekens): `IT-hulp Aan Huis · Overijssel`
-**Headline 3** (30 tekens): `Vanaf €55 · Vaste Prijzen`
+**Headline 3** (30 tekens): `Vanaf €60 · Vaste Prijzen`
 
 **Beschrijving 1** (90 tekens): `Vriendelijke IT-hulp aan huis voor heel Overijssel. Werkt het niet → geen kosten.`
 **Beschrijving 2** (90 tekens): `Computer, wifi, telefoon, backup. Eerlijke vaste prijzen. Spilwerk · Twente.`

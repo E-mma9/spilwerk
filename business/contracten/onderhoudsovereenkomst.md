@@ -37,7 +37,7 @@ Op maandelijkse basis levert Spilwerk:
 
 - 24/7 oncall — werkdagen 9:00-18:00
 - Hardware-vervanging (gaat tegen normale tarieven)
-- Werk op locatie (eigen tarief €55 voorrijden + uurtarief)
+- Werk op locatie (eigen tarief €60 voorrijden + uurtarief, buiten Twente +€30)
 - Implementatie van grote nieuwe systemen (apart project)
 
 ## 3. Tarief
@@ -55,8 +55,8 @@ Op maandelijkse basis levert Spilwerk:
 - 8u/mnd inclusief: €300/mnd
 
 **Boven de bundel:**
-- Extra remote-werk: €40/u (zonder kwartier-tellen, ronding op halve uren)
-- Werk op locatie: €55 voorrijden + €48/u
+- Extra remote-werk: €45/u (zonder kwartier-tellen, ronding op halve uren)
+- Werk op locatie: €60 voorrijden (buiten Twente +€30) + €60/u
 
 **Niet-gebruikte uren** verschuiven 1 maand vooruit, vervolgens vervallen ze (geen onbeperkte stapeling).
 

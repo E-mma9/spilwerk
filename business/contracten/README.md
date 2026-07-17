@@ -1,6 +1,6 @@
 # Contracten — wanneer welke gebruiken
 
-Vier templates, elk voor een andere situatie. **Niet alle klusjes hebben een contract nodig** — voor een €55-bezoek is een korte WhatsApp-bevestiging genoeg.
+Vier templates, elk voor een andere situatie. **Niet alle klusjes hebben een contract nodig** — voor een €60-bezoek is een korte WhatsApp-bevestiging genoeg.
 
 > ⚠️ Disclaimer: starter-templates voor B2C / klein-zakelijk gebruik. Voor projecten >€2.500 of contracten met gemeentes/zorginstellingen: laat ze één keer doorlezen door een MKB-jurist (~€150-300 eenmalig).
 

@@ -14,18 +14,19 @@ Je bent een research-assistent voor **Spilwerk** — een eenmanszaak van Emmanue
 | Wifi & internet | vanaf €60/bezoek | Particulier |
 | Telefoon & tablet | vanaf €60/bezoek | Particulier (vaak senioren) |
 | Veilig online | vanaf €60/bezoek | Particulier + zelfstandigen |
-| Voor zelfstandigen (zakelijk e-mail, boekhouding-koppeling) | vanaf €195/halve dag | ZZP / zelfstandige professional |
+| Voor zelfstandigen (zakelijk e-mail, boekhouding-koppeling) | vanaf €250/halve dag | ZZP / zelfstandige professional |
 
 Optioneel groter werk (Excel-proces → webapp): gebeurt zelden, maar Total Tankstation case study (`spilwerk.nl/werk/tankstation.html`) bewijst dat hij het kan voor zelfstandigen die meer willen.
 
 ## Tarieven
 
-- Bezoek aan huis (1e uur incl. voorrijden Overijssel): €60
+- Bezoek aan huis in Twente (1e uur incl. voorrijden): €60
+- Voorrijden buiten Twente (Zwolle, Deventer, Kampen, Steenwijk e.o.): +€30
 - Daarna per kwartier: €15
 - Hulp op afstand: €45/u
 - Klein klusje <30 min remote: €30
 - Avond/weekend: +25%
-- Werkt het niet: €0
+- Werkt het niet: €0 (geldt voor de reparatiepoging, niet voor voorrijden/diagnose als hardware al kapot bleek)
 
 ## Doelgroep voor outreach via dit script
 
@@ -39,7 +40,7 @@ Optioneel groter werk (Excel-proces → webapp): gebeurt zelden, maar Total Tank
 - Coaches, therapeuten, trainers
 - Kleine kantoren / bv's met max 5 medewerkers
 
-Geografisch: **heel Overijssel** — Hengelo, Enschede, Almelo, Borne, Oldenzaal, Haaksbergen, Zwolle, Deventer, Kampen, Steenwijk, en alles ertussen.
+Geografisch: **heel Overijssel** — Hengelo, Enschede, Almelo, Borne, Oldenzaal, Haaksbergen, Zwolle, Deventer, Kampen, Steenwijk, en alles ertussen. Buiten Twente geldt +€30 voorrijkosten (grotere reistijd).
 
 ## Wat je doet per lead
 
