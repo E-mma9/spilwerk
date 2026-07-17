@@ -16,7 +16,7 @@ Werkmap voor **Spilwerk**, eenmanszaak (in voorbereiding) van Emmanuel Tekle. **
 |---|---|
 | `site/` | Single-page website (`index.html` is de hele site behalve `werk/tankstation.html`). Statisch HTML/CSS/JS, geen build-step. |
 | `leadgen/` | Python-tool voor outreach-concepten. Minder relevant voor B2C — vooral nuttig voor zelfstandige-professionals tier. |
-| `marketing/` | Outreach-plan: Marktplaats, Google Business Profile, lokale Facebook-groepen, buurt-flyers. LinkedIn is **niet** primair kanaal voor B2C. |
+| `marketing/` | Outreach-plan: Marktplaats, Google Business Profile, lokale Facebook-groepen, buurt-flyers. LinkedIn is **geparkeerd** — Emmanuel doet het bewust (nog) helemaal niet; niet in planning opnemen. |
 | `business/` | Algemene voorwaarden, factuur-template, kostprijs. Discovery-script en offerte-template zijn vooral relevant voor zelfstandige-professionals tier. |
 
 ## Diensten — vijf herkenbare categorieën

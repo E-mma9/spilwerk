@@ -65,7 +65,7 @@ In volgorde van prioriteit:
 2. **Site online zetten** — kies optie A hierboven. 30 minuten werk.
 3. ~~**Telefoon- / WhatsApp-nummer instellen**~~ — ✅ gedaan: 06-87433537 staat in `site/assets/script.js` en de contact-sectie.
 4. **Marketing-plan lezen** in [`marketing/README.md`](./marketing/README.md) en het 30-dagen-plan volgen. Eerst klant binnen 30–60 dagen is realistisch.
-5. **LinkedIn-profiel updaten** met de rewrite uit [`marketing/linkedin.md`](./marketing/linkedin.md). Daarna post #1 publiceren.
+5. ~~**LinkedIn-profiel updaten**~~ — ⏸️ geparkeerd: Emmanuel doet LinkedIn bewust nog niet. Templates staan klaar in [`marketing/linkedin.md`](./marketing/linkedin.md) voor later.
 6. **Claude Code instellingen** doorlopen in [`marketing/claude-settings.md`](./marketing/claude-settings.md) — vooral `/fewer-permission-prompts` direct draaien.
 7. **KvK-inschrijving** — pas wanneer je een eerste betalende klant in zicht hebt. Niet eerder (verbrandt anders je startersaftrek-jaren).
 8. **Leadgen draaien** — eerste 10 leads, 1 uur tijd, kies de 5 beste, stuur deze week persoonlijk een mail.

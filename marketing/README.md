@@ -1,5 +1,7 @@
 # Marketing — eerste klanten
 
+> **⚠️ Let op: dit bestand stamt grotendeels uit de oude B2B-MKB-periode** (LinkedIn-first, M365-migraties, pakketten). Het actuele werkplan voor IT-hulp aan huis staat in [`tracker.md`](./tracker.md) — gebruik dát. **LinkedIn is bewust geparkeerd** (zie [`linkedin.md`](./linkedin.md)) — sla alle LinkedIn-stappen hieronder over. De platform-secties (Werkspot/Hoofdkraan) en het lokaal-netwerk-deel zijn nog bruikbaar.
+
 Geen theorie, een werkplan. Doel: **drie betalende klanten in 90 dagen**, waarvan minstens één buiten je eigen netwerk. Daarna kun je op herhaling.
 
 ## Kort over de waarheid

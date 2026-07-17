@@ -1,4 +1,6 @@
-# LinkedIn — secundair kanaal, klein houden
+# LinkedIn — GEPARKEERD, nu niet doen
+
+> **⏸️ Status juli 2026: Emmanuel doet LinkedIn bewust nog helemaal niet.** Geen profiel-rewrite, geen posts, geen outreach. Alle energie gaat naar de kanalen in [`tracker.md`](./tracker.md) (Google Business Profile, Marktplaats, buurt, doorverwijzers). Dit bestand blijft bewaard voor wanneer hij er ooit wél aan wil — niet zelf oppakken of ernaar verwijzen in planning.
 
 **Eerst dit:** LinkedIn is *niet* je hoofdkanaal. Particulieren met een kapotte laptop zitten niet op LinkedIn — die vind je via Google Business Profile, Marktplaats en mond-tot-mond (zie [`tracker.md`](./tracker.md)). LinkedIn is nuttig voor precies twee dingen:
 
