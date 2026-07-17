@@ -76,7 +76,7 @@ doe, en daarna heb ik een paar vervolgvragen op je intake."
 ```
 
 **30 seconden over jezelf** (geen meer):
-- HBO ICT-student Cybersecurity & Cloud bij Saxion
+- 3e jaar HBO ICT Cybersecurity & Cloud bij Saxion
 - 2e-lijns systeembeheerder bij Livio
 - Deed eerder IT-hulp aan huis bij Student aan Huis
 - Spilwerk = eenmanszaak voor MKB-IT, vaste prijzen

@@ -172,7 +172,7 @@ Totaal: ~3 uur week 1 voor opdrachten-zoeken. Daarna 30–60 min/week onderhoud.
 
 Op TalentIT, Hoofdkraan, LinkedIn — overal hetzelfde verhaal:
 
-1. **2e jaar HBO ICT Cybersecurity & Cloud, Saxion** (afstuderen 2028 — laat zien hoeveel tijd je nog hebt)
+1. **3e jaar HBO ICT Cybersecurity & Cloud, Saxion** (afstuderen 2028 — laat zien hoeveel tijd je nog hebt)
 2. **2e-lijns systeembeheerder Livio** (doorgegroeid vanaf 1e-lijns helpdesk — actuele productie-ervaring)
 3. **Total Tankstation webapp in productie** (eerste klant, productie-bewijs)
 4. **3-node Proxmox-cluster thuis** (laat zien dat je doet, niet alleen leert)
