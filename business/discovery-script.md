@@ -76,8 +76,9 @@ doe, en daarna heb ik een paar vervolgvragen op je intake."
 ```
 
 **30 seconden over jezelf** (geen meer):
-- 3e jaar HBO ICT Cloud & Cybersecurity bij Saxion
-- Parttime helpdesk-engineer bij Livio
+- HBO ICT-student Cybersecurity & Cloud bij Saxion
+- 2e-lijns systeembeheerder bij Livio
+- Deed eerder IT-hulp aan huis bij Student aan Huis
 - Spilwerk = eenmanszaak voor MKB-IT, vaste prijzen
 - Recent project: Total Tankstation roostersysteem in productie
 

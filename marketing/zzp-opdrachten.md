@@ -9,7 +9,7 @@ Deze twee bijten elkaar niet. Ze versterken elkaar: een klant die je 4 maanden 1
 
 ## Wat realistisch past bij jouw profiel
 
-Als 3e-jaars HBO ICT (Cloud & Cybersecurity) met productie-ervaring + Livio-helpdesk, zit je in de **junior-tot-medior** zone voor specifieke deelgebieden. Realistische opdracht-types:
+Als HBO ICT-student (Cybersecurity & Cloud) met productie-ervaring + 2e-lijns systeembeheer bij Livio, zit je in de **junior-tot-medior** zone voor specifieke deelgebieden. Realistische opdracht-types:
 
 | Type opdracht | Match | Tarief NL 2026 (junior/medior) |
 |---|---|---|
@@ -99,7 +99,7 @@ Deze is anders dan de Spilwerk-MKB-template uit `linkedin.md`, want de doelgroep
 ```
 Hoi [Voornaam],
 
-3e-jaars HBO ICT bij Saxion (Cloud & Cybersecurity), parttime helpdesk-engineer
+HBO ICT-student bij Saxion (Cybersecurity & Cloud), 2e-lijns systeembeheerder
 bij Livio. Heb thuis een 3-node Proxmox-cluster, recent een React/Node/Postgres-
 webapp opgeleverd voor Total Tankstation.
 
@@ -172,8 +172,8 @@ Totaal: ~3 uur week 1 voor opdrachten-zoeken. Daarna 30–60 min/week onderhoud.
 
 Op TalentIT, Hoofdkraan, LinkedIn — overal hetzelfde verhaal:
 
-1. **3e jaar HBO ICT Cloud & Cybersecurity, Saxion** (datum afronden — laat zien dat je nog 1.5 jaar tijd hebt)
-2. **Parttime helpdesk-engineer Livio** (geeft kapstok van actuele service-desk-ervaring)
+1. **2e jaar HBO ICT Cybersecurity & Cloud, Saxion** (afstuderen 2028 — laat zien hoeveel tijd je nog hebt)
+2. **2e-lijns systeembeheerder Livio** (doorgegroeid vanaf 1e-lijns helpdesk — actuele productie-ervaring)
 3. **Total Tankstation webapp in productie** (eerste klant, productie-bewijs)
 4. **3-node Proxmox-cluster thuis** (laat zien dat je doet, niet alleen leert)
 5. **AZ-104 + Terraform Associate gepland 2026** (signaleert ambitie zonder te bluffen)

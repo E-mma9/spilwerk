@@ -22,7 +22,7 @@ Je huidige LinkedIn-headline focust op wat je *bent* (student). Spilwerk-modus f
 
 ```
 Spilwerk · Cloud, security & automatisering voor het MKB
-3e jaar HBO ICT (Cloud & Cybersecurity, Saxion) · helpdesk-engineer @ Livio
+HBO ICT (Cybersecurity & Cloud, Saxion) · 2e-lijns systeembeheerder @ Livio
 Vaste prijzen, geen retainer-onzin
 ```
 
@@ -51,8 +51,8 @@ Eenmanszaak Spilwerk (i.o.). Acht heldere pakketten met vaste prijzen, van
 Recent werk: roostersysteem voor Total Tankstation — vier Excel-versies per
 maand werden één app (React + Node + Postgres, in productie).
 
-Achtergrond: 3e jaar HBO ICT Cloud & Cybersecurity bij Saxion (Twente),
-parttime helpdesk-engineer bij Livio, en thuis een 3-node Proxmox-cluster
+Achtergrond: HBO ICT Cybersecurity & Cloud bij Saxion (Enschede),
+2e-lijns systeembeheerder bij Livio, en thuis een 3-node Proxmox-cluster
 waarop ik handmatig elke configregel zet.
 
 Werk je in het MKB en loop je tegen iets aan? Stuur me één paragraaf via
@@ -86,7 +86,7 @@ Toon: direct, hands-on, geen verkooppraat. Overgenomen van je portfolio: *"Direc
 ### Post 1 — De launch (week 1)
 
 ```
-3e jaar HBO ICT, parttime helpdesk-engineer bij Livio, en thuis een Proxmox-
+HBO ICT-student, 2e-lijns systeembeheerder bij Livio, en thuis een Proxmox-
 cluster waarop ik elke configregel handmatig heb gezet.
 
 Ik schrijf vandaag in als Spilwerk.
@@ -221,8 +221,8 @@ Heb je zo'n Excel? Stuur me een screenshot in DM.
 ```
 Aan de Twentse ondernemers:
 
-Ik volg HBO ICT Cloud & Cybersecurity bij Saxion (Enschede), 3e jaar.
-Naast school werk ik bij Livio aan de helpdesk en daarnaast bouw ik
+Ik volg HBO ICT Cybersecurity & Cloud bij Saxion (Enschede).
+Naast school werk ik bij Livio als systeembeheerder en daarnaast bouw ik
 sinds dit jaar Spilwerk uit — IT-diensten voor het MKB.
 
 Wat me opvalt: 80% van de IT-frustratie die ik in MKB-bedrijven hoor
@@ -278,7 +278,7 @@ Trigger: ze plaatsten zelf iets over IT-frustratie / Excel-chaos / mail-probleme
 
 ```
 Hoi [Voornaam], las je post van gisteren over [specifiek detail]. Heel
-herkenbaar — ik werk parttime aan de helpdesk bij Livio en hoor letterlijk
+herkenbaar — ik werk in IT-support bij Livio en hoor letterlijk
 hetzelfde verhaal elke week.
 
 Voor MKB-bedrijven heb ik daar Spilwerk voor opgezet. Vaste prijzen, geen

@@ -71,7 +71,7 @@ Plus optioneel: webapp-bouw zoals Total Tankstation (case study staat op `/werk/
 - Telefoon/WhatsApp-nummer is **06-87433537** (+31687433537) — ingevuld in `site/assets/script.js`, `site/index.html` contact-sectie, visitekaartje-SVG's en marketing-templates.
 - Werkgebied: **heel Overijssel**, maar met zone-tarief — Twente (Hengelo, Enschede, Almelo, Borne, Oldenzaal, Haaksbergen) incl. voorrijden, de rest van Overijssel (Zwolle, Deventer, Kampen, Steenwijk, etc.) +€30 voorrijkosten. Zonder die zone-splitsing kost een bezoek in Kampen of Zwolle meer reistijd dan er in het uurtarief zit.
 - Total Tankstation case study staat live als `werk/tankstation.html` — gebruik 'm voor zelfstandige-professionals doelgroep, niet als hoofdverhaal voor particulieren.
-- Emmanuel is 21, 3e jaar HBO ICT (Cloud & Cybersecurity, Saxion), parttime helpdesk-engineer bij Livio. Eerlijk over student-status op site — geen schande, juist credibility-boost.
+- Emmanuel woont in Enschede, zit in zijn **2e jaar** HBO ICT (Cybersecurity & Cloud, Saxion, afstuderen 2028) en werkt bij Livio als **2e-lijns systeembeheerder** (sinds mei 2026; daarvoor 1e-lijns helpdesk). Deed eerder IT-hulp aan huis bij **Student aan Huis** (nov 2024–apr 2025) — sterk credibility-punt voor Spilwerk. Draait thuis een 3-node Proxmox-cluster. Bron voor deze feiten: emmanueltekle.nl (repo `E-mma9/E-mma9.github.io`, `content/about.md`) — check daar bij twijfel. Eerlijk over student-status op site — geen schande, juist credibility-boost.
 
 ## Werkwijze in deze repo
 
@@ -90,4 +90,4 @@ Plus optioneel: webapp-bouw zoals Total Tankstation (case study staat op `/werk/
 
 ## Geleerde lessen uit eerdere overshoot
 
-Eerder werd Spilwerk gepositioneerd als 8-9 pakketten MKB-consultant (incl. NIS2-readiness). Te ambitieus voor 3e-jaars HBO. Pivot naar B2C IT-hulp aan huis is bewust kleiner, haalbaarder, sneller eerste klant. **Niet terug pivoten zonder expliciete vraag.**
+Eerder werd Spilwerk gepositioneerd als 8-9 pakketten MKB-consultant (incl. NIS2-readiness). Te ambitieus voor een HBO-student. Pivot naar B2C IT-hulp aan huis is bewust kleiner, haalbaarder, sneller eerste klant. **Niet terug pivoten zonder expliciete vraag.**

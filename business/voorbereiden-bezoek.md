@@ -129,7 +129,7 @@ Drie regels — non-negotiable:
 
 ### Eerlijk niet-kunnen — doorverwijzen
 
-Voor jou nu (3e jaar HBO, niet-elke-skill-perfect): wees comfortabel met "dit kan ik niet — ik verwijs je door naar X". Het versterkt je reputatie omdat het laat zien dat je geen geld pakt voor werk wat je niet kan.
+Voor jou nu (2e jaar HBO, niet-elke-skill-perfect): wees comfortabel met "dit kan ik niet — ik verwijs je door naar X". Het versterkt je reputatie omdat het laat zien dat je geen geld pakt voor werk wat je niet kan.
 
 Doorverwijs-lijst (vul aan met namen + nummers in jouw netwerk):
 
