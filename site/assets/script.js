@@ -45,8 +45,8 @@
     //   Op null laten staan = die optie verschijnt niet.
     const CONTACT = {
       email:    'emmanueltekle@gmail.com',
-      whatsapp: null,
-      phone:    null,
+      whatsapp: '+31687433537',
+      phone:    '+31687433537',
     };
     // ▲ EDIT HERE ▲
 

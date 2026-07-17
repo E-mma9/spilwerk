@@ -17,7 +17,7 @@ Verwachting: ~€[bedrag] bij oplossing.
 Werkt het niet → geen kosten, ook niet voor voorrijden.
 
 Tot dan!
-Emmanuel · Spilwerk · 06-XXXXXXXX
+Emmanuel · Spilwerk · 06-87433537
 ```
 
 ## Template — E-mail variant (formeler, voor zelfstandigen)
@@ -47,7 +47,7 @@ Tot [dag]!
 
 Groet,
 Emmanuel Tekle
-Spilwerk · 06-XXXXXXXX · emmanueltekle@gmail.com
+Spilwerk · 06-87433537 · emmanueltekle@gmail.com
 ```
 
 ## Wat je NIET in deze mini-bevestiging zet

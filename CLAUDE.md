@@ -68,7 +68,7 @@ Plus optioneel: webapp-bouw zoals Total Tankstation (case study staat op `/werk/
 
 - Domein `spilwerk.nl` is **nog niet geregistreerd**.
 - KvK-inschrijving wordt opgepakt; Emmanuel wil dit voor expense-aftrek + officieel kunnen factureren.
-- Telefoon/WhatsApp-nummer **nog niet ingevuld** — placeholders staan in `site/assets/script.js` (zoek "EDIT HERE") en in `site/index.html` contact-sectie (`tel:+31600000000` en `wa.me/31600000000`). Hij vult dit in zodra hij een zakelijk 06-nummer heeft.
+- Telefoon/WhatsApp-nummer is **06-87433537** (+31687433537) — ingevuld in `site/assets/script.js`, `site/index.html` contact-sectie, visitekaartje-SVG's en marketing-templates.
 - Werkgebied: **heel Overijssel**, maar met zone-tarief — Twente (Hengelo, Enschede, Almelo, Borne, Oldenzaal, Haaksbergen) incl. voorrijden, de rest van Overijssel (Zwolle, Deventer, Kampen, Steenwijk, etc.) +€30 voorrijkosten. Zonder die zone-splitsing kost een bezoek in Kampen of Zwolle meer reistijd dan er in het uurtarief zit.
 - Total Tankstation case study staat live als `werk/tankstation.html` — gebruik 'm voor zelfstandige-professionals doelgroep, niet als hoofdverhaal voor particulieren.
 - Emmanuel is 21, 3e jaar HBO ICT (Cloud & Cybersecurity, Saxion), parttime helpdesk-engineer bij Livio. Eerlijk over student-status op site — geen schande, juist credibility-boost.

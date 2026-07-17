@@ -63,7 +63,7 @@ In volgorde van prioriteit:
 
 1. **Domein registreren** — `spilwerk.nl`. €8/jaar. Doe dit *vandaag*, voor iemand anders het pakt.
 2. **Site online zetten** — kies optie A hierboven. 30 minuten werk.
-3. **Telefoon- / WhatsApp-nummer instellen** in `site/assets/script.js` (zoek "EDIT HERE"). Zonder dat zie je alleen "Mail" in het floating contact-widget.
+3. ~~**Telefoon- / WhatsApp-nummer instellen**~~ — ✅ gedaan: 06-87433537 staat in `site/assets/script.js` en de contact-sectie.
 4. **Marketing-plan lezen** in [`marketing/README.md`](./marketing/README.md) en het 30-dagen-plan volgen. Eerst klant binnen 30–60 dagen is realistisch.
 5. **LinkedIn-profiel updaten** met de rewrite uit [`marketing/linkedin.md`](./marketing/linkedin.md). Daarna post #1 publiceren.
 6. **Claude Code instellingen** doorlopen in [`marketing/claude-settings.md`](./marketing/claude-settings.md) — vooral `/fewer-permission-prompts` direct draaien.

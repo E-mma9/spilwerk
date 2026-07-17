@@ -2,7 +2,7 @@
 
 ## 1. Telefoonnummer invullen (1 min)
 
-Open `voorzijde.svg` en `achterzijde.svg` in een tekst-editor (Notepad / VS Code). Zoek `XX XX XX XX` en vervang met je echt 06-nummer.
+~~Open `voorzijde.svg` en `achterzijde.svg` in een tekst-editor en vul je 06-nummer in.~~ ✅ Gedaan — 06-87433537 staat erin.
 
 ## 2. Preview bekijken (30 sec)
 

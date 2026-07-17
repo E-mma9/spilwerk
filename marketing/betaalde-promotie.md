@@ -46,7 +46,7 @@ Lay-out:
 ```
 ┌────────────────────────────────────┐
 │                                    │
-│   📞 06–XXXX XXXX                  │
+│   📞 06–8743 3537                  │
 │   ✉  emmanueltekle@gmail.com       │
 │   🌐 spilwerk.nl                   │
 │                                    │
@@ -167,7 +167,7 @@ Magnetische deurborden voor je auto (~30×40 cm). Je plakt ze op je auto-deuren 
 │      ▶ heel Overijssel                │
 │      ▶ vanaf €60                      │
 │                                       │
-│      📞 06–XXXX XXXX                  │
+│      📞 06–8743 3537                  │
 │      🌐 spilwerk.nl                   │
 │                                       │
 └───────────────────────────────────────┘
@@ -250,7 +250,7 @@ Voor jou nu (eerste 3 maanden): **dat geld beter besteden aan visitekaartjes + w
 **URL**: spilwerk.nl
 **Display URL**: spilwerk.nl/it-hulp
 
-**Call extension**: 06-XXXXXXXX
+**Call extension**: 06-87433537
 **Location extension**: koppel je Google Business Profile
 
 ### Verwacht resultaat
