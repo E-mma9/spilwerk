@@ -1,6 +1,11 @@
-# LinkedIn — alles op één plek
+# LinkedIn — secundair kanaal, klein houden
 
-Drie onderdelen: profiel-rewrite, 8 kant-en-klare posts, outreach-templates. Alles geschreven om te kopiëren-plakken — minor edits welkom, dat maakt het persoonlijk.
+**Eerst dit:** LinkedIn is *niet* je hoofdkanaal. Particulieren met een kapotte laptop zitten niet op LinkedIn — die vind je via Google Business Profile, Marktplaats en mond-tot-mond (zie [`tracker.md`](./tracker.md)). LinkedIn is nuttig voor precies twee dingen:
+
+1. **De zelfstandige-professionals-tier** — kappers, accountants, makelaars, coaches met een klein kantoor zitten er wél
+2. **Doorverwijzers** — jouw eigen netwerk (studiegenoten, Livio-collega's, familie) dat moet wéten dat Spilwerk bestaat
+
+Tijdsbudget: **max 1 uur per week**. Eén post per 2-3 weken plus reageren op anderen is genoeg. Elke minuut meer gaat ten koste van kanalen die beter converteren.
 
 ## Eerlijk over LinkedIn-automatisering
 
@@ -12,66 +17,51 @@ Wat wél mag en werkt:
 - AI gebruiken om concepten te schrijven (geen probleem, jij verstuurt)
 - Inhoudelijk reageren op andermans posts (algoritme-boost gratis)
 
-Wat ik je dus *niet* ga aanraden ondanks dat het sneller voelt: een sales-tool die DM's automatisch verstuurt vanuit jouw account.
-
-## 1 — Profiel-rewrite
-
-Je huidige LinkedIn-headline focust op wat je *bent* (student). Spilwerk-modus focust op wat klanten *krijgen*. Voorstel:
+## 1 — Profiel
 
 ### Headline (220 tekens limiet)
 
 ```
-Spilwerk · Cloud, security & automatisering voor het MKB
-HBO ICT (Cybersecurity & Cloud, Saxion) · 2e-lijns systeembeheerder @ Livio
-Vaste prijzen, geen retainer-onzin
+Spilwerk · Vriendelijke IT-hulp aan huis — heel Overijssel
+Voor particulieren en zelfstandigen · HBO ICT (Saxion) · 2e-lijns systeembeheerder @ Livio
 ```
-
-### Banner / cover image
-
-Eenvoudig: paper-kleur achtergrond (#F2EADA), zwarte tekst "SPILWERK · DE SPIL ONDER JOUW IT", oxide-rood rondje (#B8401E) ergens. Maak in Canva (gratis) of laat me een SVG maken.
 
 ### About-sectie
 
 ```
-Ik bouw rustige, betrouwbare IT voor Nederlandse MKB-bedrijven die hun bedrijf
-willen runnen — niet hun IT.
+Ik help mensen aan huis met IT-problemen: trage laptops, wifi die de
+slaapkamer niet haalt, foto's veiligstellen, telefoons instellen. En ik
+help zelfstandigen (kappers, accountants, kleine kantoren) met alles
+waarvoor je eigenlijk een eigen IT'er zou willen — op afspraak, tegen
+vaste prijzen.
 
-Eenmanszaak Spilwerk (i.o.). Acht heldere pakketten met vaste prijzen, van
-"kun je een keer langskomen" (€295) tot een complete webapp (€3.500+):
-
-→ IT-hulp op afspraak
-→ Veilig online voor je bedrijf (2FA, wachtwoordmanager, basis security)
-→ Backup & noodherstel — geteste herstelprocedure, geen aanname
-→ Koppelingen tussen je tools (Power Automate / n8n / Zapier)
-→ AI-werksessie · 1 dag — concrete tools, geen buzz
-→ Microsoft 365 voor je bedrijf — tenant + migratie + Intune-baseline
-→ Linux-server hardening + monitoring (Prometheus/Grafana/Alertmanager)
-→ Excel-proces → webapplicatie
-
-Recent werk: roostersysteem voor Total Tankstation — vier Excel-versies per
-maand werden één app (React + Node + Postgres, in productie).
+Geen jargon, geen verrassingen. Werkt het niet? Dan betaal je niets.
 
 Achtergrond: HBO ICT Cybersecurity & Cloud bij Saxion (Enschede),
-2e-lijns systeembeheerder bij Livio, en thuis een 3-node Proxmox-cluster
-waarop ik handmatig elke configregel zet.
+2e-lijns systeembeheerder bij Livio, en eerder ICT'er aan huis bij
+Student aan Huis — dit werk is niet nieuw voor me. Thuis draait een
+3-node Proxmox-cluster waarop ik elke configregel zelf heb gezet.
 
-Werk je in het MKB en loop je tegen iets aan? Stuur me één paragraaf via
-DM of mail (emmanueltekle@gmail.com). Eerlijk antwoord binnen 24u.
+Groter werk kan ook: voor Total Tankstation verving ik hun maandelijkse
+Excel-roosterchaos door één webapp (React + Node + Postgres, in
+productie).
+
+Werkgebied: heel Overijssel. Bel of app: 06-87433537.
 
 🌐 spilwerk.nl
 ```
 
-### Featured-sectie (3 items, met preview-afbeelding)
+### Featured-sectie (3 items)
 
-1. **Total Tankstation case** → link naar `spilwerk.nl/werk/tankstation.html`
-2. **Spilwerk diensten + prijzen** → link naar `spilwerk.nl/diensten.html`
+1. **Spilwerk — diensten + prijzen** → link naar `spilwerk.nl`
+2. **Total Tankstation case** → link naar `spilwerk.nl/werk/tankstation.html`
 3. **Mijn portfolio (technisch)** → link naar `emmanueltekle.nl`
 
 ### Skills-sectie
 
-Top 3 (algoritme weegt deze het zwaarst): **Microsoft Azure**, **Linux**, **DevOps**. Daarnaast: Cloud Computing, Cybersecurity, Terraform, Docker, Prometheus, IT Service Management, Penetration Testing.
+Top 3: **IT Support**, **Linux**, **Cybersecurity**. Daarnaast: Microsoft 365, Networking, Cloud Computing, Windows Server, Proxmox, Monitoring.
 
-## 2 — 8 LinkedIn-posts (1/week, 8 weken vooruit)
+## 2 — Posts (1 per 2-3 weken, geen contentmachine)
 
 Drie regels per post:
 
@@ -79,45 +69,39 @@ Drie regels per post:
 - **Korte zinnen, korte regels.** Een lege regel tussen alinea's is je vriend.
 - **Eindig met een vraag of CTA.** Zonder discussie geen algoritme-boost.
 
-Toon: direct, hands-on, geen verkooppraat. Overgenomen van je portfolio: *"Direct, technical yet accessible language emphasizing hands-on practical experience over theory."*
+---
+
+### Post 1 — De launch
+
+```
+Ik ben Spilwerk begonnen: vriendelijke IT-hulp aan huis, heel Overijssel.
+
+Trage laptop. Wifi die de slaapkamer niet haalt. Foto's die al drie
+jaar "een keer geback-upt moeten worden". Een printer die niemand in
+het netwerk krijgt.
+
+Ik kom langs, los het op, en leg uit wat ik doe — in normaal Nederlands,
+in jouw tempo. Werkt het niet? Dan betaal je niets.
+
+Dit werk is niet nieuw voor me: ik deed het eerder bij Student aan Huis,
+en werk naast mijn studie (HBO ICT, Saxion) als 2e-lijns systeembeheerder
+bij Livio.
+
+Ook voor zelfstandigen en kleine kantoren: werkplek-setups, gedeelde
+mappen, backups die écht getest zijn — vaste prijzen, geen retainer.
+
+Ken je iemand die hulp kan gebruiken — je ouders, je buurvrouw, die ene
+collega met z'n eeuwige wifi-verhaal? Stuur ze m'n nummer door:
+06-87433537. Daar help je ze echt mee.
+
+#Overijssel #Twente #ITHulp #ZZP
+```
+
+**Type:** tekst-only, met je foto. Pin deze post na publicatie. Dit is vooral een bericht aan je *eigen netwerk* — doorverwijzers, geen klanten.
 
 ---
 
-### Post 1 — De launch (week 1)
-
-```
-HBO ICT-student, 2e-lijns systeembeheerder bij Livio, en thuis een Proxmox-
-cluster waarop ik elke configregel handmatig heb gezet.
-
-Ik schrijf vandaag in als Spilwerk.
-
-Niet om vol-time consultant te worden — ik wil mijn studie afmaken. Wel om
-het MKB rond Twente te helpen met drie dingen die ik aantoonbaar al doe:
-"kun je eens langskomen" (IT-hulp), Linux-servers veilig en monitorbaar
-maken, en dat ene Excel-bestand dat te belangrijk is geworden vervangen
-door een echte webapp.
-
-Drie pakketten, vaste prijzen. Van €295 (halve dag IT-hulp) tot
-€3.500+ voor een complete webapp. Geen retainer, geen lock-in. Geen
-brede catalogus van wat ik in theorie kan — wel wat ik bewijsbaar
-heb staan.
-
-Eerste echte project staat al in productie — een roostersysteem voor
-Total Tankstation, vier Excel-versies per maand werden één app.
-
-Ken je een MKB'er die hier mee zit? Stuur me een DM of stuur ze door.
-Een nee is gratis.
-
-→ spilwerk.nl
-
-#MKB #Twente #Cloud #Cybersecurity #IT #ZZP
-```
-
-**Type:** tekst-only (of met je foto / foto van je laptop). Pin deze post na publicatie.
-
----
-
-### Post 2 — Total Tankstation case study (week 2)
+### Post 2 — Total Tankstation case (voor de zelfstandigen-tier)
 
 ```
 Vier Excel-versies per maand circuleerden bij Total Tankstation:
@@ -127,132 +111,89 @@ Vier Excel-versies per maand circuleerden bij Total Tankstation:
 → ROOSTER april v2 DEFINITIEF AANGEPAST.xlsx
 → ROOSTER april FINAL_FINAL.xlsx
 
-Ruilverzoeken via WhatsApp. Geen mobiel. Geen audit trail.
-Halverwege de maand wist niemand meer wat de geldende waarheid was.
+Ruilverzoeken via WhatsApp. Geen mobiel. Halverwege de maand wist
+niemand meer wat de geldende waarheid was.
 
 Ik heb het vervangen door één webapp:
 - Manager bouwt het rooster in een kalender-grid
 - Medewerkers zien hun diensten op hun telefoon
-- Ruilen werkt met tweezijdige goedkeuring (geen WhatsApp meer)
+- Ruilen werkt met tweezijdige goedkeuring
 - E-mailreminder de avond voor je dienst
 
-Stack: React + Node + Postgres, JWT-auth, Docker op Hetzner.
-Bouwperiode: 7 weken. Prijs: vast.
-
-Volledige case (met before/after-tabel en stack-keuzes):
+In productie sinds 2026. Volledige case:
 → spilwerk.nl/werk/tankstation.html
 
-Heb je ook zo'n Excel waar te veel van afhangt? Stuur me één screenshot,
-ik zeg eerlijk of het iets voor mij is.
+Mijn dagelijkse werk is kleiner — IT-hulp aan huis en bij zelfstandigen.
+Maar als er iets groters ligt: dit is het bewijs dat dat ook kan.
 
-#MKB #Excel #Webapplicatie #Tankstation #DigitaleTransformatie
+#Twente #Excel #Webapplicatie #ZZP
 ```
 
-**Type:** tekst + screenshot van de webapp (vraag screenshot bij Total Tankstation, met permissie). Of: een carrousel-PDF (LinkedIn document post — 3-4 slides werkt heel goed).
+**Type:** tekst + screenshot van de webapp (met permissie van Total Tankstation), of carrousel-PDF.
 
 ---
 
-### Post 3 — In het lab (week 3, credibility)
+### Post 3 — Homelab (credibility, af en toe herhalen met nieuwe foto)
 
 ```
-Mijn 3-node Proxmox-cluster thuis draait al 14 maanden 24/7.
+Mijn 3-node Proxmox-cluster thuis draait 24/7.
 
-Drie consumer-grade machines: Dell OptiPlex, HP ProDesk, een tweedehands
-build voor €280 totaal. ZFS storage, HA-failover, dagelijkse off-site
-backups via Restic, monitoring via Prometheus + Grafana, alerting naar
-m'n telefoon via PagerDuty.
+Drie consumer mini-PC's. Ceph-storage, VLAN-segmentatie, Prometheus
+scrapet elke 15 seconden, Alertmanager belt me wakker als er iets stuk
+is. Elke configregel handmatig gezet — geen click-to-deploy.
 
-Geen helper-script, geen "click-to-deploy". Alles handmatig opgezet
-omdat ik wilde begrijpen hoe het werkt.
+Waarom dat relevant is als ik bij jou thuis of op kantoor kom:
 
-Waarom dat relevant is voor klanten:
+De backups die ik voor klanten opzet, de netwerken die ik inricht, de
+servers die ik beheer — dat draai ik zelf al jaren in productie. Ik
+leer niet op jouw kosten.
 
-Wat ik bij MKB-bedrijven opzet (server-hardening, monitoring, backups)
-draai ik bewijsbaar al lang in productie op m'n eigen infrastructuur.
-Ik leer niet op jouw kosten.
+Wat staat er bij jou thuis te knipperen in de meterkast? 👇
 
-(Lange-termijn-werk: AZ-104 + Terraform Associate haal ik in 2026.
-Maar production-werk in mijn pakketten doe ik nu al — anders zou ik
-het niet aanbieden.)
-
-Mocht je een MKB-bedrijf kennen dat z'n eigen Linux-server in beheer
-heeft maar zich er onzeker over voelt: stuur ze door.
-
-#Homelab #Proxmox #Linux #Monitoring #LearningInPublic
+#Homelab #Proxmox #Linux #Twente
 ```
 
-**Type:** foto van je cluster / netwerkrack. Een real photo werkt 5x beter dan stockfoto's.
+**Type:** echte foto van je cluster/rack. Werkt 5x beter dan een stockfoto.
 
 ---
 
-### Post 4 — Excel-checklist (week 4, lead-magnet)
+### Post 4 — Vraag aan je netwerk (community, herhaalbaar format)
 
 ```
-10 tekenen dat je Excel-bestand een echte app moet worden:
+Vraag aan mijn Overijsselse netwerk:
 
-1. Er circuleren meerdere versies tegelijk
-2. Iemand mailt regelmatig "welke versie geldt nu?"
-3. De manager wordt gebeld in z'n vakantie over rij 47
-4. Veranderingen worden via WhatsApp doorgegeven
-5. Een nieuwe medewerker krijgt 2 uur uitleg over kolommen
-6. Er staan formules die niemand meer durft aan te passen
-7. Het bestand is een mobiele scrollchaos
-8. Iemand heeft per ongeluk een macro gesloopt
-9. Backup = "ik mail het mezelf elke week"
-10. Het bestand heeft een eigen Slack-/WhatsApp-kanaal
+Wat is het IT-klusje bij jou thuis dat al máánden op "moet ik een keer
+doen" staat?
 
-Herken je 3 of meer? Tijd voor een echte app.
+Foto-backup? Die trage laptop? Het wifi-punt dat nog in de doos zit?
+Wachtwoorden eindelijk in een manager?
 
-Ik bouw deze al voor MKB-bedrijven (laatst: Total Tankstation
-roostersysteem, vier Excel-versies per maand werden één app).
-Vanaf €3.500, vaste scope, vaste prijs.
+In de comments — ik geef bij elk antwoord eerlijk aan of het een
+doe-het-zelfje is (dan zeg ik hoe) of iets waar je beter hulp bij
+kunt halen.
 
-Heb je zo'n Excel? Stuur me een screenshot in DM.
+Geen verkooppraat. Gewoon nieuwsgierig — en de antwoorden helpen mij
+snappen waar mensen écht mee zitten.
 
-#MKB #Excel #Webapplicatie #DigitaleTransformatie
+#Overijssel #IT #VraagHetJeNetwerk
 ```
 
-**Type:** tekst-only of carrousel (10 slides, één teken per slide). Carrousels krijgen 3x meer reach.
+**Type:** tekst-only. Inhoudelijke antwoorden geven in de comments = gratis demonstratie van je toon en kennis.
 
 ---
 
-### Post 5 — Reflectie + open vraag (week 5, community)
+## 3 — Connection requests + DM-templates (zelfstandigen-tier)
 
-```
-Aan de Twentse ondernemers:
+**Doelgroep:** zelfstandige professionals in Overijssel — kappers, accountants, fysiotherapeuten, makelaars, coaches, kleine kantoren. Geen particulieren (die bereik je hier niet), geen corporate.
 
-Ik volg HBO ICT Cybersecurity & Cloud bij Saxion (Enschede).
-Naast school werk ik bij Livio als systeembeheerder en daarnaast bouw ik
-sinds dit jaar Spilwerk uit — IT-diensten voor het MKB.
-
-Wat me opvalt: 80% van de IT-frustratie die ik in MKB-bedrijven hoor
-is te lossen met dingen die nu al bestaan. Niet "we moeten AI invoeren",
-wel: "die backup-USB ligt al maanden onaangesloten" of "Tante Anneke
-in de boekhouding heeft het wachtwoord op een Post-it geschreven."
-
-Mijn vraag aan jou: wat is jouw grootste IT-irritatie waar je nu
-nog niets aan doet? In de comments — anoniem mag.
-
-Geen verkooppraat, ik ben gewoon nieuwsgierig wat de top-3 in 2026
-is. Mogelijk schrijf ik er een vervolgpost over.
-
-#MKB #Twente #IT #ZZP
-```
-
-**Type:** tekst-only. Inhoudelijke vraag = veel comments = veel reach.
-
----
-
-## 3 — Connection requests + DM-templates
-
-### Connection request (cold) — Twentse MKB-eigenaar
+### Connection request (cold) — zelfstandige in de regio
 
 LinkedIn limit: 200 tekens. Persoonlijk maken per persoon.
 
 ```
-Hoi [Voornaam], ik volg [bedrijf] al een tijdje vanuit Hengelo.
-Bouw zelf IT-oplossingen voor lokale MKB (Spilwerk). Geen pitch,
-gewoon nieuwsgierig om te connecten met andere Twentse ondernemers.
+Hoi [Voornaam], ik zag [bedrijf] via [waar]. Ik help zelfstandigen in
+Overijssel met hun IT (Spilwerk, vanuit Enschede). Geen pitch — gewoon
+nieuwsgierig om te connecten met ondernemers uit de regio.
 ```
 
 **Niet:** "Ik wil graag mijn netwerk uitbreiden", "Ik zag uw profiel" — generiek = negeren.
@@ -262,31 +203,31 @@ gewoon nieuwsgierig om te connecten met andere Twentse ondernemers.
 ```
 Hoi [Voornaam], dankjewel voor de connectie!
 
-Ik bouw IT-oplossingen voor het MKB rondom Twente — vooral dingen die
-"net te groot zijn voor Excel maar geen jaarproject hoeven te zijn".
-Recent een roostersysteem voor Total Tankstation gemaakt.
+Ik doe IT-hulp aan huis en voor zelfstandigen in heel Overijssel —
+denk aan werkplek-setups, gedeelde mappen, backups die echt getest
+zijn. Vaste prijzen, je weet vooraf waar je aan toe bent.
 
-Geen pitch (echt). Mocht je ooit tegen zoiets aanlopen of iemand kennen
-die ermee zit, dan weet je waar ik te vinden ben.
+Geen pitch (echt). Mocht je ooit ergens tegenaan lopen of iemand
+kennen die ermee zit, dan weet je waar ik te vinden ben.
 
 Hoe gaat het bij [bedrijf] op dit moment?
 ```
 
 ### DM bij specifieke aanleiding (zag een post / opmerking)
 
-Trigger: ze plaatsten zelf iets over IT-frustratie / Excel-chaos / mail-problemen.
+Trigger: ze plaatsten zelf iets over IT-frustratie / computer-gedoe / mail-problemen.
 
 ```
-Hoi [Voornaam], las je post van gisteren over [specifiek detail]. Heel
-herkenbaar — ik werk in IT-support bij Livio en hoor letterlijk
-hetzelfde verhaal elke week.
+Hoi [Voornaam], las je post over [specifiek detail]. Heel herkenbaar —
+ik werk in IT-support bij Livio en hoor letterlijk hetzelfde verhaal
+elke week.
 
-Voor MKB-bedrijven heb ik daar Spilwerk voor opgezet. Vaste prijzen, geen
-retainer. Specifiek voor [hun probleem] zou pakket [X] passen — je vindt
-de details op spilwerk.nl/diensten.
+Daarnaast help ik met Spilwerk zelfstandigen in Overijssel precies
+hiermee, tegen vaste prijzen. Voor [hun probleem] weet je met één
+belletje van 5 minuten of het snel op te lossen is en wat het kost:
+06-87433537.
 
-Als het je iets lijkt: 20 minuten kennismaken kost niets. Geen druk om
-iets te beslissen.
+Geen druk om iets te beslissen — eerste contact is gratis.
 ```
 
 ### Re-engagement (30+ dagen geen reactie)
@@ -306,5 +247,4 @@ het opgelost? Beide is fijn om te weten.
 - **Antwoord op alle comments binnen 30 minuten van publicatie.** Algoritme weegt jouw antwoorden mee.
 - **Gebruik hashtags spaarzaam** (3-5, niet 30). Te veel = pitchspam-signaal.
 - **Geen externe links in de post-body** — algoritme suppresst je dan. Zet de link in de eerste comment.
-- **Plaatjes = downloadable PDF** = beter dan losse JPG's vaak.
 - **Geen videos van jezelf** in de eerste 3 maanden (te hoog risico van afhaakvideo's, ze werken vooral als je al volgers hebt).
