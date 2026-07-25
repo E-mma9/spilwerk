@@ -66,7 +66,8 @@ Plus optioneel: webapp-bouw zoals Total Tankstation (case study staat op `/werk/
 
 ## Belangrijke contextpunten
 
-- Domein `spilwerk.nl` is **geregistreerd** (met een i — niet "spelwerk").
+- Domein `spilwerk.nl` is **geregistreerd** (met een i — niet "spelwerk"). Site wordt gedeployed vanuit déze repo via `.github/workflows/pages.yml` (GitHub Pages, `site/CNAME`). De oude repo `E-mma9/spilwerk.nl` is vervangen en onschadelijk gemaakt — niet meer gebruiken.
+- **Google Search Console is verifieerd** (URL-prefix property `https://spilwerk.nl/`, account emmanueltekle@gmail.com). De `google-site-verification` metatag in `site/index.html` **moet blijven staan** — verwijderen verbreekt de verificatie. Homepage is geïndexeerd sinds juli 2026.
 - KvK-inschrijving wordt opgepakt; Emmanuel wil dit voor expense-aftrek + officieel kunnen factureren.
 - ⚠️ **Telefoonnummer is in transitie.** Momenteel staat **06-87433537** overal gepubliceerd, maar dat is Emmanuels **privénummer**. Hij schaft een **eSIM aan die het zakelijke nummer wordt**. Zodra dat nummer bekend is, moet het in alle 15 bestanden vervangen worden — zie de checklist in `marketing/nummer-wissel.md`. **Niet laten drukken** (visitekaartje/flyer) voordat het zakelijke nummer bekend is.
 - Werkgebied: **heel Overijssel**, maar met zone-tarief — Twente (Hengelo, Enschede, Almelo, Borne, Oldenzaal, Haaksbergen) incl. voorrijden, de rest van Overijssel (Zwolle, Deventer, Kampen, Steenwijk, etc.) +€30 voorrijkosten. Zonder die zone-splitsing kost een bezoek in Kampen of Zwolle meer reistijd dan er in het uurtarief zit.
