@@ -12,7 +12,7 @@
 Zoek-en-vervang `87433537` (en de variant met spaties `87 43 35 37`, en `+31687433537` / `wa.me/31687433537`) in:
 
 ### Website — live, direct effect
-- [ ] `site/index.html` — `tel:`-link, zichtbaar nummer in contact-sectie, `wa.me`-link
+- [ ] `site/index.html` — `tel:`-link, zichtbaar nummer in contact-sectie, `wa.me`-link, meta-description, **én het `telephone`-veld in de JSON-LD structured data** (Google cacht dat, dus niet vergeten)
 - [ ] `site/assets/script.js` — `CONTACT.phone` en `CONTACT.whatsapp` (floating widget)
 
 ### Drukwerk — vóór bestellen
