@@ -1,6 +1,6 @@
 # Visitekaartje — bestellen in 4 stappen
 
-> ⚠️ **Vóór je bestelt: staat je telefoonnummer definitief vast?** Op kaartje en flyer staat **06-87433537** gedrukt en papier kun je niet updaten. Er is een eSIM in de planning om werk en privé te scheiden — houd in dat geval **06-87433537 als het zakelijke nummer** en gebruik het nieuwe nummer privé. Dat nummer staat namelijk al op de site, in de Marktplaats-advertentie en op dit drukwerk; een nieuw privénummer deel je met vijf appjes, een nieuw zakelijk nummer kost je een herdruk. Wordt het nieuwe nummer tóch het zakelijke: wacht met drukken tot het binnen is.
+> ⛔ **NOG NIET BESTELLEN.** Op het kaartje staat **06-87433537**, en dat is het **privénummer**. Er komt een eSIM die het zakelijke nummer wordt — wacht daarop, vervang het nummer in de SVG's en bestel dan. Papier kun je niet updaten, en je privénummer wil je niet op een prikbord in de bibliotheek hebben hangen. Volledige swap-lijst: [`../nummer-wissel.md`](../nummer-wissel.md).
 >
 > Domein `spilwerk.nl` (met een **i**) is geregistreerd en staat correct op de achterzijde. ✅
 
