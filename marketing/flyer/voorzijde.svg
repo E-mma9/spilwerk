@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+  Spilwerk flyer · VOORZIJDE
+  Formaat: 111mm × 154mm (A6 105×148 met 3mm bleed rondom)
+  Veilige zone: 9mm vanaf de rand (3mm bleed + 6mm marge)
+-->
+<svg xmlns="http://www.w3.org/2000/svg"
+     width="111mm" height="154mm"
+     viewBox="0 0 111 154">
+
+  <defs>
+    <radialGradient id="glowWarm" cx="0.5" cy="0.5" r="0.5">
+      <stop offset="0%" stop-color="#E8865B" stop-opacity="0.30"/>
+      <stop offset="100%" stop-color="#E8865B" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="glowGreen" cx="0.5" cy="0.5" r="0.5">
+      <stop offset="0%" stop-color="#4A7C59" stop-opacity="0.26"/>
+      <stop offset="100%" stop-color="#4A7C59" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+
+  <!-- Achtergrond -->
+  <rect width="111" height="154" fill="#FBF6EE"/>
+  <ellipse cx="104" cy="6" rx="52" ry="40" fill="url(#glowWarm)"/>
+  <ellipse cx="4" cy="150" rx="48" ry="38" fill="url(#glowGreen)"/>
+
+  <!-- Brand -->
+  <circle cx="12.4" cy="15" r="2.6" fill="#4A7C59"/>
+  <text x="17.5" y="16.9" font-family="Manrope, 'Helvetica Neue', Arial, sans-serif"
+        font-size="7.4" font-weight="800" letter-spacing="-0.18" fill="#2A2A28">Spilwerk</text>
+  <text x="17.7" y="21.6" font-family="Manrope, 'Helvetica Neue', Arial, sans-serif"
+        font-size="3.1" font-weight="500" fill="#807D75">IT-hulp aan huis · heel Overijssel</text>
+
+  <!-- Kop -->
+  <text font-family="Manrope, 'Helvetica Neue', Arial, sans-serif"
+        font-size="11.6" font-weight="800" letter-spacing="-0.32" fill="#2A2A28">
+    <tspan x="9.5" y="49">Computer</tspan>
+    <tspan x="9.5" y="61.5">kapot?</tspan>
+    <tspan x="9.5" y="74">Wifi traag?</tspan>
+  </text>
+
+  <!-- Highlight-blok -->
+  <rect x="7.6" y="80.5" width="73.5" height="14.6" rx="3" fill="#FFF4D6"/>
+  <text x="9.5" y="91.4" font-family="Manrope, 'Helvetica Neue', Arial, sans-serif"
+        font-size="11.6" font-weight="800" letter-spacing="-0.32" fill="#2A2A28">Ik kom langs.</text>
+
+  <!-- Subtekst -->
+  <text font-family="Manrope, 'Helvetica Neue', Arial, sans-serif"
+        font-size="4.2" font-weight="500" fill="#4F4D48">
+    <tspan x="9.5" y="106">Vriendelijke hulp bij je thuis.</tspan>
+    <tspan x="9.5" y="112.4">Geen moeilijke woorden, geen</tspan>
+    <tspan x="9.5" y="118.8">verrassingen achteraf.</tspan>
+  </text>
+
+  <!-- Telefoon-CTA -->
+  <circle cx="14.4" cy="128" r="4.9" fill="#E8865B"/>
+  <path d="M16.35 129.8v0.85a0.57 0.57 0 0 1-0.62 0.57 5.63 5.63 0 0 1-2.46-0.87 5.55 5.55 0 0 1-1.71-1.71 5.63 5.63 0 0 1-0.87-2.47 0.57 0.57 0 0 1 0.57-0.62h0.85a0.57 0.57 0 0 1 0.57 0.49c0.04 0.27 0.1 0.54 0.2 0.8a0.57 0.57 0 0 1-0.13 0.6l-0.36 0.36a4.56 4.56 0 0 0 1.71 1.71l0.36-0.36a0.57 0.57 0 0 1 0.6-0.13c0.26 0.1 0.53 0.16 0.8 0.2a0.57 0.57 0 0 1 0.49 0.58z"
+        fill="none" stroke="#FBF6EE" stroke-width="0.62" stroke-linecap="round" stroke-linejoin="round"/>
+  <text x="22.5" y="130.3" font-family="Manrope, 'Helvetica Neue', Arial, sans-serif"
+        font-size="8.2" font-weight="800" letter-spacing="-0.1" fill="#2A2A28">06-87433537</text>
+
+  <!-- Belofte-pill -->
+  <rect x="7.6" y="136.4" width="60.5" height="8.4" rx="4.2" fill="#4A7C59"/>
+  <text x="12.2" y="142.2" font-family="Manrope, 'Helvetica Neue', Arial, sans-serif"
+        font-size="4" font-weight="700" fill="#FBF6EE">Werkt het niet? Geen kosten</text>
+
+</svg>

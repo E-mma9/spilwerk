@@ -132,9 +132,11 @@ Geen cold-mail naar bedrijfs-info-mailboxen — die belanden bij administratie-m
 
 **Niet doen**: flyeren door brievenbussen — laagste conversie van alle methodes en mensen vinden het irritant.
 
-### Flyer-tekst — kant-en-klaar
+### Flyer — print-klaar
 
-A6-formaat (10×15 cm), beide zijden. Voorzijde groot, achterzijde details.
+> ✅ **De flyer is al ontworpen en drukklaar:** zie [`flyer/`](./flyer/) — twee SVG's op A6 met bleed, plus `preview.html` en bestel-instructies in [`flyer/README.md`](./flyer/README.md). Onderstaande tekst is de ruwe basis waar dat ontwerp op gebaseerd is; gebruik de SVG's voor de drukker.
+
+A6-formaat (105×148 mm), beide zijden. Voorzijde groot, achterzijde details.
 
 **Voorzijde (groot):**
 

@@ -8,8 +8,16 @@
      width="91mm" height="61mm"
      viewBox="0 0 91 61">
 
+  <defs>
+    <radialGradient id="cardGlow" cx="0.5" cy="0.5" r="0.5">
+      <stop offset="0%" stop-color="#E8865B" stop-opacity="0.26"/>
+      <stop offset="100%" stop-color="#E8865B" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+
   <!-- Achtergrond (paper-crème) -->
   <rect width="91" height="61" fill="#FBF6EE"/>
+  <ellipse cx="86" cy="4" rx="30" ry="22" fill="url(#cardGlow)"/>
 
   <!-- Veilige zone outline (alleen voor preview, verwijder voor druk) -->
   <!--<rect x="6" y="6" width="79" height="49" fill="none" stroke="#888" stroke-width="0.1" stroke-dasharray="0.5,0.5"/>-->
@@ -28,8 +36,14 @@
         font-size="3" font-weight="500"
         fill="#4F4D48">IT-hulp aan huis · heel Overijssel</text>
 
+  <!-- Diensten-regel -->
+  <text x="8" y="32.5"
+        font-family="Manrope, 'Helvetica Neue', Arial, sans-serif"
+        font-size="3.1" font-weight="600"
+        fill="#4F4D48">Computer · Wifi · Telefoon · Backup</text>
+
   <!-- Decoratieve dunne accent-lijn -->
-  <line x1="8" y1="34" x2="22" y2="34"
+  <line x1="8" y1="38" x2="22" y2="38"
         stroke="#4A7C59" stroke-width="0.5" stroke-linecap="round"/>
 
   <!-- Naam + functie (onder) -->
@@ -41,5 +55,11 @@
         font-family="Manrope, 'Helvetica Neue', Arial, sans-serif"
         font-size="2.7" font-weight="500"
         fill="#807D75">Eigenaar</text>
+
+  <!-- Telefoon rechtsonder -->
+  <text x="83" y="54" text-anchor="end"
+        font-family="Manrope, 'Helvetica Neue', Arial, sans-serif"
+        font-size="4.4" font-weight="800" letter-spacing="-0.05"
+        fill="#2A2A28">06-87433537</text>
 
 </svg>

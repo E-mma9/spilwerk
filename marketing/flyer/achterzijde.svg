@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+  Spilwerk flyer · ACHTERZIJDE
+  Formaat: 111mm × 154mm (A6 105×148 met 3mm bleed rondom)
+  Veilige zone: 9mm vanaf de rand (3mm bleed + 6mm marge)
+-->
+<svg xmlns="http://www.w3.org/2000/svg"
+     width="111mm" height="154mm"
+     viewBox="0 0 111 154">
+
+  <!-- Achtergrond -->
+  <rect width="111" height="154" fill="#FBF6EE"/>
+
+  <!-- ─── Wat ik oplos ─── -->
+  <text x="9.5" y="17" font-family="Manrope, 'Helvetica Neue', Arial, sans-serif"
+        font-size="6" font-weight="800" letter-spacing="-0.15" fill="#2A2A28">Waarmee ik je help</text>
+
+  <g font-family="Manrope, 'Helvetica Neue', Arial, sans-serif" font-size="4.1" font-weight="500" fill="#2A2A28">
+    <circle cx="11.4" cy="25.4" r="2" fill="#DCE9DD"/>
+    <text x="10.15" y="26.75" font-size="2.7" font-weight="800" fill="#36603F">✓</text>
+    <text x="16.5" y="26.9">Trage of vastlopende computer</text>
+
+    <circle cx="11.4" cy="33.6" r="2" fill="#FCE4D4"/>
+    <text x="10.15" y="34.95" font-size="2.7" font-weight="800" fill="#C56F44">✓</text>
+    <text x="16.5" y="35.1">Wifi door het hele huis</text>
+
+    <circle cx="11.4" cy="41.8" r="2" fill="#FFF4D6"/>
+    <text x="10.15" y="43.15" font-size="2.7" font-weight="800" fill="#8A6D1F">✓</text>
+    <text x="16.5" y="43.3">Telefoon of tablet instellen</text>
+
+    <circle cx="11.4" cy="50" r="2" fill="#DCE9DD"/>
+    <text x="10.15" y="51.35" font-size="2.7" font-weight="800" fill="#36603F">✓</text>
+    <text x="16.5" y="51.5">Foto's veilig bewaren</text>
+
+    <circle cx="11.4" cy="58.2" r="2" fill="#FCE4D4"/>
+    <text x="10.15" y="59.55" font-size="2.7" font-weight="800" fill="#C56F44">✓</text>
+    <text x="16.5" y="59.7">Printer die niet meewerkt</text>
+
+    <circle cx="11.4" cy="66.4" r="2" fill="#FFF4D6"/>
+    <text x="10.15" y="67.75" font-size="2.7" font-weight="800" fill="#8A6D1F">✓</text>
+    <text x="16.5" y="67.9">Veilig online: virus &amp; phishing</text>
+  </g>
+
+  <line x1="9.5" y1="75.5" x2="101.5" y2="75.5" stroke="#E8DDC4" stroke-width="0.4"/>
+
+  <!-- ─── Wat het kost ─── -->
+  <text x="9.5" y="85.5" font-family="Manrope, 'Helvetica Neue', Arial, sans-serif"
+        font-size="6" font-weight="800" letter-spacing="-0.15" fill="#2A2A28">Wat het kost</text>
+
+  <rect x="7.6" y="90" width="95.8" height="11.4" rx="2.6" fill="#DCE9DD"/>
+  <text x="11.5" y="97.6" font-family="Manrope, 'Helvetica Neue', Arial, sans-serif"
+        font-size="3.9" font-weight="600" fill="#2A2A28">Eerste uur bij je thuis in Twente</text>
+  <text x="98.5" y="98.2" text-anchor="end" font-family="Manrope, 'Helvetica Neue', Arial, sans-serif"
+        font-size="7" font-weight="800" fill="#36603F">€60</text>
+
+  <g font-family="Manrope, 'Helvetica Neue', Arial, sans-serif" font-size="3.7" font-weight="500" fill="#4F4D48">
+    <text x="9.9" y="108.3">Daarna per kwartier</text>
+    <text x="101.2" y="108.3" text-anchor="end" font-size="3.9" font-weight="700" fill="#2A2A28">€15</text>
+    <line x1="9.5" y1="111.4" x2="101.5" y2="111.4" stroke="#E8DDC4" stroke-width="0.3" stroke-dasharray="0.9,0.9"/>
+
+    <text x="9.9" y="117.6">Hulp op afstand</text>
+    <text x="101.2" y="117.6" text-anchor="end" font-size="3.9" font-weight="700" fill="#2A2A28">€45 / uur</text>
+    <line x1="9.5" y1="120.7" x2="101.5" y2="120.7" stroke="#E8DDC4" stroke-width="0.3" stroke-dasharray="0.9,0.9"/>
+
+    <text x="9.9" y="126.9">Buiten Twente (Zwolle, Deventer e.o.)</text>
+    <text x="101.2" y="126.9" text-anchor="end" font-size="3.9" font-weight="700" fill="#2A2A28">+€30</text>
+  </g>
+
+  <!-- ─── Wie ik ben ─── -->
+  <rect x="7.6" y="130" width="95.8" height="14.5" rx="2.6" fill="#F4EBDA"/>
+  <text x="11.5" y="135.8" font-family="Manrope, 'Helvetica Neue', Arial, sans-serif"
+        font-size="3.6" font-weight="700" fill="#2A2A28">Emmanuel Tekle · 06-87433537</text>
+  <text x="11.5" y="140.3" font-family="Manrope, 'Helvetica Neue', Arial, sans-serif"
+        font-size="2.9" font-weight="500" fill="#4F4D48">Systeembeheerder bij Livio · HBO ICT-student</text>
+  <text x="11.5" y="143.9" font-family="Manrope, 'Helvetica Neue', Arial, sans-serif"
+        font-size="2.9" font-weight="500" fill="#4F4D48">Deed eerder computerhulp bij Student aan Huis</text>
+
+</svg>

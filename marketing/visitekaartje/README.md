@@ -1,5 +1,7 @@
 # Visitekaartje — bestellen in 4 stappen
 
+> ⚠️ **Vóór je bestelt: `spilwerk.nl` is nog niet geregistreerd.** Op de achterzijde staat die URL gedrukt. Papier kun je niet updaten — dus óf je registreert het domein eerst (€8/jaar bij TransIP, 15 minuten werk), óf je haalt de regel `spilwerk.nl` uit `achterzijde.svg` voordat je 250 kaartjes laat drukken. Een kaartje met een dode URL kost je vertrouwen bij precies de mensen die je wilt overtuigen.
+
 ## 1. Telefoonnummer invullen (1 min)
 
 ~~Open `voorzijde.svg` en `achterzijde.svg` in een tekst-editor en vul je 06-nummer in.~~ ✅ Gedaan — 06-87433537 staat erin.

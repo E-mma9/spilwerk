@@ -1,0 +1,83 @@
+<!doctype html>
+<html lang="nl">
+<head>
+<meta charset="utf-8">
+<title>Spilwerk flyer · preview op werkelijke grootte</title>
+<link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+<style>
+  :root { --paper:#FBF6EE; --ink:#2A2A28; --ink-3:#807D75; }
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+  body {
+    font-family: 'Manrope', system-ui, sans-serif;
+    background: #EFE9DE;
+    color: var(--ink);
+    padding: clamp(1.5rem, 4vw, 3rem);
+    line-height: 1.6;
+  }
+  h1 { font-size: 1.3rem; font-weight: 800; letter-spacing: -0.02em; margin-bottom: 0.5rem; }
+  .intro { color: #4F4D48; max-width: 44em; margin-bottom: 2.5rem; font-size: 0.95rem; }
+  .sheets { display: flex; gap: 3rem; flex-wrap: wrap; }
+  .sheet { position: relative; }
+  .sheet-label {
+    position: absolute; top: -1.6rem; left: 0;
+    font-size: 0.78rem; font-weight: 700; color: var(--ink-3);
+    text-transform: uppercase; letter-spacing: 0.1em;
+  }
+  /* 111×154mm = A6 105×148 + 3mm bleed rondom */
+  .sheet img {
+    width: 111mm; height: 154mm; display: block;
+    box-shadow: 0 6px 26px rgba(0,0,0,0.14);
+    background: var(--paper);
+  }
+  /* Snijlijn: waar het papier daadwerkelijk wordt afgesneden (3mm naar binnen) */
+  .trim {
+    position: absolute; inset: 3mm;
+    border: 1px dashed rgba(200,60,40,0.55);
+    pointer-events: none;
+  }
+  .legend { margin-top: 2.5rem; font-size: 0.9rem; max-width: 44em; }
+  .legend strong { font-weight: 700; }
+  .legend ul { padding-left: 1.3rem; margin-top: 0.5rem; }
+  .legend li { margin: 0.3rem 0; }
+  code { background: #E4DBCB; padding: 0.1em 0.4em; border-radius: 4px; font-size: 0.88em; }
+  @media print {
+    body { background: #fff; padding: 0; }
+    h1, .intro, .legend, .sheet-label, .trim { display: none; }
+    .sheet img { box-shadow: none; }
+  }
+</style>
+</head>
+<body>
+
+<h1>Spilwerk flyer · preview op werkelijke grootte</h1>
+<p class="intro">
+  A6-formaat (105×148 mm) met 3 mm bleed rondom, dus 111×154 mm totaal.
+  De <span style="color:#C83C28">rode stippellijn</span> is de snijlijn — alles daarbuiten valt weg bij het snijden.
+</p>
+
+<div class="sheets">
+  <div class="sheet">
+    <div class="sheet-label">Voorzijde</div>
+    <img src="./voorzijde.svg" alt="Flyer voorzijde">
+    <div class="trim"></div>
+  </div>
+  <div class="sheet">
+    <div class="sheet-label">Achterzijde</div>
+    <img src="./achterzijde.svg" alt="Flyer achterzijde">
+    <div class="trim"></div>
+  </div>
+</div>
+
+<div class="legend">
+  <strong>Voor druk:</strong>
+  <ul>
+    <li>Formaat <strong>A6 (105 × 148 mm)</strong>, <strong>dubbelzijdig</strong>, staand</li>
+    <li>Papier: <strong>250–300 gr/m²</strong> mat — steviger dan een gewoon vel, voelt niet als wegwerpreclame</li>
+    <li>Aantal: <strong>100 stuks</strong> om te beginnen (~€20 bij Drukwerkdeal of Vistaprint)</li>
+    <li>Upload de twee SVG's, of print deze pagina naar PDF (<code>Ctrl/Cmd + P</code> → "Opslaan als PDF") en upload dat</li>
+    <li>Bleed staat al in het bestand — kies bij de drukker "bestand heeft bleed" en geef 3 mm op</li>
+  </ul>
+</div>
+
+</body>
+</html>
