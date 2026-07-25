@@ -27,6 +27,8 @@ Zoek-en-vervang `87433537` (en de variant met spaties `87 43 35 37`, en `+316874
 - [ ] `marketing/betaalde-promotie.md` — visitekaartje-mockup, weekblad-blokje, Google Ads call extension
 - [ ] `marketing/tracker.md` — flyertekst, weekblad-advertentie
 - [ ] `marketing/linkedin.md` — about-sectie, launch-post, DM-template
+- [ ] `marketing/google-business-profile.md` — telefoonveld in de setup-tabel
+- [ ] `marketing/marktplaats.md` — advertentietekst
 - [ ] `business/contracten/opdrachtbevestiging.md` — briefhoofd en voettekst
 
 ### Notities
