@@ -43,7 +43,9 @@ Even bellen of appen wat er speelt kan altijd — eerste contact is gratis.
 📞 06-87433537 — Emmanuel, Spilwerk
 ```
 
-**Onderhoud:** ververs elke 7–10 dagen (verschuif een zin, plaats opnieuw) zodat de advertentie bovenaan blijft.
+**Kosten:** de categorie "Diensten en Vakmensen" is betaald op Marktplaats (geen gratis optie). Kies **Basis à €9,90** (4 weken zichtbaar) — Plus/Premium niet waard tot je weet dat het kanaal klanten oplevert. Eén klant = €60, dus €9,90 verdient zich makkelijk terug.
+
+**Onderhoud:** met Basis staat de advertentie 4 weken vast online — dus NIET tussentijds verwijderen en herplaatsen (dubbel betalen). Na 4 weken evalueren: leverde het aanvragen op? Zo ja → opnieuw plaatsen (evt. Plus proberen). Zo nee → energie naar Google Business Profile + buurt. (Het "elke 7–10 dagen verversen"-advies uit tracker.md geldt alleen voor gratis advertenties, niet voor deze betaalde categorie.)
 
 ---
 
