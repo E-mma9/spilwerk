@@ -33,23 +33,22 @@
 
   <!-- Kop -->
   <text font-family="Manrope, 'Helvetica Neue', Arial, sans-serif"
-        font-size="11.6" font-weight="800" letter-spacing="-0.32" fill="#2A2A28">
-    <tspan x="9.5" y="49">Computer</tspan>
-    <tspan x="9.5" y="61.5">kapot?</tspan>
-    <tspan x="9.5" y="74">Wifi traag?</tspan>
+        font-size="12.4" font-weight="800" letter-spacing="-0.34" fill="#2A2A28">
+    <tspan x="9.5" y="52">Wat er ook</tspan>
+    <tspan x="9.5" y="65.5">stuk is —</tspan>
   </text>
 
   <!-- Highlight-blok -->
-  <rect x="7.6" y="80.5" width="73.5" height="14.6" rx="3" fill="#FFF4D6"/>
-  <text x="9.5" y="91.4" font-family="Manrope, 'Helvetica Neue', Arial, sans-serif"
-        font-size="11.6" font-weight="800" letter-spacing="-0.32" fill="#2A2A28">Ik kom langs.</text>
+  <rect x="7.6" y="72" width="88" height="15.5" rx="3" fill="#FFF4D6"/>
+  <text x="9.5" y="83.6" font-family="Manrope, 'Helvetica Neue', Arial, sans-serif"
+        font-size="12.4" font-weight="800" letter-spacing="-0.34" fill="#2A2A28">ik kom langs.</text>
 
   <!-- Subtekst -->
   <text font-family="Manrope, 'Helvetica Neue', Arial, sans-serif"
         font-size="4.2" font-weight="500" fill="#4F4D48">
-    <tspan x="9.5" y="106">Vriendelijke hulp bij je thuis.</tspan>
-    <tspan x="9.5" y="112.4">Geen moeilijke woorden, geen</tspan>
-    <tspan x="9.5" y="118.8">verrassingen achteraf.</tspan>
+    <tspan x="9.5" y="99">Alle computer- en internethulp</tspan>
+    <tspan x="9.5" y="105.4">bij jou thuis. Geen moeilijke</tspan>
+    <tspan x="9.5" y="111.8">woorden, geen verrassingen.</tspan>
   </text>
 
   <!-- Telefoon-CTA -->

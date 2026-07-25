@@ -20,11 +20,11 @@
         font-size="6" font-weight="700"
         fill="#FBF6EE">06 — 87 43 35 37</text>
 
-  <!-- E-mail -->
+  <!-- Werkgebied -->
   <text x="8" y="24"
         font-family="Manrope, 'Helvetica Neue', Arial, sans-serif"
         font-size="2.7" font-weight="500"
-        fill="#FBF6EE" fill-opacity="0.92">emmanueltekle@gmail.com</text>
+        fill="#FBF6EE" fill-opacity="0.92">Heel Overijssel · bel of app gerust</text>
 
   <!-- Website -->
   <text x="8" y="29"
@@ -42,14 +42,14 @@
         font-size="2.6" font-weight="600"
         fill="#FBF6EE">Vanaf €60 · werkt het niet = €0</text>
 
-  <!-- Diensten -->
+  <!-- Brede belofte -->
   <text x="8" y="51"
         font-family="Manrope, 'Helvetica Neue', Arial, sans-serif"
         font-size="2.4" font-weight="500"
-        fill="#FBF6EE" fill-opacity="0.85">Computer · Wifi · Telefoon</text>
+        fill="#FBF6EE" fill-opacity="0.85">Alles rond computer, internet</text>
   <text x="8" y="55.5"
         font-family="Manrope, 'Helvetica Neue', Arial, sans-serif"
         font-size="2.4" font-weight="500"
-        fill="#FBF6EE" fill-opacity="0.85">Backup · Voor zelfstandigen</text>
+        fill="#FBF6EE" fill-opacity="0.85">en telefoon · particulier &amp; zakelijk</text>
 
 </svg>

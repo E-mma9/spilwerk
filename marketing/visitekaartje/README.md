@@ -1,6 +1,6 @@
 # Visitekaartje — bestellen in 4 stappen
 
-> ⚠️ **Vóór je bestelt: `spilwerk.nl` is nog niet geregistreerd.** Op de achterzijde staat die URL gedrukt. Papier kun je niet updaten — dus óf je registreert het domein eerst (€8/jaar bij TransIP, 15 minuten werk), óf je haalt de regel `spilwerk.nl` uit `achterzijde.svg` voordat je 250 kaartjes laat drukken. Een kaartje met een dode URL kost je vertrouwen bij precies de mensen die je wilt overtuigen.
+> ⚠️ **Vóór je bestelt: check de spelling van het domein.** Op de achterzijde staat `spilwerk.nl` gedrukt (met een **i**, zoals de handelsnaam). Emmanuel gaf aan een domein te hebben maar schreef "spelwerk" (met een **e**) — dat is een ander domein. Papier kun je niet updaten, dus verifieer welke van de twee daadwerkelijk geregistreerd is en pas `achterzijde.svg` aan vóór je 250 kaartjes laat drukken. Wijkt het domein af van de handelsnaam Spilwerk, overweeg dan de URL weg te laten en alleen het telefoonnummer te printen.
 
 ## 1. Telefoonnummer invullen (1 min)
 
