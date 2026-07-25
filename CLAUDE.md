@@ -84,7 +84,7 @@ Plus optioneel: webapp-bouw zoals Total Tankstation (case study staat op `/werk/
 - Geen pakketten / diensten toevoegen die hij niet expliciet kan leveren (eerder fout: NIS2, M365-migraties, AI-werksessie, koppelingen — allemaal te ambitieus voor zijn niveau)
 - Geen B2B / enterprise-koers voorstellen (dat pad is bewust losgelaten)
 - Geen logo / branding-assets genereren (groen rondje + naam is genoeg)
-- Geen tracking/analytics toevoegen (bewust geen Google Analytics)
+- Geen Google Analytics of ander cookie-/profileringsgebaseerd tracking toevoegen. **GoatCounter staat wél op de site** (privacyvriendelijk, geen cookies) — sinds juli 2026, op verzoek van Emmanuel; niet verwijderen. Site-code: `spilwerk` (aan te maken/aangemaakt op goatcounter.com).
 - Geen npm/build-tooling toevoegen aan `site/`
 - Geen automatische LinkedIn / e-mail verzending bouwen — TOS-risico
 
