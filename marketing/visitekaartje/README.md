@@ -1,6 +1,8 @@
 # Visitekaartje — bestellen in 4 stappen
 
-> ⚠️ **Vóór je bestelt: check de spelling van het domein.** Op de achterzijde staat `spilwerk.nl` gedrukt (met een **i**, zoals de handelsnaam). Emmanuel gaf aan een domein te hebben maar schreef "spelwerk" (met een **e**) — dat is een ander domein. Papier kun je niet updaten, dus verifieer welke van de twee daadwerkelijk geregistreerd is en pas `achterzijde.svg` aan vóór je 250 kaartjes laat drukken. Wijkt het domein af van de handelsnaam Spilwerk, overweeg dan de URL weg te laten en alleen het telefoonnummer te printen.
+> ⚠️ **Vóór je bestelt: staat je telefoonnummer definitief vast?** Op kaartje en flyer staat **06-87433537** gedrukt en papier kun je niet updaten. Er is een eSIM in de planning om werk en privé te scheiden — houd in dat geval **06-87433537 als het zakelijke nummer** en gebruik het nieuwe nummer privé. Dat nummer staat namelijk al op de site, in de Marktplaats-advertentie en op dit drukwerk; een nieuw privénummer deel je met vijf appjes, een nieuw zakelijk nummer kost je een herdruk. Wordt het nieuwe nummer tóch het zakelijke: wacht met drukken tot het binnen is.
+>
+> Domein `spilwerk.nl` (met een **i**) is geregistreerd en staat correct op de achterzijde. ✅
 
 ## 1. Telefoonnummer invullen (1 min)
 
