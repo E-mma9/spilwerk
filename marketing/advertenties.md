@@ -2,7 +2,7 @@
 
 Canonieke, plak-klare teksten voor de drie handmatige kanalen. **Tarieven en telefoonnummer hier synchroon houden met `CLAUDE.md`.** De wekelijkse marketing-Routine gebruikt deze als basis en varieert de openingszin per week.
 
-Huidige kernfeiten: 1e uur aan huis in Twente €60 (incl. voorrijden), buiten Twente +€30, daarna €15/kwartier, remote €45/u, klein remote-klusje €30, avond/weekend +25%, werkt-het-niet €0. Telefoon: 06-87433537. Werkgebied: heel Overijssel.
+Huidige kernfeiten: 1e uur aan huis in Twente €60 (incl. voorrijden), buiten Twente +€30, daarna €15/kwartier, remote €45/u, klein remote-klusje €30, geen avond-/weekendtoeslag, werkt-het-niet €0. Telefoon: 06-87433537. Werkgebied: heel Overijssel.
 
 > **Accounts:** log op Marktplaats in met `emmanueltekle@gmail.com` (het `spilwerk@gmail.com`-account is verwijderd en ligt onder bezwaar). Zet je Marktplaats-weergavenaam op "Spilwerk". Marktplaats staat los van Google Business Profile.
 >

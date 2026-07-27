@@ -30,7 +30,7 @@ Plus eenmalig: KvK-inschrijving €82,25.
 | Daarna per begonnen kwartier | €15 (= €60/u) |
 | Hulp op afstand (TeamViewer / videocall) | €45/u |
 | Klein klusje &lt;30 min op afstand | €30 |
-| Avond &amp; weekend | +25% |
+| Avond &amp; weekend | geen toeslag, zelfde tarief |
 | Werkt het niet | €0 voor de reparatiepoging — niet voor voorrijden/diagnose als hardware al kapot bleek |
 
 **Waarom zone-tarief:** "heel Overijssel incl. voorrijden" voor €60 klinkt sympathiek maar is een margeval. Enschede–Kampen is ~1u15 enkele reis. Een €60-klus in Kampen kost je 2,5u rijden + brandstof — effectief ruim onder €15/u. Twente (waar de meeste klanten zitten) kan voorrijden gratis absorberen; daarbuiten niet.
@@ -150,15 +150,14 @@ De €30 voorrijtoeslag dekt de extra reistijd **niet volledig** bij de verste s
 - 3× vaste-prijs klus = €270
 - 2× halve dag zelfstandige @ €250 = €500
 - 1× NAS-setup @ €195 = €195
-- 1× extra werk avond +25% (op een standaard-bezoek) = ~€19
-- **Totaal: ~€2.664/mnd** → minus €143 → **netto ~€2.521**
+- **Totaal: ~€2.645/mnd** → minus €143 → **netto ~€2.502**
 
 ## Hoe je je marge verbetert
 
 1. **Clustering**: probeer meerdere bezoeken op één dag in dezelfde regio (Hengelo-blok, Zwolle-blok, etc.). Eén keer reizen, meerdere klanten = 50% extra marge.
 2. **Push richting remote**: vraag bij elke aanvraag eerst of het remote kan. Klant bespaart geld, jij verdient meer per uur.
 3. **Vaste relaties met zelfstandigen**: 5-10 trouwe ZZP-klanten die je 1×/maand 30 min remote helpt = €150-300/mnd recurring zonder voorrijden.
-4. **Avond/weekend +25%**: vooral zelfstandigen vragen dit — gebruik die optie zonder ervoor terug te schrikken.
+4. **Geen avond-/weekendtoeslag — maak er een verkoopargument van.** Je werkt door je Livio-baan toch vooral 's avonds en in het weekend, dus een toeslag zou vrijwel altijd gelden; dat is geen toeslag maar een prijsverhoging met extra uitleg. Noem in plaats daarvan actief dat je 's avonds en zaterdag/zondag langskomt voor hetzelfde tarief — de computerwinkels waar je tegen concurreert zijn dan dicht.
 5. **Geef alleen bezoek-bevestiging na je telefoon-check**: 5 min telefoon vooraf voorkomt dat je 30 km rijdt voor iets dat in 10 min remote kon.
 
 ## Btw & KOR

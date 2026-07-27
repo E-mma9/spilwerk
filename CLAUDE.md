@@ -44,7 +44,7 @@ Plus optioneel: webapp-bouw zoals Total Tankstation (case study staat op `/werk/
 - **Daarna per begonnen kwartier:** €15 (= €60/u)
 - **Hulp op afstand:** €45/u
 - **Klein klusje <30 min op afstand:** €30
-- **Avond/weekend:** +25%
+- **Avond/weekend:** géén toeslag — zelfde tarief als doordeweeks (bewust afgeschaft juli 2026; Emmanuel kan door zijn Livio-baan alleen 's avonds en in het weekend, dus een toeslag zou altijd gelden en dat is geen toeslag maar een prijsverhoging)
 - **Werkt het niet:** €0 voor de reparatiepoging — geldt niet voor voorrijden/diagnosetijd als hardware al kapot blijkt vóór het bezoek
 
 **Zakelijke vaste prijzen** (zelfstandigen & kleine kantoren — bewust +30-40% boven particulier-niveau, want bedrijven kopen op "dit wordt opgelost en ik ben gedekt", niet op prijs):

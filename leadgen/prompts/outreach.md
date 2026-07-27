@@ -25,7 +25,7 @@ Optioneel groter werk (Excel-proces → webapp): gebeurt zelden, maar Total Tank
 - Daarna per kwartier: €15
 - Hulp op afstand: €45/u
 - Klein klusje <30 min remote: €30
-- Avond/weekend: +25%
+- Avond/weekend: geen toeslag, zelfde tarief
 - Werkt het niet: €0 (geldt voor de reparatiepoging, niet voor voorrijden/diagnose als hardware al kapot bleek)
 
 ## Doelgroep voor outreach via dit script

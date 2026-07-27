@@ -40,7 +40,7 @@ WAT HET KOST
 • Daarna €15 per begonnen kwartier
 • Hulp op afstand: €45/uur
 • Klein klusje (<30 min) op afstand: €30
-• Avond/weekend: +25%
+• Avond en weekend: zelfde tarief, geen toeslag
 • Werkt het niet? Geen kosten.
 
 WAAR

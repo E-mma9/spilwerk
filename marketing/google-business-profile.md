@@ -86,7 +86,7 @@ Zaterdag   10:00 – 18:00
 Zondag     gesloten
 ```
 
-(Avond/weekend = +25% conform tariefstructuur — dat hoeft niet in GBP, wel goed even noemen op website.)
+(Geen avond-/weekendtoeslag — zelfde tarief. Juist een verkoopargument: zet het in je GBP-beschrijving en in je posts, want de winkels waar je tegen concurreert zijn 's avonds en in het weekend dicht.)
 
 ## 6. Eerste 3 posts
 
