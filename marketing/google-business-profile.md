@@ -1,14 +1,12 @@
-# Google Business Profile — setup-tekst
+# Google Business Profile — setup
 
-Google Business Profile (GBP) is gratis en zorgt dat Spilwerk verschijnt in **Google Maps** en in de **lokale resultaten** als iemand "computerhulp Hengelo" zoekt. Voor B2C-werk in Overijssel is dit het belangrijkste digitale kanaal.
+GBP is gratis en zorgt dat Spilwerk verschijnt in **Google Maps** en in het kaartje bovenaan als iemand "computerhulp Hengelo" zoekt. Voor B2C-werk in Overijssel is dit **het** belangrijkste kanaal — belangrijker dan je website, want daar wordt op geklikt.
 
 Aanmaken via [business.google.com](https://business.google.com).
 
-> ⚠️ **Zet er meteen een tweede eigenaar op.** Een GBP-profiel hangt aan één Google-account; raakt dat account kwijt, dan ben je het profiel én al je reviews kwijt. `spilwerk@gmail.com` is in juli 2026 één keer verwijderd geweest en pas na bezwaar teruggekomen — dat account heeft dus een historie.
+> ⚠️ **Zet er meteen een tweede eigenaar op.** Een GBP-profiel hangt aan één Google-account; raakt dat account kwijt, dan ben je het profiel én al je reviews kwijt — onherstelbaar. `spilwerk@gmail.com` is in juli 2026 één keer verwijderd geweest en pas na bezwaar teruggekomen.
 >
-> Doe daarom direct na het aanmaken: **Instellingen → Gebruikers/Beheerders → eigenaar toevoegen**, en voeg het andere account toe (`emmanueltekle@gmail.com` naast `spilwerk@gmail.com`, of andersom). Twee eigenaren kost niets en is je enige vangnet.
->
-> Op welk account je 'm aanmaakt maakt minder uit dan dát er twee eigenaren zijn. Kleine voorkeur voor `emmanueltekle@gmail.com` als hoofdaccount: dat is nooit geschorst geweest en daar draait Search Console al op.
+> Direct na het aanmaken: **Instellingen → Gebruikers → eigenaar toevoegen**, en zet het andere account erbij. Kleine voorkeur voor `emmanueltekle@gmail.com` als hoofdaccount (nooit geschorst, draait Search Console al), met `spilwerk@gmail.com` als mede-eigenaar.
 
 ## 1. Bedrijfsbasis
 
@@ -16,16 +14,19 @@ Aanmaken via [business.google.com](https://business.google.com).
 |---|---|
 | **Bedrijfsnaam** | Spilwerk |
 | **Categorie (primair)** | Computerservice |
-| **Categorie (secundair)** | IT-dienstverlener · Computerwinkel |
+| **Categorie (secundair)** | IT-dienstverlener |
 | **Telefoon** | 06 87 43 35 37 |
 | **Website** | https://spilwerk.nl |
-| **E-mail** | admin@spilwerk.nl |
 
-**Adres**: GEEN fysiek bedrijfsadres tonen — kies bij setup "**Ik bezorg/serviceer klanten op hun locatie**" (servicegebied-bedrijf). Je woonadres blijft dan privé.
+**Adres**: GEEN fysiek bedrijfsadres tonen — kies bij setup "**Ik lever diensten bij klanten op locatie**" (servicegebied-bedrijf). Je woonadres blijft dan privé; Google gebruikt het alleen voor de verificatiebrief.
+
+⚠️ **Géén** categorie "Computerwinkel" — je hebt geen winkel, dat trekt mensen die langs willen komen.
+
+⚠️ Telefoonnummer is in transitie (zie [`nummer-wissel.md`](./nummer-wissel.md)). Zodra de zakelijke eSIM er is, moet het hier ook worden aangepast.
 
 ## 2. Servicegebied
 
-Voeg toe (één voor één — Google laat tot 20 regio's toe):
+Google laat tot 20 regio's toe. Voeg één voor één toe:
 
 ```
 Hengelo
@@ -50,132 +51,116 @@ Tubbergen
 Dinkelland
 ```
 
-Als alternatief (eenvoudiger): één regio "**Overijssel**" — minder specifiek maar dekt alles.
+Eenvoudiger alternatief: één regio "**Overijssel**". Minder specifiek, dekt alles.
 
 ## 3. Bedrijfsbeschrijving (max 750 tekens)
 
-Plak in het "Beschrijving"-veld:
-
 ```
-Spilwerk is vriendelijke IT-hulp aan huis voor heel Overijssel. Wij zijn Emmanuel Tekle en Eren Kongul — twee IT-consultants die langskomen, uitleggen wat we doen, en het oplossen.
+Spilwerk is vriendelijke IT-hulp aan huis voor heel Overijssel. Ik ben Emmanuel Tekle en ik kom gewoon bij je langs, leg uit wat ik doe, en los het op.
 
-Voor particulieren, senioren en zelfstandige professionals. Computer traag of vol virussen? Wifi die wegvalt? Telefoon die raar doet? Bel ons — wij komen langs of helpen op afstand.
+Voor particulieren, senioren en zelfstandige professionals. Computer traag of vol virussen? Wifi die wegvalt? Telefoon die raar doet? Bel of app me — ik kom langs of help op afstand.
+
+Ook 's avonds en in het weekend, voor hetzelfde tarief. Handig als je overdag geen tijd hebt.
 
 Vaste tarieven, geen jargon, reactie binnen 24 uur. Werkt het niet? Dan betaal je niks.
 
 Werkgebied: heel Overijssel — Hengelo, Enschede, Almelo, Borne, Oldenzaal, Zwolle, Deventer en alles ertussen.
 ```
 
-(~620 tekens — past ruim binnen de limiet van 750)
-
 ## 4. Diensten (per stuk toevoegen)
 
-Google laat je losse "diensten" toevoegen. Maak deze 5:
-
-| Naam | Categorie | Beschrijving | Prijs |
-|---|---|---|---|
-| Computer-hulp aan huis | Computerservice | Trage pc, virus verwijderen, herinstallatie, opschonen — wij komen langs en leggen uit wat we doen. | Vanaf €60/bezoek |
-| Wifi & internet thuis | Computerservice | Wifi-signaal verbeteren, router instellen, providers helpen — wij lossen het op zonder jargon. | Vanaf €60/bezoek |
-| Telefoon & tablet | Computerservice | Hulp bij smartphone of tablet — vooral voor senioren die rustig op tempo willen leren. | Vanaf €60/bezoek |
-| Veilig online & backup | Computerservice | Wachtwoorden, backup-instellingen, anti-phishing, veilig surfen — uitleg in normale taal. | Vanaf €60/bezoek |
-| IT voor zelfstandigen | IT-dienstverlener | Zakelijk e-mail, cloud-opslag, onboarding nieuwe medewerker — voor ZZP en kleine kantoren. | €250/halve dag |
+| Naam | Beschrijving | Prijs |
+|---|---|---|
+| Computer-hulp aan huis | Trage pc, virus verwijderen, herinstallatie, opschonen — ik kom langs en leg uit wat ik doe. | Vanaf €60/bezoek |
+| Wifi & internet thuis | Wifi-signaal verbeteren, router instellen, provider-gedoe uitzoeken — zonder jargon. | Vanaf €60/bezoek |
+| Telefoon & tablet | Hulp bij smartphone of tablet — vooral voor senioren die rustig op tempo willen leren. | Vanaf €60/bezoek |
+| Veilig online & backup | Wachtwoorden, backup instellen, phishing herkennen — uitleg in normale taal. | Vanaf €60/bezoek |
+| IT voor zelfstandigen | Zakelijk e-mail, gedeelde mappen, backup, nieuwe werkplek — voor ZZP en kleine kantoren. | Vanaf €250/halve dag |
 
 ## 5. Openingstijden
 
+Zet hier de tijden waarop je **daadwerkelijk kunt reageren en langskomen**. Overdag zit je bij Livio (ma-vr 08:00-17:00).
+
 ```
-Maandag    09:00 – 21:00
-Dinsdag    09:00 – 21:00
-Woensdag   09:00 – 21:00
-Donderdag  09:00 – 21:00
-Vrijdag    09:00 – 21:00
+Maandag    18:00 – 21:00
+Dinsdag    18:00 – 21:00
+Woensdag   18:00 – 21:00
+Donderdag  18:00 – 21:00
+Vrijdag    18:00 – 21:00
 Zaterdag   10:00 – 18:00
-Zondag     gesloten
+Zondag     10:00 – 18:00
 ```
 
-(Geen avond-/weekendtoeslag — zelfde tarief. Juist een verkoopargument: zet het in je GBP-beschrijving en in je posts, want de winkels waar je tegen concurreert zijn 's avonds en in het weekend dicht.)
+**Afweging:** ruimere tijden (bv. 09:00-21:00) betekent dat je vaker "Nu geopend" toont in het kaartje, wat klikken oplevert — maar ook gemiste telefoontjes tijdens je Livio-dag. Bovenstaande is eerlijk. Wil je toch breder, zet dan minimaal een duidelijke belofte in je beschrijving ("reactie binnen 24 uur").
+
+Je bent 's avonds en in het weekend open terwijl de computerwinkels in Enschede dicht zijn — **noem dat actief** in je beschrijving en posts. Dat is je scherpste onderscheid.
 
 ## 6. Eerste 3 posts
 
-Posts in GBP zijn als mini-blogposts in je profiel. Plaats er één per 1-2 weken in de eerste 2 maanden. Hier de eerste drie kant-en-klaar:
+Plaats er één per 1-2 weken in de eerste twee maanden.
 
 ### Post 1 — Introductie
 
-**Titel** (optional): *"Hoi! Wij zijn Spilwerk."*
-
-**Tekst:**
-
 ```
-Hoi! Wij zijn Spilwerk — Emmanuel en Eren, twee IT-consultants in Overijssel die langskomen als je computer, wifi of telefoon raar doet.
+Hoi! Ik ben Emmanuel van Spilwerk — ik kom bij je langs als je computer, wifi of telefoon raar doet. In heel Overijssel.
 
-Vriendelijk, vaste tarieven, en als het niet lukt betaal je niks.
+Vriendelijk, vaste tarieven, en lukt het niet, dan betaal je niks. Ook 's avonds en in het weekend, zonder toeslag.
 
-Bel of app op 06 87 43 35 37 of kijk op spilwerk.nl.
+Bel of app 06 87 43 35 37, of kijk op spilwerk.nl.
 ```
-
 **Knop**: "Bel nu" → 06 87 43 35 37
 
 ### Post 2 — Trage computer
 
-**Titel**: *"Computer steeds trager? Vaak is het simpel."*
+```
+Negen van de tien keer is een trage computer niet "kapot" — het is een volle schijf of te veel opstart-rommel. Je hebt dus meestal geen nieuwe pc nodig.
 
-**Tekst:**
+Ik kijk een uurtje mee, ruim op, en leg uit wat er gebeurt zodat je het zelf herkent als het terugkomt.
+
+Vanaf €60 incl. voorrijden in Twente.
+```
+**Knop**: "Meer info" → spilwerk.nl
+
+### Post 3 — Senioren
 
 ```
-Negen van de tien keer is een trage computer geen "kapot" — het is opslag vol of opstart-rommel. Geen nieuwe pc nodig.
+Veel ouders en grootouders durven niet te vragen om hulp met hun telefoon of tablet — bang om lastig te zijn.
 
-Wij kijken een uurtje mee, ruimen op en leggen uit wat er gebeurt zodat je het zelf herkent als het terugkomt.
+Daar ben ik juist voor. Rustig uitleggen, op jouw tempo, geen haast en geen moeilijke woorden.
 
-Vanaf €60 incl. voorrijden in Overijssel.
+Bel of app gerust: 06 87 43 35 37.
 ```
-
-**Knop**: "Meer info" → spilwerk.nl/#diensten
-
-### Post 3 — Senioren-aansluiting
-
-**Titel**: *"Voor wie niet durft te vragen"*
-
-**Tekst:**
-
-```
-Veel ouders en grootouders durven niet te vragen om hulp met hun telefoon of tablet — bang om "lastig" te zijn.
-
-Daar zijn wij voor. Rustig uitleggen, op tempo van de klant, geen haast.
-
-Bel ons of stuur een appje: 06 87 43 35 37.
-```
-
 **Knop**: "Bel nu" → 06 87 43 35 37
 
 ## 7. Foto's
 
-Upload deze types (Google ranked profiles met meer foto's hoger):
+Profielen met meer foto's ranken hoger.
 
-- **Logo**: groene spil-ring uit `site/assets/logo.svg` exporteren als PNG (192×192px is GBP-richtlijn). Conversie via [cloudconvert.com/svg-to-png](https://cloudconvert.com/svg-to-png) — zet output op 256×256, dan upload je 'm zonder kwaliteitsverlies.
-- **Cover**: jullie samen, vriendelijk — zelfde foto als Marktplaats hoofdfoto
-- **3-5 werkfoto's**: laptop, telefoon-hulp, "in actie" — niet stockfoto-achtig
-- **2-3 sfeerfoto's**: Twentse straat, herkenbaar lokaal beeld
+- **Logo**: `site/assets/logo.svg` exporteren als PNG (256×256) via [cloudconvert.com/svg-to-png](https://cloudconvert.com/svg-to-png)
+- **Cover**: een echte foto van jezelf, vriendelijk — dezelfde als op Marktplaats
+- **3-5 werkfoto's**: laptop, telefoon-hulp, gereedschap, "in actie"
+- **2-3 sfeerfoto's**: herkenbaar Twents straatbeeld
 
-**Geen** verzonnen-stockfoto's of generieke "hand-met-toetsenbord"-shots — Google's spam-detectie ranged die lager.
+**Geen** stockfoto's of generieke "hand-op-toetsenbord"-shots — die ranken lager en voelen onbetrouwbaar.
 
 ## 8. Verificatie
 
-Google verifieert je profiel via **briefkaart per post** (kost ~5 werkdagen) of soms **telefoon/SMS** (direct). Je moet de code invullen om in de zoekresultaten te verschijnen. Niet vergeten — onverifieerde profielen verschijnen niet.
+Google verifieert via **briefkaart per post** (~5 werkdagen) of soms telefoon/video. Zonder verificatie verschijn je **niet** in zoekresultaten — dus die code invullen zodra hij binnen is.
 
-Voor service-area bedrijven (zoals jullie) is de verificatie meestal per **briefkaart naar het opgegeven contactadres** — dat mag je woonadres zijn, blijft prive.
+Voor servicegebied-bedrijven gaat de brief naar je opgegeven contactadres. Dat mag je woonadres zijn; het blijft privé.
 
 ## 9. Reviews verzamelen
 
-GBP-rating bepaalt 60-70% van wie wordt aangeklikt. Strategie:
+De rating bepaalt grotendeels wie er wordt aangeklikt. Je concurrenten in Enschede zitten op 4,5★ (226 reviews) en 4,8★ (390). Die haal je niet in — maar je hebt ze ook niet nodig: nabijheid weegt zwaar, en in Borne of Oldenzaal ranken die binnenstad-winkels niet.
 
-- Na **elke** klantbezoek vraag je: *"Vond je het fijn? Een korte Google-review zou ons enorm helpen — link stuur ik via app."*
-- Stuur de **directe review-link** via WhatsApp (niet "google ons even") — vind 'm in je GBP-dashboard onder *"Klanten" → "Reviews" → "Vraag review"*.
-- Reageer **op elke review** binnen 48 uur — ook bij 5 sterren. Korte oprechte reactie ("Bedankt Marja! Fijn dat de wifi nu werkt — laat weten als er nog iets is."). Google ranked profiles met response-rate hoger.
-
-Doel **eerste 90 dagen**: 5 reviews. Dat is het verschil tussen "onbekend" en "betrouwbaar" in lokale zoekresultaten.
+- Vraag **5-7 dagen na** een geslaagd bezoek, niet direct
+- Stuur de **directe review-link** via WhatsApp (te vinden in je dashboard onder *Klanten → Reviews → Vraag review*), niet "google ons even"
+- Reageer **op elke review** binnen 48 uur, ook bij 5 sterren
+- Doel eerste 90 dagen: **5 reviews**
 
 ## Wat NIET doen
 
-- ❌ Meerdere GBP-profielen aanmaken voor verschillende plaatsen — Google ziet dit als spam, kan profile schorsen
-- ❌ Eigen reviews schrijven of vragen aan vrienden zonder dat ze klant zijn — detectie is sterk
-- ❌ Adres opgeven dat niet jouw werkelijke contactadres is
-- ❌ Categorie "computerwinkel" als primair (jullie hebben geen winkel) — dat trekt verkeerd verkeer
+- ❌ Meerdere GBP-profielen voor verschillende plaatsen — Google ziet dit als spam en kan je schorsen
+- ❌ Reviews vragen aan mensen die geen klant zijn, of zelf schrijven — detectie is sterk en de straf is schorsing van precies dit profiel
+- ❌ Een adres opgeven dat niet je werkelijke contactadres is
+- ❌ "Computerwinkel" als categorie — je hebt geen winkel
