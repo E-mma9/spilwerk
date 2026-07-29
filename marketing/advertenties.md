@@ -4,7 +4,9 @@ Canonieke, plak-klare teksten voor de drie handmatige kanalen. **Tarieven en tel
 
 Huidige kernfeiten: 1e uur aan huis in Twente €60 (incl. voorrijden), buiten Twente +€30, daarna €15/kwartier, remote €45/u, klein remote-klusje €30, geen avond-/weekendtoeslag, werkt-het-niet €0. Telefoon: 06-87433537. Werkgebied: heel Overijssel.
 
-> **Accounts:** log op Marktplaats in met `emmanueltekle@gmail.com` (het `spilwerk@gmail.com`-account is verwijderd en ligt onder bezwaar). Zet je Marktplaats-weergavenaam op "Spilwerk". Marktplaats staat los van Google Business Profile.
+> **Accounts:** Marktplaats draait op `emmanueltekle@gmail.com`, weergavenaam "Spilwerk". Laat dat zo — advertenties verhuizen tussen accounts kan niet.
+>
+> `spilwerk@gmail.com` is **terug** na bezwaar (juli 2026). Let op: dat account is één keer verwijderd geweest. Hang er dus niet één kritiek ding aan zonder tweede eigenaar — zie de waarschuwing in [`google-business-profile.md`](./google-business-profile.md).
 >
 > ⚠️ **Nummer in transitie:** 06-87433537 is het privénummer. Zodra het zakelijke eSIM-nummer bekend is, moeten deze teksten én de live Marktplaats-advertentie bijgewerkt worden — zie [`nummer-wissel.md`](./nummer-wissel.md).
 

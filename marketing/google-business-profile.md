@@ -4,6 +4,12 @@ Google Business Profile (GBP) is gratis en zorgt dat Spilwerk verschijnt in **Go
 
 Aanmaken via [business.google.com](https://business.google.com).
 
+> ⚠️ **Zet er meteen een tweede eigenaar op.** Een GBP-profiel hangt aan één Google-account; raakt dat account kwijt, dan ben je het profiel én al je reviews kwijt. `spilwerk@gmail.com` is in juli 2026 één keer verwijderd geweest en pas na bezwaar teruggekomen — dat account heeft dus een historie.
+>
+> Doe daarom direct na het aanmaken: **Instellingen → Gebruikers/Beheerders → eigenaar toevoegen**, en voeg het andere account toe (`emmanueltekle@gmail.com` naast `spilwerk@gmail.com`, of andersom). Twee eigenaren kost niets en is je enige vangnet.
+>
+> Op welk account je 'm aanmaakt maakt minder uit dan dát er twee eigenaren zijn. Kleine voorkeur voor `emmanueltekle@gmail.com` als hoofdaccount: dat is nooit geschorst geweest en daar draait Search Console al op.
+
 ## 1. Bedrijfsbasis
 
 | Veld | Waarde |
