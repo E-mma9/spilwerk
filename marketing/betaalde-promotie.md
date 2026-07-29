@@ -214,11 +214,9 @@ Voor jou nu (eerste 3 maanden): **dat geld beter besteden aan visitekaartjes + w
 3. Type: **Search Ads** (niet Display, niet YouTube)
 4. Budget: **€7/dag** = €210/maand
 5. Locatie-targeting: **heel Overijssel** (35-50 km radius rond je woonplaats)
-6. Schedule: ⚠️ **alleen draaien wanneer je de telefoon kunt opnemen.** Emmanuel werkt bij Livio ma-vr 08:00-17:00 — advertenties die overdag draaien leveren telefoontjes op die niemand aanneemt, en dat is de duurste manier om budget te verbranden. Zet dus:
-   - ma t/m vr **17:30 – 21:30**
-   - za en zo **10:00 – 18:00**
+6. Schedule: **ma-vr 08:00-21:30, za-zo 09:00-20:00.** Emmanuel kan tijdens zijn Livio-dienst gewoon opnemen (rustige baan), dus overdag adverteren is prima — bellen is het moment dat de klant boekt, het bezoek plan je daarna in voor 's avonds of het weekend. Nachten uitsluiten: lage koopintentie en je slaapt.
 
-   Dit is meteen je grootste kostenbesparing: je betaalt niet voor klikken op momenten dat je toch niet kunt reageren, en je concurrenten (de computerwinkels) zijn dan dicht.
+   Zet in de advertentietekst wél dat je 's avonds en in het weekend langskomt zonder toeslag — dat is het onderscheid met de computerwinkels, die dan dicht zijn.
 
 ### Keywords (eerste set)
 
