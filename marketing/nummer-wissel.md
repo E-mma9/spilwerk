@@ -1,5 +1,11 @@
 # Telefoonnummer wisselen — checklist
 
+> ✅ **Niet meer nodig, tenzij het zakelijke nummer ooit tóch verandert.**
+> Besloten juli 2026: **06-87433537 blijft het zakelijke nummer** en staat op site, drukwerk,
+> Marktplaats, Google Business Profile en Ads. Wil Emmanuel werk/privé scheiden, dan komt er
+> een nieuw *privé*nummer — dat deel je met vijf appjes en er hoeft niets herdrukt te worden.
+> Bewaard voor het geval het zakelijke nummer ooit wél moet wijzigen.
+
 **Status:** 06-87433537 staat overal gepubliceerd, maar dat is Emmanuels **privénummer**. Er komt een eSIM die het **zakelijke** nummer wordt. Dit bestand is de complete swap-lijst voor dat moment.
 
 ## ⛔ Doe dit eerst niet

@@ -24,8 +24,9 @@
   <ellipse cx="104" cy="6" rx="52" ry="40" fill="url(#glowWarm)"/>
   <ellipse cx="4" cy="150" rx="48" ry="38" fill="url(#glowGreen)"/>
 
-  <!-- Brand -->
+  <!-- Brand — merkmark conform logo.svg (ring, ratio 14:5) -->
   <circle cx="12.4" cy="15" r="2.6" fill="#4A7C59"/>
+  <circle cx="12.4" cy="15" r="0.93" fill="#FBF6EE"/>
   <text x="17.5" y="16.9" font-family="Manrope, 'Helvetica Neue', Arial, sans-serif"
         font-size="7.4" font-weight="800" letter-spacing="-0.18" fill="#2A2A28">Spilwerk</text>
   <text x="17.7" y="21.6" font-family="Manrope, 'Helvetica Neue', Arial, sans-serif"
@@ -58,9 +59,12 @@
   <text x="22.5" y="130.3" font-family="Manrope, 'Helvetica Neue', Arial, sans-serif"
         font-size="8.2" font-weight="800" letter-spacing="-0.1" fill="#2A2A28">06-87433537</text>
 
-  <!-- Belofte-pill -->
+  <!-- Belofte-pill + website -->
   <rect x="7.6" y="136.4" width="60.5" height="8.4" rx="4.2" fill="#4A7C59"/>
   <text x="12.2" y="142.2" font-family="Manrope, 'Helvetica Neue', Arial, sans-serif"
         font-size="4" font-weight="700" fill="#FBF6EE">Werkt het niet? Geen kosten</text>
+  <text x="101.5" y="142.2" text-anchor="end"
+        font-family="Manrope, 'Helvetica Neue', Arial, sans-serif"
+        font-size="3.9" font-weight="700" fill="#4A7C59">spilwerk.nl</text>
 
 </svg>

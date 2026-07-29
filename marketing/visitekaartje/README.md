@@ -1,7 +1,5 @@
 # Visitekaartje — bestellen in 4 stappen
 
-> ⛔ **NOG NIET BESTELLEN.** Op het kaartje staat **06-87433537**, en dat is het **privénummer**. Er komt een eSIM die het zakelijke nummer wordt — wacht daarop, vervang het nummer in de SVG's en bestel dan. Papier kun je niet updaten, en je privénummer wil je niet op een prikbord in de bibliotheek hebben hangen. Volledige swap-lijst: [`../nummer-wissel.md`](../nummer-wissel.md).
->
 > Domein `spilwerk.nl` (met een **i**) is geregistreerd en staat correct op de achterzijde. ✅
 
 ## 1. Telefoonnummer invullen (1 min)

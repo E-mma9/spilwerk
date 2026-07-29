@@ -1,11 +1,9 @@
 # Flyer — A6, dubbelzijdig
 
-> ⛔ **NOG NIET BESTELLEN.** Op de flyer staat **06-87433537**, en dat is het **privénummer**. Er komt een eSIM die het zakelijke nummer wordt — wacht daarop, vervang het nummer in beide SVG's en bestel dan. Zie [`../nummer-wissel.md`](../nummer-wissel.md).
-
 | Bestand | Wat |
 |---|---|
 | `voorzijde.svg` | Blikvanger: "Computer kapot? Wifi traag? Ik kom langs." + telefoonnummer + €0-belofte |
-| `achterzijde.svg` | Wat ik oplos (6 punten), wat het kost, wie ik ben |
+| `achterzijde.svg` | Waarmee ik help, de €0-belofte, tarieven en contactblok |
 | `preview.html` | Preview op werkelijke grootte met snijlijn. Open in je browser. |
 
 ## Bestellen

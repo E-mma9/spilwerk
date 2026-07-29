@@ -8,7 +8,7 @@ Huidige kernfeiten: 1e uur aan huis in Twente €60 (incl. voorrijden), buiten T
 >
 > `spilwerk@gmail.com` is **terug** na bezwaar (juli 2026). Let op: dat account is één keer verwijderd geweest. Hang er dus niet één kritiek ding aan zonder tweede eigenaar — zie de waarschuwing in [`google-business-profile.md`](./google-business-profile.md).
 >
-> ⚠️ **Nummer in transitie:** 06-87433537 is het privénummer. Zodra het zakelijke eSIM-nummer bekend is, moeten deze teksten én de live Marktplaats-advertentie bijgewerkt worden — zie [`nummer-wissel.md`](./nummer-wissel.md).
+> **Nummer:** 06-87433537 is het vaste zakelijke nummer. Wil Emmanuel later werk/privé scheiden, dan komt er een nieuw *privé*nummer — het zakelijke nummer blijft dan ongewijzigd, zodat drukwerk en advertenties niet aangepast hoeven te worden.
 
 ---
 
