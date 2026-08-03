@@ -34,8 +34,13 @@ Bij wijzigingen aan diensten **drie plekken synchroon houden**:
 | Telefoon & tablet | vanaf €60/bezoek | Particulier (vaak senioren) |
 | Veilig online | vanaf €60/bezoek | Particulier + zelfstandigen |
 | Voor zelfstandigen (zakelijk e-mail, boekhouding-koppeling) | vanaf €250/halve dag | ZZP / zelfstandige professional |
+| **Spilwerk Zeker** — maandabonnement (bewaakte back-up, voorrang) | €45/mnd Basis · €85/mnd Plus | ZZP / klein kantoor |
 
 Plus optioneel: webapp-bouw zoals Total Tankstation (case study staat op `/werk/tankstation.html`) — niet als hoofdaanbod, wel als bewijs dat hij grotere dingen aankan.
+
+**Spilwerk Zeker** (aug 2026, op verzoek van Emmanuel) is bewust géén terugkeer naar de MKB-consultantkoers: het is één product, verkocht aan klanten die hij al bezocht heeft, gebouwd op werk dat hij nu al doet. Het bestaansrecht is de stage vanaf september (40 u/wk, €400/mnd) — terugkerend inkomen uit gepland werk is dan het enige model dat past. Volledige propositie, marges, verkoopscript en technische opzet: `business/spilwerk-zeker.md`.
+
+⚠️ **Reactietijd nooit korter beloven dan 1 werkdag.** Een MSP verkoopt beschikbaarheid en dat is precies wat hij tijdens de stage niet heeft. "Binnen 4 uur" of "altijd bereikbaar" is niet waar te maken. Wat er wél tegenover staat: het bezoek kan 's avonds of in het weekend, zonder toeslag.
 
 ## Tariefstructuur (uurbasis, niet pakket-prijs)
 

@@ -4,6 +4,8 @@ Voor zelfstandigen of kleine kantoren die je **maandelijks terugkerend** willen 
 
 > ⚠️ Aansluitvariant. Pas tarieven en uren-bundel aan per klant.
 
+> 📄 Het gestandaardiseerde aanbod heet **Spilwerk Zeker** (€45 Basis / €85 Plus) — propositie, marges en verkoopscript staan in `../spilwerk-zeker.md`. Gebruik dit contract als de juridische onderlegger daarvan, of op maat voor wie meer uren nodig heeft.
+
 ---
 
 ## Template
@@ -28,16 +30,19 @@ Adres: [klant adres]
 
 Op maandelijkse basis levert Spilwerk:
 
-- **[X] uur op afstand werk per maand** (besteding naar eigen invulling van klant: troubleshooting, kleine wijzigingen, advies, onderhoud)
-- **Voorrang bij urgente vragen**: reactie binnen 4 werkuren op werkdagen
-- **Eens per kwartaal** een korte check-in (15-30 min videocall) over wat er goed/niet-goed loopt
+- **[X] minuten/uur op afstand werk per maand** (besteding naar eigen invulling van klant: troubleshooting, kleine wijzigingen, advies, onderhoud)
+- **Bewaakte back-up**: Spilwerk controleert maandelijks of de back-up daadwerkelijk heeft gedraaid en meldt het als dat niet zo is
+- **Kwartaalcontrole**: herstel-test (er wordt echt een bestand teruggehaald), updates, opslagruimte, beveiliging
+- **Voorrang bij storingen**: reactie **binnen 1 werkdag**. Reactie betekent contact en een ingeplande afspraak, niet dat het probleem dan al is opgelost
+- **Afspraken kunnen 's avonds of in het weekend**, zonder toeslag
 - **Korting op nieuwe projecten**: 10% op vaste-prijs klusjes voor abonnement-houders
 
 ## 2. Wat dit abonnement NIET inhoudt
 
-- 24/7 oncall — werkdagen 9:00-18:00
-- Hardware-vervanging (gaat tegen normale tarieven)
+- Geen 24/7 en geen oncall; geen gegarandeerde reactie binnen enkele uren
+- Hardware, licenties en abonnementen van derden (Microsoft 365, back-upopslag e.d.) — die neemt klant op eigen naam af en betaalt klant zelf
 - Werk op locatie (eigen tarief €60 voorrijden + uurtarief, buiten Twente +€30)
+- Dataherstel van reeds defecte schijven
 - Implementatie van grote nieuwe systemen (apart project)
 
 ## 3. Tarief
@@ -48,14 +53,17 @@ Op maandelijkse basis levert Spilwerk:
 | Btw 21% | € [bedrag] |
 | **Totaal per maand incl. btw** | **€ [bedrag]** |
 
-**Voorbeeld-tarieven:**
-- 1u/mnd inclusief: €45/mnd
-- 2u/mnd inclusief: €85/mnd
+**Standaardtarieven (Spilwerk Zeker):**
+- **Basis** — 1 werkplek, 30 min remote inbegrepen: **€45/mnd**
+- **Plus** — tot 3 werkplekken, 1,5u remote inbegrepen, kwartaalrapport: **€85/mnd**
+- Extra werkplek boven de bundel: €15/mnd
+
+**Op maat, voor wie structureel meer nodig heeft:**
 - 4u/mnd inclusief: €160/mnd
 - 8u/mnd inclusief: €300/mnd
 
 **Boven de bundel:**
-- Extra remote-werk: €45/u (zonder kwartier-tellen, ronding op halve uren)
+- Extra remote-werk: €38/u voor abonnementhouders (i.p.v. €45), ronding op halve uren
 - Werk op locatie: €60 voorrijden (buiten Twente +€30) + €60/u
 
 **Niet-gebruikte uren** verschuiven 1 maand vooruit, vervolgens vervallen ze (geen onbeperkte stapeling).
@@ -117,10 +125,11 @@ Bied dit pas aan **na** de derde of vierde reguliere klus bij dezelfde klant. Ni
 
 | Aantal abonnementen | Bruto recurring per maand | Effectief uren-investering |
 |---|---:|---:|
-| 5× 1u/mnd-abonnement | €225 | 5u/mnd |
-| 3× 2u/mnd + 5× 1u/mnd | €480 | 11u/mnd |
-| 5× 2u/mnd + 5× 1u/mnd | €650 | 15u/mnd |
+| 5× Basis | €225 | 3-5u/mnd |
+| 10× Basis | €450 | 6-10u/mnd |
+| 10× Basis + 3× Plus | €705 | 11-16u/mnd |
+| 15× Basis + 5× Plus | €1.100 | 18-25u/mnd |
 
-**Voor jou interessant:** 5-10 abonnement-klanten = €300-700/mnd recurring zonder voorrijden. Compenseert de verlies-uren door reizen bij eenmalige bezoeken. Op termijn een goede basis.
+**Voor jou interessant:** 10 abonnement-klanten leveren méér op dan de stagevergoeding van €400/mnd, zonder voorrijden en vooraf gefactureerd. Dat maakt een maand zonder losse klussen niet langer een maand zonder inkomen.
 
-**Niet meer dan 10 abonnement-klanten** — anders ben je fulltime alleen onderhoud aan het doen en heb je geen tijd voor nieuwe klusjes.
+**Plafond tijdens de stage: ~20 abonnement-klanten.** Daarboven is het onderhoud zelf een baan en hou je geen tijd over voor losse klussen, die per uur meer opleveren.

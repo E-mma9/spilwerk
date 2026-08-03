@@ -118,6 +118,35 @@ De €30 voorrijtoeslag dekt de extra reistijd **niet volledig** bij de verste s
 
 🟢 **Vaste-prijs klusjes hebben betere marge dan losse uren** omdat je weet wat het kost en geen kwartiertjes hoeft te tellen. Push klanten richting vaste-prijs klusjes wanneer mogelijk.
 
+### Abonnement (Spilwerk Zeker) — beste voorspelbaarheid van allemaal
+
+Volledige propositie: `spilwerk-zeker.md`. Hier alleen de marge.
+
+| | Basis | Plus |
+|---|---:|---:|
+| Maandtarief | €45 | €85 |
+| Back-upcontrole + maandcheck | 20 min | 35 min |
+| Kwartaalwerk (herstel-test, opschonen), omgerekend per maand | 15 min | 25 min |
+| Inbegrepen hulp op afstand (gemiddeld benut ~60%) | 18 min | 55 min |
+| **Totale tijd per maand** | **~55 min** | **~1u55** |
+| Directe kosten (monitoring via healthchecks.io gratis tier) | €0 | €0 |
+| **Effectief uurtarief** | **€49/u** | **€44/u** |
+
+🟢 **Geen reistijd, geen voorrijden, vooraf gefactureerd.** Het effectieve tarief ligt boven remote-hulp (€39/u) en ruim boven een bezoek aan huis (€30-34/u), juist omdat de reistijd — de grootste margevreter in dit model — volledig wegvalt.
+
+| Klanten | Recurring/mnd | Uren/mnd |
+|---:|---:|---:|
+| 5 × Basis | €225 | 3-5u |
+| 10 × Basis | €450 | 6-10u |
+| 10 × Basis + 3 × Plus | €705 | 11-16u |
+| 15 × Basis + 5 × Plus | €1.100 | 18-25u |
+
+**Waarom dit het belangrijkste product is vanaf september:** met een stage van 40 uur per week is de beschikbare tijd het knelpunt, niet de vraag. Tien abonnees dekken de vaste kosten (~€143/mnd) én overtreffen de stagevergoeding (€400/mnd), voor minder tijd dan drie huisbezoeken.
+
+⚠️ **Let op bij de tijdsinschatting.** De 55 minuten voor Basis houdt geen rekening met een klant die elke maand zijn half uur volledig opmaakt én daarbovenop belt. Twee of drie van dat type klanten halveren je effectieve uurtarief. Signaleer dat vroeg en zet die klant om naar Plus of een uren-abonnement op maat — dat is geen straf maar een eerlijker prijs.
+
+**Plafond tijdens de stage: ~20 abonnees.** Daarboven verdringt het onderhoud de losse klussen, die per uur meer opleveren zodra je weer tijd hebt.
+
 ## Realistisch maandinkomen
 
 **Aanname:** 8-15 uur per week beschikbaar voor Spilwerk, naast school en Livio.
