@@ -71,24 +71,55 @@ Nederlands.
 
 **€4 per dag** (≈ €120/maand). Google rekent per maand af, dus sommige dagen wordt het €6 en andere €2 — dat is normaal, het maandtotaal klopt.
 
-### Advertentieschema
+### Doelgroepsegmenten
 
-Klik **Meer instellingen** → **Advertentieschema**:
+**Niets invullen.** Laat het vak leeg en laat **Observatie (aanbevolen)** staan.
 
-- Maandag t/m vrijdag: **08:00 – 21:30**
-- Zaterdag en zondag: **09:00 – 20:00**
+Segmenten zijn interessedata van Google ("mensen die zich interesseren voor computers"). Bij een Zoeken-campagne heb je dat niet nodig: het zoekwoord dat iemand intypt zegt al veel meer dan zijn interesseprofiel. Iemand die *"computerhulp aan huis Hengelo"* typt heeft nú een probleem.
 
-Overdag adverteren mag: bij Livio kun je rustig opnemen. Bellen is het moment dat de klant boekt; het bezoek plan je daarna 's avonds of in het weekend.
+Het verschil tussen de twee knoppen: **Targeting** beperkt je advertentie tót die segmenten — dan verlies je iedereen erbuiten. **Observatie** beperkt niks en kijkt alleen mee, dus met een leeg vak heeft het letterlijk geen effect. Daarom is leeglaten veilig, en zou "Targeting" kiezen zonder segmenten je voor niks inperken.
 
-### Automatisch gemaakte items
+### Meer instellingen
 
-**Meer instellingen** → **Automatisch gemaakte items** → **UIT**. Anders verzint Google eigen advertentiekoppen en stuurt het mensen naar pagina's die jij niet gekozen hebt.
+Vijf regels, waarvan er één moet veranderen:
+
+| Regel | Wat doen |
+|---|---|
+| Advertentieroulatie | "Optimaliseren" laten staan — Google test dan zelf welke kop het beste werkt |
+| Start- en einddatum | Startdatum vandaag, **geen einddatum** — je pauzeert handmatig |
+| **Advertentieplanning** | ⚠️ Staat op "Hele dag". Aanpassen — zie hieronder |
+| URL-opties voor campagne | Leeg laten |
+| Paginafeeds | Leeg laten. Dat is voor dynamische zoekadvertenties waarbij Google zelf pagina's kiest; bij een site van één pagina zinloos |
+
+**Advertentieplanning** → gebruik "+ Nog een tijdsperiode toevoegen" voor elke regel:
+
+| Dag | Van | Tot |
+|---|---|---|
+| Maandag – vrijdag | 08:00 | 21:30 |
+| Zaterdag | 09:00 | 20:00 |
+| Zondag | 09:00 | 20:00 |
+
+Wat je hiermee afkapt is de nacht: er wordt wel gezocht, maar dat is nieuwsgierigheid en geen iemand-die-belt. Overdag adverteren mag juist wél — bij Livio kun je rustig opnemen. Bellen is het moment dat de klant boekt; het bezoek plan je daarna 's avonds of in het weekend.
+
+### AI Max voor campagnes in het zoeknetwerk
+
+**Schakelaar UIT laten**, en onder "Componentoptimalisatie" niets aanvinken.
+
+AI Max is Performance Max-logica die in een Zoeken-campagne geschoven wordt:
+
+- **Breed zoeken uitbreiden** — je woordgroep-zoekwoorden worden weer opengetrokken naar wat Google relevant vindt. Precies wat je net hebt dichtgezet.
+- **Tekstaanpassing** — Google herschrijft je koppen op basis van je website. Die koppen zijn je onderscheid; laat ze staan.
+- **Uitbreiding van uiteindelijke URL** — stuurt bezoekers naar "de meest relevante pagina". Jouw site is één pagina.
+
+De "14% meer conversies" in de banner komt van adverteerders mét conversietracking en genoeg volume om het algoritme te laten leren. Met nul conversies en €4/dag geef je alleen de controle weg zonder dat er iets is om op te sturen. Ooit terugkomen als je weet welke zoektermen klanten opleveren.
 
 ---
 
 ## Stap 4 — Zoekwoorden
 
-**Zoektype omzetten van "Breed" naar "Woordgroep"** en ze **één voor één** invoeren (elk op een eigen regel/veld — niet allemaal in één vak plakken, dan krijg je de melding *"Mag niet meer dan tien woorden bevatten"*).
+Zet het zoektype op **Woordgroep**. Het grote invoervak accepteert **één zoekwoord per regel** — plak ze mét aanhalingstekens, dat maakt ze woordgroep.
+
+> Lukt plakken niet en krijg je *"Mag niet meer dan tien woorden bevatten"*, dan zit je in een enkelvoudig veld: voer ze dan één voor één in.
 
 ```
 "computerhulp aan huis"
@@ -97,11 +128,15 @@ Overdag adverteren mag: bij Livio kun je rustig opnemen. Bellen is het moment da
 "computer hulp aan huis"
 "pc hulp aan huis"
 "laptop reparatie aan huis"
+"laptop traag hulp"
 "wifi probleem aan huis"
-"computer traag hulp"
+"computer opnieuw installeren"
+"hulp bij computer thuis"
 ```
 
 **Verwijder alle suggesties die Google zelf voorstelt** — zoals *router wifi, modem internet, wifi in huis, modem wifi*. Dat zijn mensen die apparatuur willen **kopen**. Jouw zoekwoorden bevatten allemaal een woord dat **iemand inhuren** betekent: "hulp", "aan huis", "reparatie" — vaak met een plaatsnaam erbij. Dat is precies het verschil.
+
+Klik ook **niet** op "Krijg zoekwoordsuggesties" en **niet** op "Alles toepassen" in het oranje balkje *"Voeg meer zoekwoorden toe"*. Het veld **"Geef producten of services op"** mag leeg — dat voedt alleen diezelfde suggestiemachine.
 
 ### Negatieve zoekwoorden
 
@@ -128,9 +163,26 @@ Dit bespaart direct geld: zonder deze lijst betaal je voor mensen die "gratis co
 
 ## Stap 5 — De advertentie
 
-Vul zoveel mogelijk velden — Google roteert ze en test zelf welke combinatie werkt.
+Vul zoveel mogelijk velden — Google roteert ze en test zelf welke combinatie klikken oplevert. Meer dan het minimum invullen loont dus.
 
-**Koppen** (max 30 tekens elk):
+### Weergavepad
+
+De twee vakjes onder `www.spilwerk.nl`:
+
+```
+it-hulp
+aan-huis
+```
+
+Puur cosmetisch: er verschijnt `www.spilwerk.nl/it-hulp/aan-huis` in de advertentie, de klik gaat gewoon naar de homepage.
+
+### Telefoongesprekken
+
+Land **Nederland**, nummer **0687433537**.
+
+Voor deze doelgroep het belangrijkste element van de hele advertentie. Een 70-jarige met een kapotte laptop drukt op de belknop; die vult geen contactformulier in.
+
+### Koppen — 10 stuks, allemaal binnen 30 tekens
 
 ```
 Computer Kapot? Ik Kom Langs
@@ -139,28 +191,56 @@ Ook 's Avonds En In Weekend
 Werkt Het Niet? Geen Kosten
 Computerhulp Enschede
 Computerhulp Hengelo
+Computerhulp Almelo
+Ik Kom Bij Je Thuis Langs
 Wifi, Laptop Of Telefoon
+Geen Voorrijkosten In Twente
 ```
 
-**Beschrijvingen** (max 90 tekens):
+### Beschrijvingen — 4 stuks, binnen 90 tekens
 
 ```
 Vriendelijke IT-hulp aan huis in heel Overijssel. Werkt het niet, dan betaal je niets.
 Computer, wifi, telefoon of tablet. Ook 's avonds en in het weekend, zonder toeslag.
+Ik kom bij je langs in heel Overijssel. Bel of app gerust, ik leg het uit zonder jargon.
+Computer traag, wifi weg of telefoon vast? Ik kom langs en los het bij je thuis op.
 ```
 
-**Weergave-URL-pad:** `spilwerk.nl/it-hulp-aan-huis`
+### Bedrijfsnaam en -logo
+
+**Overslaan.** Daarvoor moet je je merk laten verifiëren bij Google en dat duurt weken. Google gebruikt dan je URL — prima.
 
 ---
 
 ## Stap 6 — Extensies (Google noemt dit "Items")
 
-| Item | Waarde | Waarom |
-|---|---|---|
-| **Bel-item** | 06-87433537 | Belangrijkste van allemaal. Senioren bellen, ze vullen geen formulier in |
-| **Sitelink-items** | Tarieven → `spilwerk.nl/#tarieven` · Diensten → `spilwerk.nl/#diensten` · Over mij → `spilwerk.nl/#over` | Maakt je advertentie fysiek groter in de zoekresultaten |
-| **Locatie-item** | Koppel je Google Business Profile | Laat zien dat je een echt lokaal bedrijf bent |
-| **Highlight-items** | `Ook 's avonds` · `Geen voorrijkosten in Twente` · `Werkt het niet? Geen kosten` | |
+### Sitelinks — vul er 4
+
+De ankers op de site zijn `#prijzen`, `#diensten`, `#over` en `#contact` (niet `#tarieven`).
+
+| Linktekst | URL | Regel 1 | Regel 2 |
+|---|---|---|---|
+| Tarieven | `https://spilwerk.nl/#prijzen` | Vanaf €60 per bezoek in Twente | Geen verrassingen achteraf |
+| Wat ik doe | `https://spilwerk.nl/#diensten` | Computer, wifi, telefoon, tablet | En alles daartussenin |
+| Over mij | `https://spilwerk.nl/#over` | Ik kom zelf langs, geen callcenter | Werkzaam in de IT |
+| Contact | `https://spilwerk.nl/#contact` | Bel of app wanneer je wilt | Reactie meestal dezelfde dag |
+
+Sitelinks maken je advertentie fysiek groter in de zoekresultaten — puur meer schermruimte tegen dezelfde klikprijs.
+
+### Highlights
+
+```
+Ook 's avonds en weekend
+Geen voorrijkosten Twente
+Werkt niet? Geen kosten
+Heel Overijssel
+Ik kom bij je thuis
+Snelle reactie
+```
+
+### Locatie-item
+
+Koppel je Google Business Profile. Laat zien dat je een echt lokaal bedrijf bent.
 
 ---
 

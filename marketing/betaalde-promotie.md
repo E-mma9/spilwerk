@@ -272,7 +272,7 @@ stage
 **URL**: `https://spilwerk.nl`
 **Bel-extensie**: 06-87433537 — aanzetten, dit is voor senioren de belangrijkste knop
 **Locatie-extensie**: koppel je Google Business Profile
-**Sitelinks**: Tarieven (`/#tarieven`), Diensten (`/#diensten`), Over mij (`/#over`)
+**Sitelinks**: Tarieven (`/#prijzen`), Diensten (`/#diensten`), Over mij (`/#over`)
 
 ### Volgorde: eerst profiel, dán geld uitgeven
 
