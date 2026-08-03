@@ -6,14 +6,14 @@
 > een nieuw *privé*nummer — dat deel je met vijf appjes en er hoeft niets herdrukt te worden.
 > Bewaard voor het geval het zakelijke nummer ooit wél moet wijzigen.
 
-**Status:** 06-87433537 staat overal gepubliceerd, maar dat is Emmanuels **privénummer**. Er komt een eSIM die het **zakelijke** nummer wordt. Dit bestand is de complete swap-lijst voor dat moment.
+**Status:** 06-87433537 is het zakelijke nummer en blijft dat. Drukwerk bestellen is niet langer geblokkeerd. Onderstaande lijst is bewaard voor het onwaarschijnlijke geval dat het zakelijke nummer ooit tóch wijzigt.
 
-## ⛔ Doe dit eerst niet
+## Als het nummer ooit tóch wijzigt
 
-- **Niks laten drukken.** Visitekaartjes en flyers met het privénummer erop zijn onbruikbaar zodra het zakelijke nummer er is — papier kun je niet updaten. Wacht met bestellen bij Drukwerkdeal tot de eSIM binnen is.
-- **De Marktplaats-advertentie laten staan.** Die is betaald (€9,90 / 4 weken) en staat live met het privénummer. Hem nu weghalen is weggegooid geld en je bent dan onvindbaar. Zodra het zakelijke nummer er is: de tekst van de bestaande advertentie **bewerken** (dat mag zonder bijbetalen), niet verwijderen en opnieuw plaatsen.
+- **Drukwerk is dan verloren.** Papier kun je niet updaten — reken op een nieuwe bestelling.
+- **De Marktplaats-advertentie laten staan.** Die is betaald (€9,90 / 4 weken). Weghalen is weggegooid geld en je bent dan onvindbaar. De tekst van de bestaande advertentie **bewerken** mag zonder bijbetalen; niet verwijderen en opnieuw plaatsen.
 
-## Wat er verandert zodra het zakelijke nummer bekend is
+## Wat er dan aangepast moet worden
 
 Zoek-en-vervang `87433537` (en de variant met spaties `87 43 35 37`, en `+31687433537` / `wa.me/31687433537`) in:
 
