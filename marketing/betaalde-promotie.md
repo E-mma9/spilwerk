@@ -6,11 +6,11 @@ Vier kanalen waar je geld voor uitgeeft. **Volgorde van prioriteit:**
 1. Visitekaartjes      ★★★  €25  — eerste week, geen reden om te wachten
 2. Lokaal weekblad     ★★★  €240 — vanaf week 4-6, meest ROI per euro voor B2C lokaal
 3. Auto-magneetborden  ★★   €40  — vanaf week 4 (zodra je op locatie gaat werken)
-4. Google Ads          ★    €450 — pas vanaf maand 4+ (na 5+ reviews op Google)
+4. Google Ads          ★★   €120 — account draait; aanzetten zodra GBP af is + 1e review
 5. Meta Ads (FB/IG)    ★    €100 — pas vanaf maand 6+ als experiment
 ```
 
-Tussen nu en de eerste klant: **alleen #1 doen**. De rest is geld weggooien zonder Google Business Profile + 5 reviews.
+Prioriteit nu: **#1 bestellen** en **het Google Business Profile afmaken**. Google Ads staat klaar maar hoeft pas te lopen als er een review op je profiel staat — zie §4.
 
 ---
 
@@ -18,50 +18,49 @@ Tussen nu en de eerste klant: **alleen #1 doen**. De rest is geld weggooien zond
 
 ### Wat erop staat (voor- + achterzijde, 85×55mm standaard)
 
-**Voorzijde** — merk + persoon
+> De print-ready bestanden staan in `marketing/visitekaartje/`. Hieronder alleen ter oriëntatie — bij wijzigingen zijn de SVG's leidend, niet dit schema.
+
+**Voorzijde** — merk + telefoonnummer
 
 ```
 ┌────────────────────────────────────┐
 │                                    │
-│   ●  SPILWERK                      │
-│       IT-hulp aan huis             │
+│   ◎  Spilwerk                      │
+│       IT-hulp aan huis · Overijssel│
 │                                    │
+│   Computers · internet · telefoons │
+│   en alles daartussenin            │
+│   ──                               │
 │                                    │
-│                                    │
-│   Emmanuel Tekle                   │
-│   Eigenaar                         │
-│                                    │
+│   06-87433537         spilwerk.nl  │
 └────────────────────────────────────┘
 ```
 
 Lay-out:
-- Klein groen rondje (zelfde brand-mark als op site, kleur #4A7C59)
-- "SPILWERK" — groot, Manrope bold (~22pt)
-- "IT-hulp aan huis" — subtekst onder, Manrope regular (~10pt)
-- Naam + functie onderin
-- Achtergrondkleur: paper-crème (#FBF6EE) — past bij site, valt op tussen wit-witte concurrent-kaartjes
+- Groene ring met crème centrum (zelfde brand-mark als op site, #4A7C59)
+- "Spilwerk" — groot, Manrope extrabold, sentence-case
+- Diensten breed geformuleerd — géén opsomming, anders lijkt het alsof je alléén dat kunt
+- Achtergrondkleur: paper-crème (#FBF6EE) — valt op tussen wit-witte concurrent-kaartjes
+- **Geen naam, geen functietitel, geen prijs** (bewust weggelaten)
 
-**Achterzijde** — wat je doet + hoe je gevonden wordt
+**Achterzijde** — contact, omgekeerd kleurenschema
 
 ```
 ┌────────────────────────────────────┐
 │                                    │
-│   📞 06–8743 3537                  │
-│   ✉  emmanueltekle@gmail.com       │
-│   🌐 spilwerk.nl                   │
+│   06-87433537                      │
+│   Heel Overijssel · bel of app     │
+│   spilwerk.nl                      │
+│   ──────                           │
+│   Werkt het niet? Dan betaal je    │
+│   niets                            │
 │                                    │
-│   Heel Overijssel · vanaf €60      │
-│                                    │
-│   • Computer-hulp                  │
-│   • Wifi & internet                │
-│   • Telefoon & tablet              │
-│   • Backup & veilig online         │
-│   • Voor zelfstandigen             │
-│                                    │
+│   ◎ Spilwerk                       │
+│     Particulier & zakelijk         │
 └────────────────────────────────────┘
 ```
 
-Achtergrondkleur achterzijde: groen (#4A7C59) met witte tekst, óf paper-crème met groene tekst — beide werken. Kleur-gevarieerd voor- en achterzijde valt op in een visitekaartjeshouder.
+Achterzijde is groen (#4A7C59) met crème tekst. Kleur-gevarieerd voor- en achterzijde valt op in een visitekaartjeshouder.
 
 ### Waar bestellen
 
@@ -161,11 +160,11 @@ Magnetische deurborden voor je auto (~30×40 cm). Je plakt ze op je auto-deuren 
 ```
 ┌───────────────────────────────────────┐
 │                                       │
-│   ●  SPILWERK                         │
+│   ◎  Spilwerk                         │
 │      IT-hulp aan huis                 │
 │                                       │
 │      ▶ heel Overijssel                │
-│      ▶ vanaf €60                      │
+│      ▶ ook 's avonds en weekend       │
 │                                       │
 │      📞 06–8743 3537                  │
 │      🌐 spilwerk.nl                   │
@@ -189,86 +188,124 @@ Magneten zijn alleen effectief als ze **schoon, recht, en in goede staat** zijn.
 
 ---
 
-## 4. Google Ads — pas vanaf maand 4
+## 4. Google Ads — draait sinds juli 2026
 
-### Eerlijk: nu nog niet starten
+> Het oude advies in dit hoofdstuk was "wacht tot maand 4". Dat is achterhaald: het account bestaat en er is geadverteerd. Wat hieronder staat is de **huidige, correcte inrichting**.
 
-Voor B2C lokaal IT-hulp is Google Ads pas zinvol vanaf:
+### 4a. Opruimen: de Performance Max-campagne moet weg
 
-| Voorwaarde | Reden |
+Bij het aanmaken is Google's standaardpad gevolgd en dat leverde een **Performance Max**-campagne op (`Kennis van diverse compute…`, €3,60/dag). Die is voor Spilwerk verkeerd:
+
+| Waarom PMax niet werkt voor jou | |
 |---|---|
-| **5+ reviews op Google Business Profile** | Klanten klikken op een ad zonder reviews niet — verbrand budget |
-| **Volledig Google Business Profile** | Ads krijgen ranking-boost dankzij organische profile |
-| **Site live + functioneel contactformulier** | Anders verlies je clicks na ze betaalt zijn |
-| **€300-500 budget voor 60-90 dagen** | Minder dan dat = onvoldoende data om campaign te optimaliseren |
-| **Maandelijkse review + bijstellen** (~1u/mnd) | Zonder bijstellen blijft Google geld vragen voor irrelevante clicks |
+| Je kiest niet waar je verschijnt | Google verdeelt het budget over YouTube, Gmail, Display en Discover — netwerken met bijna nul koopintentie voor "mijn laptop is stuk" |
+| Geen zoekwoorden, geen zoektermen-rapport | Je kunt niet zien waar je geld heen ging en dus ook niet bijsturen |
+| PMax heeft conversiedata nodig | Jij hebt nul geregistreerde conversies. Zonder die data optimaliseert het algoritme op niks |
+| Minimaal effectief budget | Praktijk is €20-30/dag. Op €3,60/dag krijgt PMax nooit genoeg signaal |
 
-Voor jou nu (eerste 3 maanden): **dat geld beter besteden aan visitekaartjes + weekblad-advertentie**. Google Ads activeren in maand 4-6.
+**Actie:** campagne selecteren → drie puntjes → **Verwijderen**. Pauzeren mag ook, maar verwijderen houdt het overzicht schoon; de historie blijft bewaard onder "Verwijderde campagnes".
 
-### Wanneer dán wel — roadmap
+### 4b. De juiste campagne: type **Zoeken**
 
-**Maand 4** (heb je ~5 reviews + Google Business Profile):
+| Instelling | Waarde | Waarom |
+|---|---|---|
+| Campagnetype | **Zoeken** | Alleen mensen die actief een probleem intypen |
+| Doel | **Zonder doelstelling maken** | Anders duwt Google je terug richting PMax |
+| Biedstrategie | **Klikken maximaliseren** (met max. CPC-limiet €1,20) | "Conversies maximaliseren" heeft data nodig die je niet hebt |
+| Dagbudget | **€3-5** | ~€90-150/maand. Meer pas als je weet welke zoekwoorden werken |
+| Zoekpartners van Google opnemen | **UIT** | Staat standaard aan. Lage kwaliteit, vreet budget |
+| Display-netwerk opnemen | **UIT** | Staat standaard aan. Dit is de PMax-fout in het klein |
+| Locaties | Overijssel, of straal 35 km rond Enschede/Hengelo | |
+| Locatie-optie | **"Aanwezigheid: mensen in of regelmatig in uw doelgebieden"** | Standaard staat 'ook mensen die interesse tonen' — dat levert klikken uit heel NL op |
+| Talen | Nederlands | |
+| Advertentieschema | ma-vr 08:00-21:30, za-zo 09:00-20:00 | Bij Livio kun je rustig opnemen; bellen is het boekmoment, het bezoek plan je 's avonds/weekend |
+| Automatisch gemaakte items | **UIT** | Google verzint anders eigen koppen en landingspagina's |
 
-1. Account aanmaken op [ads.google.com](https://ads.google.com)
-2. Eerste campaign: **"Spilwerk · Overijssel · IT-hulp"**
-3. Type: **Search Ads** (niet Display, niet YouTube)
-4. Budget: **€7/dag** = €210/maand
-5. Locatie-targeting: **heel Overijssel** (35-50 km radius rond je woonplaats)
-6. Schedule: **ma-vr 08:00-21:30, za-zo 09:00-20:00.** Emmanuel kan tijdens zijn Livio-dienst gewoon opnemen (rustige baan), dus overdag adverteren is prima — bellen is het moment dat de klant boekt, het bezoek plan je daarna in voor 's avonds of het weekend. Nachten uitsluiten: lage koopintentie en je slaapt.
+### Zoekwoorden — allemaal als **"Woordgroep"**, één per regel
 
-   Zet in de advertentietekst wél dat je 's avonds en in het weekend langskomt zonder toeslag — dat is het onderscheid met de computerwinkels, die dan dicht zijn.
+Breed staat standaard aan en koppelt je aan alles wat vaag verwant is. Woordgroep (`"..."`) is de juiste balans.
 
-### Keywords (eerste set)
+```
+"computerhulp aan huis"
+"computerhulp Enschede"
+"computerhulp Hengelo"
+"computer hulp aan huis"
+"pc hulp aan huis"
+"laptop reparatie aan huis"
+"wifi probleem aan huis"
+"computer traag hulp"
+```
 
-**Brede match** ("starts with"):
-- `computer hulp aan huis Twente`
-- `wifi probleem [stad]` (Hengelo / Enschede / Almelo / Zwolle)
-- `IT hulp [stad]`
-- `laptop traag [stad]`
+Elk zoekwoord bevat een woord dat **hulp inhuren** betekent ("hulp", "aan huis", "reparatie") — vaak met een plaatsnaam erbij. Dat is het verschil met Google's eigen suggesties (*router wifi, modem internet, wifi in huis, modem wifi*): die zijn van mensen die **hardware willen kópen**, niet iemand willen inhuren. Verwijder die suggesties allemaal.
 
-**Phrase match** (in zoekopdracht):
-- "computerhulp"
-- "thuis IT"
-- "computer kapot"
-- "wifi werkt niet"
+**Negatieve zoekwoorden** — meteen toevoegen:
 
-**Negatieve keywords** (bespaart je geld) — voeg deze altijd toe:
-- gratis
-- vacature, baan, sollicitatie
-- cursus, opleiding
-- review (mensen die reviews lezen, niet kopen)
-- HBO, MBO (studenten zoeken zelf)
-- "DIY"
+```
+gratis
+vacature
+baan
+sollicitatie
+cursus
+opleiding
+tweedehands
+kopen
+handleiding
+zelf doen
+review
+stage
+```
 
 ### Ad-tekst — kant-en-klaar
 
-**Headline 1** (30 tekens): `Computer Kapot? Ik Kom Langs.`
-**Headline 2** (30 tekens): `IT-hulp Aan Huis · Overijssel`
-**Headline 3** (30 tekens): `Vanaf €60 · Vaste Prijzen`
+**Headlines** (max 30 tekens elk):
+- `Computer Kapot? Ik Kom Langs`
+- `IT-hulp Aan Huis · Overijssel`
+- `Ook 's Avonds En In Weekend`
+- `Werkt Het Niet? Geen Kosten`
+- `Computerhulp Enschede`
+- `Computerhulp Hengelo`
 
-**Beschrijving 1** (90 tekens): `Vriendelijke IT-hulp aan huis voor heel Overijssel. Werkt het niet → geen kosten.`
-**Beschrijving 2** (90 tekens): `Computer, wifi, telefoon, backup. Eerlijke vaste prijzen. Spilwerk · Twente.`
+**Beschrijvingen** (max 90 tekens):
+- `Vriendelijke IT-hulp aan huis in heel Overijssel. Werkt het niet, dan betaal je niets.`
+- `Computer, wifi, telefoon of tablet. Ook 's avonds en in het weekend, zonder toeslag.`
 
-**URL**: spilwerk.nl
-**Display URL**: spilwerk.nl/it-hulp
+**URL**: `https://spilwerk.nl`
+**Bel-extensie**: 06-87433537 — aanzetten, dit is voor senioren de belangrijkste knop
+**Locatie-extensie**: koppel je Google Business Profile
+**Sitelinks**: Tarieven (`/#tarieven`), Diensten (`/#diensten`), Over mij (`/#over`)
 
-**Call extension**: 06-87433537
-**Location extension**: koppel je Google Business Profile
+### Volgorde: eerst profiel, dán geld uitgeven
+
+Je advertentie stuurt mensen naar een bedrijf **zonder één review**. Dat is precies de klik waar je voor betaalt en die niet belt. Dus:
+
+1. Google Business Profile afmaken (beschrijving, openingstijden, diensten, foto's)
+2. Eerste 1-2 reviews binnen (Fred vragen na zondag 9 augustus)
+3. **Dán** de Search-campagne aanzetten
+
+Tot dat moment: campagne opgebouwd laten staan, maar **onderbroken**. Gezien de €400/maand stagevergoeding is elke euro die nu naar een reviewloze klik gaat, weggegooid geld.
+
+### Maandelijks onderhoud (~20 min)
+
+1. **Zoektermen-rapport** openen (Campagnes → Inzichten → Zoektermen) — dit is *wat mensen echt intypten*, niet wat jij hebt ingesteld
+2. Alles wat geen inhuur-intentie heeft → toevoegen als negatief zoekwoord
+3. Zoekwoorden met 0 klikken na 100 vertoningen → pauzeren
+4. Kijk of het geld naar Enschede/Hengelo gaat en niet naar de rest van het land
 
 ### Verwacht resultaat
 
-Eerste 30 dagen (maand 4):
-- ~150-300 clicks (afhankelijk van budget)
-- ~50-100 mensen op je site
-- ~3-8 daadwerkelijke bel/mail-aanvragen
-- ~1-3 betalende klanten
-- **Kosten per klant**: €70-200
+Eerste 30 dagen op €4/dag (~€120):
+- ~80-150 klikken (CPC in deze niche in Twente: €0,70-1,50)
+- ~3-6 bel- of app-aanvragen
+- ~1-2 betalende klanten
+- **Kosten per klant**: €60-120
 
-Niet super-goedkoop. Maar als die klanten 2-3× terugkomen wordt-ie wel rendabel.
+Eén klant van €60 verdient de maand niet terug. Twee klanten, of één klant die terugkomt, wel. Dat is de hele marge — daarom is het zoektermen-rapport geen bijzaak.
 
 ### Stop-sein
 
-Als na 60 dagen + €300 budget je geen 4+ klanten hebt: stop tijdelijk en gebruik dat geld voor visitekaartjes + verwijzer-partners. Mensen kopen IT-hulp via Google maar niet via een Google-ad — sommige doelgroepen reageren beter op andere kanalen.
+Als na 30 dagen + €120 budget er **geen enkele** aanvraag uit Ads komt: pauzeren. Als er 1 klant uitkomt: doorlopen op hetzelfde budget en alleen optimaliseren. Pas opschalen naar €7-10/dag als je 3+ klanten uit één maand haalt.
+
+Blijft het na twee maanden nul: dat geld gaat naar visitekaartjes en verwijzer-partners. Sommige doelgroepen — zeker senioren — vinden je via het Google Business Profile en mond-tot-mond, niet via een advertentie.
 
 ---
 
