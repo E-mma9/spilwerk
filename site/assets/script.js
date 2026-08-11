@@ -30,7 +30,7 @@
       const body = encodeURIComponent(
         `Naam: ${f.get('name') || ''}\nBedrijf: ${f.get('company') || ''}\nE-mail: ${f.get('email') || ''}\n\nWat speelt er:\n${f.get('message') || ''}`
       );
-      location.href = `mailto:emmanueltekle@gmail.com?subject=${subject}&body=${body}`;
+      location.href = `mailto:admin@spilwerk.nl?subject=${subject}&body=${body}`;
     });
   }
 
@@ -44,7 +44,7 @@
     //   E.164-formaat zonder spaties of streepjes, bv. '+31612345678'
     //   Op null laten staan = die optie verschijnt niet.
     const CONTACT = {
-      email:    'emmanueltekle@gmail.com',
+      email:    'admin@spilwerk.nl',
       whatsapp: '+31687433537',
       phone:    '+31687433537',
     };
