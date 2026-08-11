@@ -47,7 +47,7 @@ Tot [dag]!
 
 Groet,
 Emmanuel Tekle
-Spilwerk · 06-87433537 · emmanueltekle@gmail.com
+Spilwerk · 06-87433537 · admin@spilwerk.nl
 ```
 
 ## Wat je NIET in deze mini-bevestiging zet

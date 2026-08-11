@@ -17,7 +17,7 @@ Voor zelfstandigen of kleine kantoren die je **maandelijks terugkerend** willen 
 
 **Spilwerk** (handelsnaam Emmanuel Tekle)
 KvK: [nummer] · BTW: [nummer]
-Adres: [adres] · E-mail: emmanueltekle@gmail.com
+Adres: [adres] · E-mail: admin@spilwerk.nl
 
 en
 

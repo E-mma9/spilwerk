@@ -20,7 +20,7 @@ Emmanuel Tekle
 KvK: [nummer]
 BTW: NL[BSN]B[01-99]
 IBAN: NL[XX] [BANK] [12 cijfers]
-emmanueltekle@gmail.com · spilwerk.nl
+admin@spilwerk.nl · spilwerk.nl
 
 ---
 

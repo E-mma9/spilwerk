@@ -101,7 +101,7 @@ Handtekening: _______________
 
 Emmanuel Tekle · Spilwerk
 KvK: [nummer] · BTW: [nummer]
-emmanueltekle@gmail.com · spilwerk.nl
+admin@spilwerk.nl · spilwerk.nl
 
 ---
 ```

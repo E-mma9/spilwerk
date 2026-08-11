@@ -219,7 +219,7 @@ Stuur me een korte mail terug — dan verwerk ik dat in de offerte.
 
 Groet,
 Emmanuel Tekle
-Spilwerk · emmanueltekle@gmail.com · spilwerk.nl
+Spilwerk · admin@spilwerk.nl · spilwerk.nl
 ```
 
 ---

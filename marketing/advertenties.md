@@ -61,7 +61,7 @@ Aparte gratis WhatsApp Business-app, kan op hetzelfde nummer 06-87433537.
 - **Categorie:** Computerservice
 - **Servicegebied:** heel Overijssel (kies "klanten in een bepaald gebied", géén vast winkeladres)
 - **Openingstijden:** ma–vr 09:00–18:00 · za–zo op afspraak
-- **E-mail:** emmanueltekle@gmail.com
+- **E-mail:** admin@spilwerk.nl
 - **Website:** spilwerk.nl (zodra live)
 
 **Bedrijfsomschrijving** (max ~256 tekens):

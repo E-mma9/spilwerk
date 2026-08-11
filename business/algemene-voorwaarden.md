@@ -108,7 +108,7 @@ In deze algemene voorwaarden wordt verstaan onder:
 KvK: [in te vullen na inschrijving]
 BTW: [in te vullen na inschrijving]
 Adres: [adres conform KvK]
-E-mail: emmanueltekle@gmail.com
+E-mail: admin@spilwerk.nl
 Web: spilwerk.nl
 
 *Laatste wijziging: [datum]*

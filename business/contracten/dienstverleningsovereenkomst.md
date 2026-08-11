@@ -16,7 +16,7 @@ Voor eenmalige projecten >€200 voor zelfstandigen of kleine bedrijven. Past op
 **Spilwerk** (handelsnaam Emmanuel Tekle)
 KvK: [KvK-nummer]
 Adres: [postcode + plaats]
-E-mail: emmanueltekle@gmail.com
+E-mail: admin@spilwerk.nl
 
 en
 
