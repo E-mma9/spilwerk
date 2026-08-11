@@ -24,6 +24,29 @@ Stuur de link per WhatsApp terwijl je naast ze staat en laat het scherm zien. St
 
 Geen Google-account (komt vaak voor bij iPhone-gebruikers)? Vraag dan om een paar zinnen per WhatsApp en of je die met hun voornaam op de site mag zetten. Minder waard voor vindbaarheid, wel echt bewijs.
 
+## Kant-en-klaar bericht na een bezoek
+
+```
+Hoi [naam],
+
+Fijn dat het weer draait. Als er de komende dagen nog iets raars
+gebeurt, laat het gerust weten — dan kijk ik even mee op afstand.
+
+Eén verzoekje: ik ben net voor mezelf begonnen, dus ik moet het
+vooral van mond-tot-mond hebben. Zou je een korte review op Google
+voor me willen achterlaten? Een paar woorden is al genoeg en het
+kost je een halve minuut:
+
+https://g.page/r/CahMjwgVmxX7EBM/review
+
+Geen enkel probleem als het er niet van komt.
+
+Groet,
+Emmanuel — Spilwerk
+```
+
+Als mail: onderwerp `Even over vanmiddag — en een klein verzoekje`.
+
 ## Herinnering — één keer, daarna niet meer
 
 > *"Hoi [naam], alles nog goed met de computer? Mocht je nog even tijd hebben voor die Google-review — hier is de link: https://g.page/r/CahMjwgVmxX7EBM/review. Geen probleem als het er niet van komt. Groet, Emmanuel"*
