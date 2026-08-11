@@ -671,3 +671,20 @@ h4 { font-size: 1rem; }
 .before-after .before .label { color: var(--warm-2); }
 .before-after .after .label { color: var(--accent-2); }
 @media (max-width: 600px) { .before-after { grid-template-columns: 1fr; } }
+
+/* ── Actieve navigatie-link (meerdere pagina's) ────────────────────── */
+.site-header nav .btn-ghost.is-active {
+  color: var(--green);
+  font-weight: 700;
+  position: relative;
+}
+.site-header nav .btn-ghost.is-active::after {
+  content: "";
+  position: absolute;
+  left: 0.75rem;
+  right: 0.75rem;
+  bottom: 0.25rem;
+  height: 2px;
+  border-radius: 2px;
+  background: var(--green);
+}

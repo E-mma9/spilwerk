@@ -220,9 +220,9 @@ De ankers op de site zijn `#prijzen`, `#diensten`, `#over` en `#contact` (niet `
 
 | Linktekst | URL | Regel 1 | Regel 2 |
 |---|---|---|---|
-| Tarieven | `https://spilwerk.nl/#prijzen` | Vanaf €60 per bezoek in Twente | Geen verrassingen achteraf |
-| Wat ik doe | `https://spilwerk.nl/#diensten` | Computer, wifi, telefoon, tablet | En alles daartussenin |
-| Over mij | `https://spilwerk.nl/#over` | Ik kom zelf langs, geen callcenter | Werkzaam in de IT |
+| Tarieven | `https://spilwerk.nl/prijzen/` | Vanaf €60 per bezoek in Twente | Geen verrassingen achteraf |
+| Wat ik doe | `https://spilwerk.nl/diensten/` | Computer, wifi, telefoon, tablet | En alles daartussenin |
+| Over mij | `https://spilwerk.nl/over/` | Ik kom zelf langs, geen callcenter | Werkzaam in de IT |
 | Contact | `https://spilwerk.nl/#contact` | Bel of app wanneer je wilt | Reactie meestal dezelfde dag |
 
 Sitelinks maken je advertentie fysiek groter in de zoekresultaten — puur meer schermruimte tegen dezelfde klikprijs.

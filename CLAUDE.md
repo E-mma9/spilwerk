@@ -14,7 +14,7 @@ Werkmap voor **Spilwerk**, eenmanszaak (in voorbereiding) van Emmanuel Tekle. **
 
 | Map | Wat |
 |---|---|
-| `site/` | Single-page website (`index.html` is de hele site behalve `werk/tankstation.html`). Statisch HTML/CSS/JS, geen build-step. |
+| `site/` | Website met vier pagina's: `index.html` (home + contact), `diensten/`, `prijzen/`, `over/`, plus de case study `werk/tankstation.html`. Statisch HTML/CSS/JS, **geen build-step** — header, footer en scripts staan dus in elk bestand apart. Wijzig je de nav, het telefoonnummer of de footer, doe dat in **alle vijf** de HTML-bestanden. |
 | `leadgen/` | Python-tool voor outreach-concepten. Minder relevant voor B2C — vooral nuttig voor zelfstandige-professionals tier. |
 | `marketing/` | Outreach-plan: Marktplaats, Google Business Profile, lokale Facebook-groepen, buurt-flyers. LinkedIn is **geparkeerd** — Emmanuel doet het bewust (nog) helemaal niet; niet in planning opnemen. |
 | `business/` | Algemene voorwaarden, factuur-template, kostprijs. Discovery-script en offerte-template zijn vooral relevant voor zelfstandige-professionals tier. |
@@ -23,7 +23,7 @@ Werkmap voor **Spilwerk**, eenmanszaak (in voorbereiding) van Emmanuel Tekle. **
 
 Bij wijzigingen aan diensten **drie plekken synchroon houden**:
 
-1. `site/index.html` — diensten-grid in `#diensten` sectie
+1. `site/diensten/index.html` — diensten-grid (en `site/prijzen/index.html` voor tarieven)
 2. `leadgen/prompts/outreach.md` — system prompt voor Claude
 3. `business/kostprijs.md` — marge-analyse
 
