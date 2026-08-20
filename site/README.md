@@ -26,7 +26,7 @@ python -m http.server 8000
 ## Voor je publiceert — checklist
 
 - [ ] Domein registreren (`spilwerk.nl` of alternatief) — check beschikbaarheid
-- [ ] Echte KvK-nummer + BTW-nummer in footer (overal `KvK volgt · BTW volgt` vervangen)
+- [ ] Echte KvK-nummer + BTW-nummer in de footer zetten zodra de inschrijving rond is (staat er nu bewust niet)
 - [ ] Open Graph image toevoegen (1200×630) — komt in `<meta property="og:image">`
 - [ ] Privacyverklaring + algemene voorwaarden — niet wettelijk verplicht voor een brochure-site, wel verstandig zodra je formulier-gegevens verwerkt
 - [ ] Cookie-banner alleen nodig als je tracking toevoegt (nu niet — bewust geen Google Analytics)

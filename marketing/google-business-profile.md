@@ -79,7 +79,7 @@ Werkgebied: heel Overijssel — Hengelo, Enschede, Almelo, Borne, Oldenzaal, Zwo
 
 ## 5. Openingstijden
 
-Zet hier de tijden waarop je **daadwerkelijk kunt reageren en langskomen**. Overdag zit je bij Livio (ma-vr 08:00-17:00).
+Zet hier de tijden waarop je **daadwerkelijk kunt reageren en langskomen**. Overdag zit je op je werk (ma-vr 08:00-17:00).
 
 ```
 Maandag    18:00 – 21:00
@@ -91,7 +91,7 @@ Zaterdag   10:00 – 18:00
 Zondag     10:00 – 18:00
 ```
 
-**Afweging:** ruimere tijden (bv. 09:00-21:00) betekent dat je vaker "Nu geopend" toont in het kaartje, wat klikken oplevert — maar ook gemiste telefoontjes tijdens je Livio-dag. Bovenstaande is eerlijk. Wil je toch breder, zet dan minimaal een duidelijke belofte in je beschrijving ("reactie binnen 24 uur").
+**Afweging:** ruimere tijden (bv. 09:00-21:00) betekent dat je vaker "Nu geopend" toont in het kaartje, wat klikken oplevert — maar ook gemiste telefoontjes tijdens je werkdag. Bovenstaande is eerlijk. Wil je toch breder, zet dan minimaal een duidelijke belofte in je beschrijving ("reactie binnen 24 uur").
 
 Je bent 's avonds en in het weekend open terwijl de computerwinkels in Enschede dicht zijn — **noem dat actief** in je beschrijving en posts. Dat is je scherpste onderscheid.
 

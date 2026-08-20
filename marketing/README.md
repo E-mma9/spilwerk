@@ -42,13 +42,13 @@ Je sterkste kanaal voor klanten die **vertrouwen vóór alles** zetten. Concreet
 
 - **Total Tankstation referral vragen** (week 1): "Ken je nog 2 ondernemers met soortgelijk Excel-gedoe? Ik mag jou als referentie gebruiken." → mailtje sturen, 5 minuten werk, >50% kans op minstens 1 lead.
 - **BNI Twente of vergelijkbare ondernemersclub** bezoeken als gast (€0). Iedereen daar is zelf ondernemer en heeft een IT-pijn. Locaties: Hengelo, Enschede, Almelo. Drie bezoeken meedoen voor je beslist of je lid wordt.
-- **Saxion alumni-netwerk** + LinkedIn-verbinding met je docenten en stagebegeleiders. Docenten kennen vaak bedrijven die "iemand zoeken voor een klein klusje".
+- **Alumni-netwerk van je opleiding** + LinkedIn-verbinding met je docenten en stagebegeleiders. Docenten kennen vaak bedrijven die "iemand zoeken voor een klein klusje".
 - **MKB-Nederland Oost** — gratis nieuwsbrieven en evenementen.
 - **Industriepark Hengelo / Kennispark Twente** — bedrijfsverzamelgebouwen lopen vol met MKB-ondernemers die je kunt bereiken via één goed open-koffie-event.
 
 ## 30-dagen-plan
 
-Eerlijk over wat dit kost: ongeveer **8–10 uur per week** naast school + Livio. Te doen, maar je moet er een vast moment voor inplannen (bv. di + do avond).
+Eerlijk over wat dit kost: ongeveer **8–10 uur per week** naast school + je baan. Te doen, maar je moet er een vast moment voor inplannen (bv. di + do avond).
 
 ### Week 1 — fundament
 

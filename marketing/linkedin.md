@@ -5,7 +5,7 @@
 **Eerst dit:** LinkedIn is *niet* je hoofdkanaal. Particulieren met een kapotte laptop zitten niet op LinkedIn — die vind je via Google Business Profile, Marktplaats en mond-tot-mond (zie [`tracker.md`](./tracker.md)). LinkedIn is nuttig voor precies twee dingen:
 
 1. **De zelfstandige-professionals-tier** — kappers, accountants, makelaars, coaches met een klein kantoor zitten er wél
-2. **Doorverwijzers** — jouw eigen netwerk (studiegenoten, Livio-collega's, familie) dat moet wéten dat Spilwerk bestaat
+2. **Doorverwijzers** — jouw eigen netwerk (studiegenoten, collega's, familie) dat moet wéten dat Spilwerk bestaat
 
 Tijdsbudget: **max 1 uur per week**. Eén post per 2-3 weken plus reageren op anderen is genoeg. Elke minuut meer gaat ten koste van kanalen die beter converteren.
 
@@ -25,7 +25,7 @@ Wat wél mag en werkt:
 
 ```
 Spilwerk · Vriendelijke IT-hulp aan huis — heel Overijssel
-Voor particulieren en zelfstandigen · HBO ICT (Saxion) · 2e-lijns systeembeheerder @ Livio
+Voor particulieren en zelfstandigen · HBO ICT Cybersecurity & Cloud · 2e-lijns systeembeheerder
 ```
 
 ### About-sectie
@@ -39,9 +39,8 @@ vaste prijzen.
 
 Geen jargon, geen verrassingen. Werkt het niet? Dan betaal je niets.
 
-Achtergrond: HBO ICT Cybersecurity & Cloud bij Saxion (Enschede),
-2e-lijns systeembeheerder bij Livio, en eerder ICT'er aan huis bij
-Student aan Huis — dit werk is niet nieuw voor me. Thuis draait een
+Achtergrond: HBO ICT Cybersecurity & Cloud, 2e-lijns systeembeheerder,
+en al jaren ICT'er aan huis — dit werk is niet nieuw voor me. Thuis draait een
 3-node Proxmox-cluster waarop ik elke configregel zelf heb gezet.
 
 Groter werk kan ook: voor Total Tankstation verving ik hun maandelijkse
@@ -85,9 +84,8 @@ het netwerk krijgt.
 Ik kom langs, los het op, en leg uit wat ik doe — in normaal Nederlands,
 in jouw tempo. Werkt het niet? Dan betaal je niets.
 
-Dit werk is niet nieuw voor me: ik deed het eerder bij Student aan Huis,
-en werk naast mijn studie (HBO ICT, Saxion) als 2e-lijns systeembeheerder
-bij Livio.
+Dit werk is niet nieuw voor me: ik doe het al jaren, en werk naast mijn
+studie (HBO ICT, Cybersecurity & Cloud) als 2e-lijns systeembeheerder.
 
 Ook voor zelfstandigen en kleine kantoren: werkplek-setups, gedeelde
 mappen, backups die écht getest zijn — vaste prijzen, geen retainer.
@@ -221,7 +219,7 @@ Trigger: ze plaatsten zelf iets over IT-frustratie / computer-gedoe / mail-probl
 
 ```
 Hoi [Voornaam], las je post over [specifiek detail]. Heel herkenbaar —
-ik werk in IT-support bij Livio en hoor letterlijk hetzelfde verhaal
+ik werk in IT-support en hoor letterlijk hetzelfde verhaal
 elke week.
 
 Daarnaast help ik met Spilwerk zelfstandigen in Overijssel precies

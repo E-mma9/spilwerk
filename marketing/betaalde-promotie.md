@@ -218,7 +218,7 @@ Bij het aanmaken is Google's standaardpad gevolgd en dat leverde een **Performan
 | Locaties | Overijssel, of straal 35 km rond Enschede/Hengelo | |
 | Locatie-optie | **"Aanwezigheid: mensen in of regelmatig in uw doelgebieden"** | Standaard staat 'ook mensen die interesse tonen' — dat levert klikken uit heel NL op |
 | Talen | Nederlands | |
-| Advertentieschema | ma-vr 08:00-21:30, za-zo 09:00-20:00 | Bij Livio kun je rustig opnemen; bellen is het boekmoment, het bezoek plan je 's avonds/weekend |
+| Advertentieschema | ma-vr 08:00-21:30, za-zo 09:00-20:00 | Op je werk kun je rustig opnemen; bellen is het boekmoment, het bezoek plan je 's avonds/weekend |
 | Automatisch gemaakte items | **UIT** | Google verzint anders eigen koppen en landingspagina's |
 
 ### Zoekwoorden — allemaal als **"Woordgroep"**, één per regel

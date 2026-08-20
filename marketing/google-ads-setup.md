@@ -99,7 +99,7 @@ Vijf regels, waarvan er één moet veranderen:
 | Zaterdag | 09:00 | 20:00 |
 | Zondag | 09:00 | 20:00 |
 
-Wat je hiermee afkapt is de nacht: er wordt wel gezocht, maar dat is nieuwsgierigheid en geen iemand-die-belt. Overdag adverteren mag juist wél — bij Livio kun je rustig opnemen. Bellen is het moment dat de klant boekt; het bezoek plan je daarna 's avonds of in het weekend.
+Wat je hiermee afkapt is de nacht: er wordt wel gezocht, maar dat is nieuwsgierigheid en geen iemand-die-belt. Overdag adverteren mag juist wél — op je werk kun je rustig opnemen. Bellen is het moment dat de klant boekt; het bezoek plan je daarna 's avonds of in het weekend.
 
 ### AI Max voor campagnes in het zoeknetwerk
 

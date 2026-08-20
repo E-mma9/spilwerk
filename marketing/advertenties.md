@@ -95,7 +95,7 @@ Ik ben Emmanuel uit Enschede en ik help mensen aan huis met computer- en interne
 
 Denk aan: een trage laptop, wifi die de slaapkamer niet haalt, een nieuwe telefoon instellen, foto's veiligstellen, of gewoon iemand die het rustig uitlegt zonder moeilijke woorden.
 
-Ik werk overdag als systeembeheerder en deed dit werk eerder bij Student aan Huis, dus je zit goed. En eerlijk is eerlijk: lukt het niet, dan betaal je niets.
+Ik werk overdag als systeembeheerder en doe dit werk al jaren, dus je zit goed. En eerlijk is eerlijk: lukt het niet, dan betaal je niets.
 
 Eerste uur aan huis in Twente €60 (incl. voorrijden), daarbuiten in Overijssel iets meer reiskosten. Even bellen of appen wat er speelt kan altijd, gratis en vrijblijvend.
 

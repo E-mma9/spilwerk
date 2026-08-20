@@ -1,5 +1,7 @@
 # Marktplaats-advertentie — copy-paste-klaar
 
+> Canonieke advertentieteksten staan in `advertenties.md`. Dit bestand gaat over het Marktplaats-specifieke deel: plaatsen, foto's, bumpen.
+
 Gebruik deze tekst voor één advertentie per stad waar je actief wilt zijn (Marktplaats werkt op locatie). Begin met **Hengelo** (thuisbasis), daarna Enschede en Almelo. Pas eventueel de stad in de titel aan.
 
 ## Plaatsen
@@ -15,18 +17,18 @@ Kies één — A is veiligste, B is opvallender:
 
 - **A**: `Vriendelijke IT-hulp aan huis — heel Overijssel`
 - **B**: `Computer kapot of wifi traag? IT'er komt langs`
-- **C**: `IT-consultant aan huis — Hengelo & omgeving` *(stad aanpassen per advertentie)*
+- **C**: `Computerhulp aan huis — Hengelo & omgeving` *(stad aanpassen per advertentie)*
 
 ## Beschrijving
 
 Plak deze tekst in het advertentie-veld:
 
 ```
-Wij zijn Spilwerk: vriendelijke IT-hulp aan huis voor heel Overijssel.
+Ik ben Emmanuel van Spilwerk: vriendelijke IT-hulp aan huis in heel Overijssel.
 
-Twee IT-consultants — Emmanuel Tekle en Eren Kongul, beiden 3e jaar HBO ICT (Saxion). Wij komen langs, leggen uit wat we doen, en lossen het op. Geen jargon, geen verrassende rekening.
+Ik kom bij je langs, leg uit wat ik doe, en los het op. Geen jargon, geen verrassende rekening.
 
-WAARMEE WIJ HELPEN
+WAARMEE IK HELP
 
 • Trage computer, virus, herinstallatie
 • Wifi en internet thuis
@@ -34,9 +36,12 @@ WAARMEE WIJ HELPEN
 • Backup en veilig online
 • Voor zelfstandigen: zakelijk e-mail, opslag, onboarding nieuwe medewerker
 
+En eigenlijk alles daartussenin. Zit jouw probleem er niet bij? Bel gerust.
+
 WAT HET KOST
 
-• Vanaf €60 voor het 1e uur (incl. voorrijden in Overijssel)
+• €60 voor het 1e uur aan huis in Twente (incl. voorrijden)
+• Buiten Twente (Zwolle, Deventer, Kampen e.o.): +€30 voorrijkosten
 • Daarna €15 per begonnen kwartier
 • Hulp op afstand: €45/uur
 • Klein klusje (<30 min) op afstand: €30
@@ -60,7 +65,7 @@ Reactie binnen 24 uur op werkdagen.
 
 > Profielfoto: gebruik de spil-ring uit `site/assets/logo.svg` (PNG-export via [cloudconvert.com](https://cloudconvert.com/svg-to-png), 256×256). De hoofdfoto van de advertentie is iets anders — dat blijft een gezicht of werkfoto.
 
-1. **Hoofdfoto**: jullie samen — vriendelijk, warm, niet-stockfoto-achtig. Liefst voor een neutrale achtergrond (witte muur, raam met daglicht). Niet selfie-achtig — laat iemand het maken.
+1. **Hoofdfoto**: jij — vriendelijk, warm, niet-stockfoto-achtig. Liefst voor een neutrale achtergrond (witte muur, raam met daglicht). Niet selfie-achtig — laat iemand het maken.
 2. **Werk-foto**: laptop op tafel, jij erbij, "ik ben aan het werk"-vibe.
 3. **Locatiefoto**: een Twentse straat / herkenbaar plaatje van Overijssel — geeft "lokaal"-signaal.
 4. **Tekst-overlay foto** (optional): groen vlak met "Werkt het niet = €0" wit erop. Maakt visueel onderscheid in zoekresultaten.

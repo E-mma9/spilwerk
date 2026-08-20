@@ -170,8 +170,8 @@ EERLIJK:
 ✓ Werkt het niet → geen kosten
 ✓ Eerste contact gratis
 
-HBO ICT-student · systeembeheerder bij Livio
-· eerder Student aan Huis · woont in Twente
+HBO ICT-student (Cybersecurity & Cloud) · systeembeheerder
+· al jaren IT-hulp aan huis · woont in Twente
 
 — Emmanuel Tekle
 ```
@@ -228,8 +228,8 @@ Bibliotheken in Overijssel zoeken **continu** vrijwilligers voor digitale-vaardi
 **Hoe je het regelt**: bel of mail de bibliotheek in jouw stad (start: Hengelo, Enschede, Almelo, Zwolle, Deventer). Vraag naar de afdeling "Digitaal Hulppunt" of "Senioren". Pitch:
 
 ```
-Hoi, ik ben Emmanuel — HBO ICT-student bij Saxion + 
-systeembeheerder bij Livio. Ik wil graag een gratis workshop 
+Hoi, ik ben Emmanuel — HBO ICT-student (Cybersecurity & Cloud)
+en systeembeheerder. Ik wil graag een gratis workshop 
 geven voor senioren over [onderwerp]. Sluit aan bij jullie 
 Digitaal Hulppunt-programma. Geen tegenprestatie verwacht — 
 mocht ik visitekaartjes mogen meegeven aan deelnemers fijn.
