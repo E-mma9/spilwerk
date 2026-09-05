@@ -17,7 +17,7 @@ echo "[$STAMP] Spilwerk daily SEO check..."
 HTTP=$(curl -s -o /dev/null -w "%{http_code}" https://spilwerk.nl/ || echo "000")
 CANON=$(curl -sL https://spilwerk.nl/ 2>/dev/null | grep -qi 'rel="canonical"' && echo "ja" || echo "nee")
 SCHEMA=$(curl -sL https://spilwerk.nl/ 2>/dev/null | grep -q 'LocalBusiness' && echo "ja" || echo "nee")
-TEL_FULL=$(curl -sL https://spilwerk.nl/ 2>/dev/null | grep -q '"telephone": "+31687433537"' && echo "ja" || echo "nee (masked +316****3537)")
+TEL_FULL=$(curl -sL https://spilwerk.nl/ 2>/dev/null | grep -q '"telephone": "+31687433537"' && echo "ja" || echo "nee (full +31687433537)")
 GSC=$(curl -sL https://spilwerk.nl/ 2>/dev/null | grep -q 'google-site-verification' && echo "ja" || echo "nee")
 echo "  HTTP $HTTP canonical:$CANON schema:$SCHEMA tel_full:$TEL_FULL gsc:$GSC"
 

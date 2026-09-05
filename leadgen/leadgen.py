@@ -40,6 +40,32 @@ ROOT = Path(__file__).parent
 PROMPT_FILE = ROOT / "prompts" / "outreach.md"
 DEFAULT_INPUT = ROOT / "seed_leads.csv"
 OUTPUT_DIR = ROOT / "output"
+OUTREACH_DIR = ROOT / "outreach"
+
+# === Spilwerk scoring (Emmanuel 2026-09-05) ===
+BRANCHE_SCORES = {
+    "horeca": 0,  # expliciet uitgesloten
+    "kappers": 5,
+    "schoonheidssalon": 5,
+    "accountant": 5,  # hoog voor Zeker
+    "advocaat": 5,    # hoog voor Zeker
+    "tandarts": 5,    # hoog voor Zeker
+    "bouwbedrijf": 4,
+}
+
+def score_lead(branche: str) -> int:
+    return BRANCHE_SCORES.get(branche.lower().strip(), 3)
+
+def branche_pitch(branche: str) -> str:
+    return {
+        "kappers": "Zeker €45/mnd (kassa/agenda backup) vs halve dag €250",
+        "schoonheidssalon": "Zeker €45/mnd vs halve dag €250",
+        "accountant": "Zeker €45/mnd + backup €300 + mappen €170 vs halve dag €250",
+        "advocaat": "Zeker €45/mnd (dossierplicht) + backup €300 vs halve dag €250",
+        "tandarts": "Zeker €85/mnd Plus + backup €300 + NAS €195 vs halve dag €250",
+        "bouwbedrijf": "Halve dag €250 + Zeker €45/mnd vs los €60/bezoek",
+        "horeca": "uitgesloten (score 0)",
+    }.get(branche.lower().strip(), "Halve dag €250 vs Zeker €45/mnd")
 
 MODEL = "claude-sonnet-4-6"
 USER_AGENT = "SpilwerkLeadgen/0.1 (+https://spilwerk.nl)"
@@ -129,14 +155,13 @@ def load_leads(path: Path) -> list[Lead]:
             website = (row.get("website") or "").strip()
             if not website:
                 continue
-            leads.append(
-                Lead(
-                    company=(row.get("company") or "").strip(),
-                    website=website,
-                    contact_name=(row.get("contact_name") or "").strip(),
-                    notes=(row.get("notes") or "").strip(),
-                )
-            )
+            branche = (row.get("branche") or "").strip().lower()
+            if branche == "horeca":
+                continue  # score 0 — expliciet uitgesloten
+            company = (row.get("company") or row.get("naam") or "").strip()
+            contact = (row.get("contact_name") or row.get("publiek email") or "").strip()
+            notes = (row.get("notes") or row.get("reden_waarom_interessant") or "").strip()
+            leads.append(Lead(company=company, website=website, contact_name=contact, notes=notes))
     return leads
 
 
