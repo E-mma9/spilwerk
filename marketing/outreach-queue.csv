@@ -1,40 +1,40 @@
-nr,naam,plaats,branche,website,email,subject,slug
-1,Mufide Hair & Art,Hengelo,kappers,https://www.mufide.nl,info@mufide.nl,"Mufide Hair & Art — IT uit handen, focus op je werk",01-mufide-hair-art
-2,Assink Pure Identity,Hengelo,kappers,https://assinkonline.nl,info@assinkonline.nl,"Assink Pure Identity — IT uit handen, focus op je werk",02-assink-pure-identity
-3,Stralend Huidzorg,Hengelo,schoonheidssalon,https://www.stralendhengelo.nl,info@stralendhengelo.nl,"Stralend Huidzorg — IT uit handen, focus op je werk",03-stralend-huidzorg
-4,Esthetiek Huidverbetering,Hengelo,schoonheidssalon,https://esthetiekhuidverbetering.nl,info@esthetiekhuidverbetering.nl,"Esthetiek Huidverbetering — IT uit handen, focus op je werk",04-esthetiek-huidverbetering
-5,Beauty by Hands of Gold,Hengelo,schoonheidssalon,https://www.beautybyhandsofgold.nl,info@beautybyhandsofgold.nl,"Beauty by Hands of Gold — IT uit handen, focus op je werk",05-beauty-by-hands-of-gold
-6,Het Ahuis Schoonheidssalon,Enschede,schoonheidssalon,https://hetahuis.nl,info@hetahuis.nl,"Het Ahuis Schoonheidssalon — IT uit handen, focus op je werk",06-het-ahuis-schoonheidssalon
-7,Bouwbedrijf Vos,Borne,bouwbedrijf,https://www.bouwbedrijfvosborne.nl,bouwbedrijfvosborne@kpnmail.nl,"Bouwbedrijf Vos — IT uit handen, focus op je werk",07-bouwbedrijf-vos
-8,Bouwbedrijf Poorthuis,Oldenzaal,bouwbedrijf,https://www.poorthuis-bouw.nl,info@poorthuis-bouw.nl,"Bouwbedrijf Poorthuis — IT uit handen, focus op je werk",08-bouwbedrijf-poorthuis
-9,Kleinbouw Twente,Enschede,bouwbedrijf,https://www.kleinbouw-twente.nl,info@kleinbouw-twente.nl,"Kleinbouw Twente — IT uit handen, focus op je werk",09-kleinbouw-twente
-10,Bouwbedrijf De Jong Twente,Hengelo,bouwbedrijf,https://bouwbedrijf-dejong.nl,info@bouwbedrijf-dejong.nl,"Bouwbedrijf De Jong Twente — IT uit handen, focus op je werk",10-bouwbedrijf-de-jong-twente
-11,Bewust Fysio,Hengelo,fysio,https://www.bewustfysio.nl,info@bewustfysio.nl,"Bewust Fysio — IT uit handen, focus op je werk",11-bewust-fysio
-12,Driesprong Fysiotherapeuten,Hengelo,fysio,https://www.driesprong.nl,info@driesprong.nl,"Driesprong Fysiotherapeuten — IT uit handen, focus op je werk",12-driesprong-fysiotherapeuten
-13,Fysiotherapie De Bleek,Enschede,fysio,https://www.fysiodebleek.nl,info@fysio-debleek.nl,"Fysiotherapie De Bleek — IT uit handen, focus op je werk",13-fysiotherapie-de-bleek
-14,Bouwgroep Huiskes,Enschede,bouwbedrijf,https://www.bouwgroephuiskes.nl,info@bouwgroephuiskes.nl,"Bouwgroep Huiskes — IT uit handen, focus op je werk",14-bouwgroep-huiskes
-15,Holtkamp Bouw,Almelo,bouwbedrijf,https://holtkampbouw.nl,info@holtkampbouw.nl,"Holtkamp Bouw — IT uit handen, focus op je werk",15-holtkamp-bouw
-16,Lowik Bouw,Almelo,bouwbedrijf,https://www.lowikbouw.nl,info@lowikbouw.nl,"Lowik Bouw — IT uit handen, focus op je werk",16-lowik-bouw
-17,Renova Twente Bouw,Enschede,bouwbedrijf,https://renova-twente-bouw.com,info@renova-twente-bouw.nl,"Renova Twente Bouw — IT uit handen, focus op je werk",17-renova-twente-bouw
-18,Auto Mulder Hengelo,Hengelo,autobedrijf,https://www.automulderhengelo.nl,info@automulderhengelo.nl,"Auto Mulder Hengelo — IT uit handen, focus op je werk",18-auto-mulder-hengelo
-19,Auto Schiphorst,Almelo,autobedrijf,https://www.auto-schiphorst.nl,verkoop@auto-schiphorst.nl,"Auto Schiphorst — IT uit handen, focus op je werk",19-auto-schiphorst
-20,Autobedrijf Andre,Almelo,autobedrijf,https://autobedrijfandre.nl,info@autobedrijfandre.nl,"Autobedrijf Andre — IT uit handen, focus op je werk",20-autobedrijf-andre
-21,Autobedrijf Leus,Almelo,autobedrijf,https://autobedrijfleus.nl,autobedrijf.leus@gmail.com,"Autobedrijf Leus — IT uit handen, focus op je werk",21-autobedrijf-leus
-22,Autobedrijf Schlichter,Hengelo,autobedrijf,https://www.reneschlichter.nl,info@autobedrijfschlichter.nl,"Autobedrijf Schlichter — IT uit handen, focus op je werk",22-autobedrijf-schlichter
-23,Autobedrijf Ter Kuile,Enschede,autobedrijf,https://www.autoterkuile.nl,info@autoterkuile.nl,"Autobedrijf Ter Kuile — IT uit handen, focus op je werk",23-autobedrijf-ter-kuile
-24,Autohuis Enschede,Enschede,autobedrijf,https://www.autohuis-enschede.nl,info@autohuis-enschede.nl,"Autohuis Enschede — IT uit handen, focus op je werk",24-autohuis-enschede
-25,Autobedrijf EB,Enschede,autobedrijf,https://www.autobedrijfeb.nl,info@autobedrijfeb.nl,"Autobedrijf EB — IT uit handen, focus op je werk",25-autobedrijf-eb
-26,Lak Schadeherstel Twente,Hengelo,autobedrijf,https://www.lakschadehersteltwente.nl,info@lakschadehersteltwente.nl,"Lak Schadeherstel Twente — IT uit handen, focus op je werk",26-lak-schadeherstel-twente
-27,Autoschade Hof van Twente,Goor,autobedrijf,https://autoschadehofvantwente.nl,info@autoschadehofvantwente.nl,"Autoschade Hof van Twente — IT uit handen, focus op je werk",27-autoschade-hof-van-twente
-28,Bouwbedrijf Assink,Haaksbergen,bouwbedrijf,https://bouwbedrijfassink.nl,bouwbedrijfassink@hotmail.nl,"Bouwbedrijf Assink — IT uit handen, focus op je werk",28-bouwbedrijf-assink
-29,Kapsalon ZES,Oldenzaal,kappers,https://kapsalonzes.nl,info@kapsalonzes.nl,"Kapsalon ZES — IT uit handen, focus op je werk",29-kapsalon-zes
-30,Haarstudio Oldenzaal,Oldenzaal,kappers,https://haarstudiooldenzaal.nl,info@haarstudiooldenzaal.nl,"Haarstudio Oldenzaal — IT uit handen, focus op je werk",30-haarstudio-oldenzaal
-31,Kapsalon Sjiek,Enschede,kappers,https://www.sjiekenschede.nl,info@sjiekenschede.nl,"Kapsalon Sjiek — IT uit handen, focus op je werk",31-kapsalon-sjiek
-32,Kapstars,Enschede,kappers,https://www.kapstars.nl,info@kapstars.nl,"Kapstars — IT uit handen, focus op je werk",32-kapstars
-33,Skinns,Almelo,schoonheidssalon,https://skinns.nl,skinns.almelo@outlook.com,"Skinns — IT uit handen, focus op je werk",33-skinns
-34,B Beautiful,Almelo,schoonheidssalon,https://bbeautiful.nl,info@bbeautiful.nl,"B Beautiful — IT uit handen, focus op je werk",34-b-beautiful
-35,Topvorm Twente,Hengelo,fysio,https://topvormtwente.nl,info@topvormtwente.nl,"Topvorm Twente — IT uit handen, focus op je werk",35-topvorm-twente
-36,Fysiocentrum Kamminga,Hengelo,fysio,https://www.fysiocentrumkamminga.nl,info@fysiocentrumkamminga.nl,"Fysiocentrum Kamminga — IT uit handen, focus op je werk",36-fysiocentrum-kamminga
-37,Fysiotherapie Zuid Hengelo,Hengelo,fysio,https://www.fysiotherapiezuidhengelo.nl,info@fysiozuidhengelo.nl,"Fysiotherapie Zuid Hengelo — IT uit handen, focus op je werk",37-fysiotherapie-zuid-hengelo
-38,Fysiotherapie Wooldersteen,Hengelo,fysio,https://www.wooldersteen.nl,fysiotherapie@wooldersteen.nl,"Fysiotherapie Wooldersteen — IT uit handen, focus op je werk",38-fysiotherapie-wooldersteen
-39,Fysiotherapie Hasseler Es,Hengelo,fysio,https://www.fysiotherapiehasseleres.nl,info@fysiotherapiehasseleres.nl,"Fysiotherapie Hasseler Es — IT uit handen, focus op je werk",39-fysiotherapie-hasseler-es
+nr,naam,plaats,branche,website,email,subject,variant,slug
+1,Mufide Hair & Art,Hengelo,kappers,https://www.mufide.nl,info@mufide.nl,Mufide Hair & Art — Gratis quickscan back-up / M365 / security?,TEST-quickscan,01-mufide-hair-art
+2,Assink Pure Identity,Hengelo,kappers,https://assinkonline.nl,info@assinkonline.nl,Assink Pure Identity — Gratis quickscan back-up / M365 / security?,TEST-quickscan,02-assink-pure-identity
+3,Stralend Huidzorg,Hengelo,schoonheidssalon,https://www.stralendhengelo.nl,info@stralendhengelo.nl,Stralend Huidzorg — Gratis quickscan back-up / M365 / security?,TEST-quickscan,03-stralend-huidzorg
+4,Esthetiek Huidverbetering,Hengelo,schoonheidssalon,https://esthetiekhuidverbetering.nl,info@esthetiekhuidverbetering.nl,Esthetiek Huidverbetering — Gratis quickscan back-up / M365 / security?,TEST-quickscan,04-esthetiek-huidverbetering
+5,Beauty by Hands of Gold,Hengelo,schoonheidssalon,https://www.beautybyhandsofgold.nl,info@beautybyhandsofgold.nl,Beauty by Hands of Gold — Gratis quickscan back-up / M365 / security?,TEST-quickscan,05-beauty-by-hands-of-gold
+6,Het Ahuis Schoonheidssalon,Enschede,schoonheidssalon,https://hetahuis.nl,info@hetahuis.nl,Het Ahuis Schoonheidssalon — Gratis quickscan back-up / M365 / security?,TEST-quickscan,06-het-ahuis-schoonheidssalon
+7,Bouwbedrijf Vos,Borne,bouwbedrijf,https://www.bouwbedrijfvosborne.nl,bouwbedrijfvosborne@kpnmail.nl,Bouwbedrijf Vos — Gratis quickscan back-up / M365 / security?,TEST-quickscan,07-bouwbedrijf-vos
+8,Bouwbedrijf Poorthuis,Oldenzaal,bouwbedrijf,https://www.poorthuis-bouw.nl,info@poorthuis-bouw.nl,Bouwbedrijf Poorthuis — Gratis quickscan back-up / M365 / security?,TEST-quickscan,08-bouwbedrijf-poorthuis
+9,Kleinbouw Twente,Enschede,bouwbedrijf,https://www.kleinbouw-twente.nl,info@kleinbouw-twente.nl,Kleinbouw Twente — Gratis quickscan back-up / M365 / security?,TEST-quickscan,09-kleinbouw-twente
+10,Bouwbedrijf De Jong Twente,Hengelo,bouwbedrijf,https://bouwbedrijf-dejong.nl,info@bouwbedrijf-dejong.nl,Bouwbedrijf De Jong Twente — Gratis quickscan back-up / M365 / security?,TEST-quickscan,10-bouwbedrijf-de-jong-twente
+11,Bewust Fysio,Hengelo,fysio,https://www.bewustfysio.nl,info@bewustfysio.nl,Bewust Fysio — Gratis quickscan back-up / M365 / security?,TEST-quickscan,11-bewust-fysio
+12,Driesprong Fysiotherapeuten,Hengelo,fysio,https://www.driesprong.nl,info@driesprong.nl,Driesprong Fysiotherapeuten — Gratis quickscan back-up / M365 / security?,TEST-quickscan,12-driesprong-fysiotherapeuten
+13,Fysiotherapie De Bleek,Enschede,fysio,https://www.fysiodebleek.nl,info@fysio-debleek.nl,Fysiotherapie De Bleek — Gratis quickscan back-up / M365 / security?,TEST-quickscan,13-fysiotherapie-de-bleek
+14,Bouwgroep Huiskes,Enschede,bouwbedrijf,https://www.bouwgroephuiskes.nl,info@bouwgroephuiskes.nl,Bouwgroep Huiskes — Gratis quickscan back-up / M365 / security?,TEST-quickscan,14-bouwgroep-huiskes
+15,Holtkamp Bouw,Almelo,bouwbedrijf,https://holtkampbouw.nl,info@holtkampbouw.nl,Holtkamp Bouw — Gratis quickscan back-up / M365 / security?,TEST-quickscan,15-holtkamp-bouw
+16,Lowik Bouw,Almelo,bouwbedrijf,https://www.lowikbouw.nl,info@lowikbouw.nl,Lowik Bouw — Gratis quickscan back-up / M365 / security?,TEST-quickscan,16-lowik-bouw
+17,Renova Twente Bouw,Enschede,bouwbedrijf,https://renova-twente-bouw.com,info@renova-twente-bouw.nl,Renova Twente Bouw — Gratis quickscan back-up / M365 / security?,TEST-quickscan,17-renova-twente-bouw
+18,Auto Mulder Hengelo,Hengelo,autobedrijf,https://www.automulderhengelo.nl,info@automulderhengelo.nl,Auto Mulder Hengelo — Gratis quickscan back-up / M365 / security?,TEST-quickscan,18-auto-mulder-hengelo
+19,Auto Schiphorst,Almelo,autobedrijf,https://www.auto-schiphorst.nl,verkoop@auto-schiphorst.nl,Auto Schiphorst — Gratis quickscan back-up / M365 / security?,TEST-quickscan,19-auto-schiphorst
+20,Autobedrijf Andre,Almelo,autobedrijf,https://autobedrijfandre.nl,info@autobedrijfandre.nl,Autobedrijf Andre — Gratis quickscan back-up / M365 / security?,TEST-quickscan,20-autobedrijf-andre
+21,Autobedrijf Leus,Almelo,autobedrijf,https://autobedrijfleus.nl,autobedrijf.leus@gmail.com,"Autobedrijf Leus — IT uit handen, focus op je werk",CONTROL-origineel,21-autobedrijf-leus
+22,Autobedrijf Schlichter,Hengelo,autobedrijf,https://www.reneschlichter.nl,info@autobedrijfschlichter.nl,"Autobedrijf Schlichter — IT uit handen, focus op je werk",CONTROL-origineel,22-autobedrijf-schlichter
+23,Autobedrijf Ter Kuile,Enschede,autobedrijf,https://www.autoterkuile.nl,info@autoterkuile.nl,"Autobedrijf Ter Kuile — IT uit handen, focus op je werk",CONTROL-origineel,23-autobedrijf-ter-kuile
+24,Autohuis Enschede,Enschede,autobedrijf,https://www.autohuis-enschede.nl,info@autohuis-enschede.nl,"Autohuis Enschede — IT uit handen, focus op je werk",CONTROL-origineel,24-autohuis-enschede
+25,Autobedrijf EB,Enschede,autobedrijf,https://www.autobedrijfeb.nl,info@autobedrijfeb.nl,"Autobedrijf EB — IT uit handen, focus op je werk",CONTROL-origineel,25-autobedrijf-eb
+26,Lak Schadeherstel Twente,Hengelo,autobedrijf,https://www.lakschadehersteltwente.nl,info@lakschadehersteltwente.nl,"Lak Schadeherstel Twente — IT uit handen, focus op je werk",CONTROL-origineel,26-lak-schadeherstel-twente
+27,Autoschade Hof van Twente,Goor,autobedrijf,https://autoschadehofvantwente.nl,info@autoschadehofvantwente.nl,"Autoschade Hof van Twente — IT uit handen, focus op je werk",CONTROL-origineel,27-autoschade-hof-van-twente
+28,Bouwbedrijf Assink,Haaksbergen,bouwbedrijf,https://bouwbedrijfassink.nl,bouwbedrijfassink@hotmail.nl,"Bouwbedrijf Assink — IT uit handen, focus op je werk",CONTROL-origineel,28-bouwbedrijf-assink
+29,Kapsalon ZES,Oldenzaal,kappers,https://kapsalonzes.nl,info@kapsalonzes.nl,"Kapsalon ZES — IT uit handen, focus op je werk",CONTROL-origineel,29-kapsalon-zes
+30,Haarstudio Oldenzaal,Oldenzaal,kappers,https://haarstudiooldenzaal.nl,info@haarstudiooldenzaal.nl,"Haarstudio Oldenzaal — IT uit handen, focus op je werk",CONTROL-origineel,30-haarstudio-oldenzaal
+31,Kapsalon Sjiek,Enschede,kappers,https://www.sjiekenschede.nl,info@sjiekenschede.nl,"Kapsalon Sjiek — IT uit handen, focus op je werk",CONTROL-origineel,31-kapsalon-sjiek
+32,Kapstars,Enschede,kappers,https://www.kapstars.nl,info@kapstars.nl,"Kapstars — IT uit handen, focus op je werk",CONTROL-origineel,32-kapstars
+33,Skinns,Almelo,schoonheidssalon,https://skinns.nl,skinns.almelo@outlook.com,"Skinns — IT uit handen, focus op je werk",CONTROL-origineel,33-skinns
+34,B Beautiful,Almelo,schoonheidssalon,https://bbeautiful.nl,info@bbeautiful.nl,"B Beautiful — IT uit handen, focus op je werk",CONTROL-origineel,34-b-beautiful
+35,Topvorm Twente,Hengelo,fysio,https://topvormtwente.nl,info@topvormtwente.nl,"Topvorm Twente — IT uit handen, focus op je werk",CONTROL-origineel,35-topvorm-twente
+36,Fysiocentrum Kamminga,Hengelo,fysio,https://www.fysiocentrumkamminga.nl,info@fysiocentrumkamminga.nl,"Fysiocentrum Kamminga — IT uit handen, focus op je werk",CONTROL-origineel,36-fysiocentrum-kamminga
+37,Fysiotherapie Zuid Hengelo,Hengelo,fysio,https://www.fysiotherapiezuidhengelo.nl,info@fysiozuidhengelo.nl,"Fysiotherapie Zuid Hengelo — IT uit handen, focus op je werk",CONTROL-origineel,37-fysiotherapie-zuid-hengelo
+38,Fysiotherapie Wooldersteen,Hengelo,fysio,https://www.wooldersteen.nl,fysiotherapie@wooldersteen.nl,"Fysiotherapie Wooldersteen — IT uit handen, focus op je werk",CONTROL-origineel,38-fysiotherapie-wooldersteen
+39,Fysiotherapie Hasseler Es,Hengelo,fysio,https://www.fysiotherapiehasseleres.nl,info@fysiotherapiehasseleres.nl,"Fysiotherapie Hasseler Es — IT uit handen, focus op je werk",CONTROL-origineel,39-fysiotherapie-hasseler-es

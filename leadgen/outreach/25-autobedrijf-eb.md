@@ -1,8 +1,8 @@
-# Autobedrijf EB — Enschede (autobedrijf)
+# Autobedrijf EB — Enschede (autobedrijf) [CONTROL-origineel]
 Website: https://www.autobedrijfeb.nl
 
 **Subject:** Autobedrijf EB — IT uit handen, focus op je werk
-
+**Variant:** CONTROL-origineel
 **Pitch:** Hoe vervelend is het als werkplaats-software, offertes of foto's net niet meewerken. Ik zorg dat het gewoon werkt — zonder gedoe.
 
 ---

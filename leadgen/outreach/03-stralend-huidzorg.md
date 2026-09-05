@@ -1,14 +1,14 @@
-# Stralend Huidzorg — Hengelo (schoonheidssalon)
+# Stralend Huidzorg — Hengelo (schoonheidssalon) [TEST-quickscan]
 Website: https://www.stralendhengelo.nl
 
-**Subject:** Stralend Huidzorg — IT uit handen, focus op je werk
-
-**Pitch:** Hoe irritant is het als klanten mislopen omdat boeking, klantkaarten of wifi net niet meewerkt. Ik zorg dat het gewoon werkt — zonder dat jij er naar om hoeft te kijken.
+**Subject:** Stralend Huidzorg — Gratis quickscan back-up / M365 / security?
+**Variant:** TEST-quickscan
+**Pitch:** Gratis quickscan (30 min): ik check back-up, M365 en security. Je krijgt 1-pager met 3 bevindingen — geen verplichtingen. Dan weet je direct waar je staat.
 
 ---
 Beste Stralend Huidzorg,
 
-Hoe irritant is het als klanten mislopen omdat boeking, klantkaarten of wifi net niet meewerkt. Ik zorg dat het gewoon werkt — zonder dat jij er naar om hoeft te kijken.
+Gratis quickscan (30 min): ik check back-up, M365 en security. Je krijgt 1-pager met 3 bevindingen — geen verplichtingen. Dan weet je direct waar je staat.
 
 Ik haal IT-gedoe van je schouders, zodat jij je kunt focussen op je werk en klanten — zonder omkijken naar updates, backups of gedoe.
 

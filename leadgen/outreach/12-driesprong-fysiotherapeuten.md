@@ -1,14 +1,14 @@
-# Driesprong Fysiotherapeuten — Hengelo (fysio)
+# Driesprong Fysiotherapeuten — Hengelo (fysio) [TEST-quickscan]
 Website: https://www.driesprong.nl
 
-**Subject:** Driesprong Fysiotherapeuten — IT uit handen, focus op je werk
-
-**Pitch:** Hoe vervelend is het als agenda of patiëntdata net niet meewerkt en klanten moeten wachten. Ik zorg dat het veilig geregeld is — AVG-proof en zonder omkijken.
+**Subject:** Driesprong Fysiotherapeuten — Gratis quickscan back-up / M365 / security?
+**Variant:** TEST-quickscan
+**Pitch:** Gratis quickscan (30 min): ik check back-up, M365 en security. Je krijgt 1-pager met 3 bevindingen — geen verplichtingen. Dan weet je direct waar je staat.
 
 ---
 Beste Driesprong Fysiotherapeuten,
 
-Hoe vervelend is het als agenda of patiëntdata net niet meewerkt en klanten moeten wachten. Ik zorg dat het veilig geregeld is — AVG-proof en zonder omkijken.
+Gratis quickscan (30 min): ik check back-up, M365 en security. Je krijgt 1-pager met 3 bevindingen — geen verplichtingen. Dan weet je direct waar je staat.
 
 Ik haal IT-gedoe van je schouders, zodat jij je kunt focussen op je werk en klanten — zonder omkijken naar updates, backups of gedoe.
 

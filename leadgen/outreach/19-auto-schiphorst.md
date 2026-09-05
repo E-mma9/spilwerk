@@ -1,14 +1,14 @@
-# Auto Schiphorst — Almelo (autobedrijf)
+# Auto Schiphorst — Almelo (autobedrijf) [TEST-quickscan]
 Website: https://www.auto-schiphorst.nl
 
-**Subject:** Auto Schiphorst — IT uit handen, focus op je werk
-
-**Pitch:** Hoe vervelend is het als werkplaats-software, offertes of foto's net niet meewerken. Ik zorg dat het gewoon werkt — zonder gedoe.
+**Subject:** Auto Schiphorst — Gratis quickscan back-up / M365 / security?
+**Variant:** TEST-quickscan
+**Pitch:** Gratis quickscan (30 min): ik check back-up, M365 en security. Je krijgt 1-pager met 3 bevindingen — geen verplichtingen. Dan weet je direct waar je staat.
 
 ---
 Beste Auto Schiphorst,
 
-Hoe vervelend is het als werkplaats-software, offertes of foto's net niet meewerken. Ik zorg dat het gewoon werkt — zonder gedoe.
+Gratis quickscan (30 min): ik check back-up, M365 en security. Je krijgt 1-pager met 3 bevindingen — geen verplichtingen. Dan weet je direct waar je staat.
 
 Ik haal IT-gedoe van je schouders, zodat jij je kunt focussen op je werk en klanten — zonder omkijken naar updates, backups of gedoe.
 

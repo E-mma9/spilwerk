@@ -1,14 +1,14 @@
-# Autobedrijf Andre — Almelo (autobedrijf)
+# Autobedrijf Andre — Almelo (autobedrijf) [TEST-quickscan]
 Website: https://autobedrijfandre.nl
 
-**Subject:** Autobedrijf Andre — IT uit handen, focus op je werk
-
-**Pitch:** Hoe vervelend is het als werkplaats-software, offertes of foto's net niet meewerken. Ik zorg dat het gewoon werkt — zonder gedoe.
+**Subject:** Autobedrijf Andre — Gratis quickscan back-up / M365 / security?
+**Variant:** TEST-quickscan
+**Pitch:** Gratis quickscan (30 min): ik check back-up, M365 en security. Je krijgt 1-pager met 3 bevindingen — geen verplichtingen. Dan weet je direct waar je staat.
 
 ---
 Beste Autobedrijf Andre,
 
-Hoe vervelend is het als werkplaats-software, offertes of foto's net niet meewerken. Ik zorg dat het gewoon werkt — zonder gedoe.
+Gratis quickscan (30 min): ik check back-up, M365 en security. Je krijgt 1-pager met 3 bevindingen — geen verplichtingen. Dan weet je direct waar je staat.
 
 Ik haal IT-gedoe van je schouders, zodat jij je kunt focussen op je werk en klanten — zonder omkijken naar updates, backups of gedoe.
 

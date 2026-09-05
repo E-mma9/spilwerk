@@ -1,8 +1,8 @@
-# Autoschade Hof van Twente — Goor (autobedrijf)
+# Autoschade Hof van Twente — Goor (autobedrijf) [CONTROL-origineel]
 Website: https://autoschadehofvantwente.nl
 
 **Subject:** Autoschade Hof van Twente — IT uit handen, focus op je werk
-
+**Variant:** CONTROL-origineel
 **Pitch:** Hoe vervelend is het als werkplaats-software, offertes of foto's net niet meewerken. Ik zorg dat het gewoon werkt — zonder gedoe.
 
 ---

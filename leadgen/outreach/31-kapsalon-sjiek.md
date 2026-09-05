@@ -1,8 +1,8 @@
-# Kapsalon Sjiek — Enschede (kappers)
+# Kapsalon Sjiek — Enschede (kappers) [CONTROL-origineel]
 Website: https://www.sjiekenschede.nl
 
 **Subject:** Kapsalon Sjiek — IT uit handen, focus op je werk
-
+**Variant:** CONTROL-origineel
 **Pitch:** Hoe irritant is het als klanten mislopen omdat kassa, agenda of wifi net niet meewerkt. Ik zorg dat het gewoon werkt — zonder dat jij er naar om hoeft te kijken.
 
 ---

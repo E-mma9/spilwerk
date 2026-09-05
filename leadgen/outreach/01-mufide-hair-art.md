@@ -1,14 +1,14 @@
-# Mufide Hair & Art — Hengelo (kappers)
+# Mufide Hair & Art — Hengelo (kappers) [TEST-quickscan]
 Website: https://www.mufide.nl
 
-**Subject:** Mufide Hair & Art — IT uit handen, focus op je werk
-
-**Pitch:** Hoe irritant is het als klanten mislopen omdat kassa, agenda of wifi net niet meewerkt. Ik zorg dat het gewoon werkt — zonder dat jij er naar om hoeft te kijken.
+**Subject:** Mufide Hair & Art — Gratis quickscan back-up / M365 / security?
+**Variant:** TEST-quickscan
+**Pitch:** Gratis quickscan (30 min): ik check back-up, M365 en security. Je krijgt 1-pager met 3 bevindingen — geen verplichtingen. Dan weet je direct waar je staat.
 
 ---
 Beste Mufide Hair & Art,
 
-Hoe irritant is het als klanten mislopen omdat kassa, agenda of wifi net niet meewerkt. Ik zorg dat het gewoon werkt — zonder dat jij er naar om hoeft te kijken.
+Gratis quickscan (30 min): ik check back-up, M365 en security. Je krijgt 1-pager met 3 bevindingen — geen verplichtingen. Dan weet je direct waar je staat.
 
 Ik haal IT-gedoe van je schouders, zodat jij je kunt focussen op je werk en klanten — zonder omkijken naar updates, backups of gedoe.
 

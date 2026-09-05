@@ -1,14 +1,14 @@
-# Beauty by Hands of Gold — Hengelo (schoonheidssalon)
+# Beauty by Hands of Gold — Hengelo (schoonheidssalon) [TEST-quickscan]
 Website: https://www.beautybyhandsofgold.nl
 
-**Subject:** Beauty by Hands of Gold — IT uit handen, focus op je werk
-
-**Pitch:** Hoe irritant is het als klanten mislopen omdat boeking, klantkaarten of wifi net niet meewerkt. Ik zorg dat het gewoon werkt — zonder dat jij er naar om hoeft te kijken.
+**Subject:** Beauty by Hands of Gold — Gratis quickscan back-up / M365 / security?
+**Variant:** TEST-quickscan
+**Pitch:** Gratis quickscan (30 min): ik check back-up, M365 en security. Je krijgt 1-pager met 3 bevindingen — geen verplichtingen. Dan weet je direct waar je staat.
 
 ---
 Beste Beauty by Hands of Gold,
 
-Hoe irritant is het als klanten mislopen omdat boeking, klantkaarten of wifi net niet meewerkt. Ik zorg dat het gewoon werkt — zonder dat jij er naar om hoeft te kijken.
+Gratis quickscan (30 min): ik check back-up, M365 en security. Je krijgt 1-pager met 3 bevindingen — geen verplichtingen. Dan weet je direct waar je staat.
 
 Ik haal IT-gedoe van je schouders, zodat jij je kunt focussen op je werk en klanten — zonder omkijken naar updates, backups of gedoe.
 

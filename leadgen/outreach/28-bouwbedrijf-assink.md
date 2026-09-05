@@ -1,8 +1,8 @@
-# Bouwbedrijf Assink — Haaksbergen (bouwbedrijf)
+# Bouwbedrijf Assink — Haaksbergen (bouwbedrijf) [CONTROL-origineel]
 Website: https://bouwbedrijfassink.nl
 
 **Subject:** Bouwbedrijf Assink — IT uit handen, focus op je werk
-
+**Variant:** CONTROL-origineel
 **Pitch:** Hoe vervelend is het als offertes, foto's of tekeningen net niet vindbaar zijn op kantoor of onderweg. Ik zorg dat het gewoon werkt — veilig en vindbaar.
 
 ---

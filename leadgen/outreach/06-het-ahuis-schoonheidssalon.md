@@ -1,14 +1,14 @@
-# Het Ahuis Schoonheidssalon — Enschede (schoonheidssalon)
+# Het Ahuis Schoonheidssalon — Enschede (schoonheidssalon) [TEST-quickscan]
 Website: https://hetahuis.nl
 
-**Subject:** Het Ahuis Schoonheidssalon — IT uit handen, focus op je werk
-
-**Pitch:** Hoe irritant is het als klanten mislopen omdat boeking, klantkaarten of wifi net niet meewerkt. Ik zorg dat het gewoon werkt — zonder dat jij er naar om hoeft te kijken.
+**Subject:** Het Ahuis Schoonheidssalon — Gratis quickscan back-up / M365 / security?
+**Variant:** TEST-quickscan
+**Pitch:** Gratis quickscan (30 min): ik check back-up, M365 en security. Je krijgt 1-pager met 3 bevindingen — geen verplichtingen. Dan weet je direct waar je staat.
 
 ---
 Beste Het Ahuis Schoonheidssalon,
 
-Hoe irritant is het als klanten mislopen omdat boeking, klantkaarten of wifi net niet meewerkt. Ik zorg dat het gewoon werkt — zonder dat jij er naar om hoeft te kijken.
+Gratis quickscan (30 min): ik check back-up, M365 en security. Je krijgt 1-pager met 3 bevindingen — geen verplichtingen. Dan weet je direct waar je staat.
 
 Ik haal IT-gedoe van je schouders, zodat jij je kunt focussen op je werk en klanten — zonder omkijken naar updates, backups of gedoe.
 

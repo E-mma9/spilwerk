@@ -1,8 +1,8 @@
-# Autobedrijf Leus — Almelo (autobedrijf)
+# Autobedrijf Leus — Almelo (autobedrijf) [CONTROL-origineel]
 Website: https://autobedrijfleus.nl
 
 **Subject:** Autobedrijf Leus — IT uit handen, focus op je werk
-
+**Variant:** CONTROL-origineel
 **Pitch:** Hoe vervelend is het als werkplaats-software, offertes of foto's net niet meewerken. Ik zorg dat het gewoon werkt — zonder gedoe.
 
 ---
