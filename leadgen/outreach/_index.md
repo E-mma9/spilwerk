@@ -10,3 +10,13 @@ Totaal 75 geverifieerde leads (53 bestaand + 22 nieuw 2026-09-05 extra auto/klei
 - Batch 7: 7 leads — start 2026-10-20 → leadgen/outreach/_batch7-week7.md
 - Batch 8: 7 leads — start 2026-10-27 → leadgen/outreach/_batch8-week8.md
 - Batch 9: 8 leads — start 2026-11-03 → leadgen/outreach/_batch9-week9.md
+
+## Dag 2 — Fallback drafts (2026-09-05/06)
+
+Nieuwe uitvoerbare drafts in `marketing/outreach-drafts/` (max 90w, jij/je, €60 bezoek, geen Zeker in mail 1):
+- `01-accountant-batch1.txt` — accountant (Bilanx/Count-On)
+- `02-kapper-batch1.txt` — kappers (Mufide/Assink)
+- `03-bouw-batch2.txt` — bouw (Bouwbedrijf Vos)
+- `04-fysio-batch2.txt` — fysio (Bewust/Driesprong)
+Planning & cadans: `marketing/outreach-planning-dag2.md` (batches gekoppeld, 10 mails/week, bellen eerst waar status=te bellen).
+

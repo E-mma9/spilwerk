@@ -18,7 +18,7 @@
 
 | Maand | Ads uitgegeven | Reserve uitgegeven | Leads (Ads/GBP/Marktplaats/mond-tot-mond) | Kosten/klant | Actie volgende maand |
 |-------|----------------|-------------------|-------------------------------------------|--------------|----------------------|
-| sept 2026 | € /70 | € /30 | / / / | € |  |
+| sept 2026 | €0 /70 (Ads GERESERVEERD tot KvK, €0 spend) | €0 /30 (flyers 100 A6 €20 optioneel week 2) | / / / | € | Fallback actief — focus gratis kanalen |
 | okt 2026 | € /70 | € /30 | / / / | € |  |
 
 > Vraag bij ELKE aanvraag: "Hoe ben je bij me terechtgekomen?" — noteer kanaal in tabel hierboven + in `leads.csv`.
@@ -55,6 +55,35 @@ Voor een B2C "computer-hulp aan huis"-dienst werken cold-DMs en LinkedIn-outreac
 Dit bestand is je werklijst voor de eerste 30-60 dagen.
 
 ---
+
+---
+
+## ✅ Dag 2 — 2026-09-05/06 FALLBACK EXECUTIE (Ads €0, focus gratis/cheap)
+
+> **Status:** Fallback uitgevoerd 2026-09-05 22:37 UTC — Ads geblokkeerd (Technische support door derden), **€0 spend**. Focus €0-30 (flyers 100 A6 €20 optioneel week 2). Volgende: Dag 3 GBP beschrijving + diensten + openingstijden.
+
+**Budget-bewaking Dag 2:** Ads €0/70 (GERESERVEERD tot KvK, zie `marketing/ads-creative-gereserveerd.md` — NIET activeren), Reserve €0/30 (nog niet uitgegeven). Flyers/weekblad pas week 2-3 indien nodig.
+
+**SEO log 2026-09-05 22:37:**
+- `seo/daily-seo-check.sh` gedraaid → HTTP 200, canonical ja, schema ja, GSC ja, tel_full nee (schema telefoon gemaskeerd `+316****3537` — fix week 1 dag 3)
+- `seo/daily-log.csv` gelogd (2e run 22:37), `seo/reports/daily-2026-09-05.md` bijgewerkt
+- SERP posities: handmatig aanvullen via Search Console Prestaties (computerhulp Enschede/Hengelo baseline buiten top 10, IT hulp aan huis Overijssel #8)
+
+**Uitgevoerd (Ads-fallback, zonder Google Ads):**
+
+- [x] **GBP fallback:** `marketing/gbp-posts-dag2.md` — 3 posts (intro/trage pc/senioren) + 5 Q&A (Borne/voorrijden/avond/werkt-niet/voorbereiden) — klaar om te plakken in business.google.com
+- [x] **Reviews:** `marketing/review-verzoeken/` — 5 templates (1 direct na klus, 2 WhatsApp 5d, 3 email herinnering, 4 senioren samen, 5 zakelijk ZZP) met link `https://g.page/r/CahMjwgVmxX7EBM/review`, geen beloning
+- [x] **Flyer A5:** `marketing/flyer-a5-tekst-dag2.md` — voor/achterzijde tekst incl prijzen €60/€15/€45/€30, tel 06-87433537, aanvullend op bestaande A6 SVGs in `marketing/flyer/`
+- [x] **Weekblad:** `marketing/weekblad-advertentie-3x3.md` — 3×3cm blok ±75 woorden + 1-regel lijst-variant, voor Tubantia/Hengelo Centraal (€30-60 proef)
+- [x] **Social 2 weken:** `marketing/social-posts-2weken.md` — 4 posts dag 3/6/10/13 (phishing tip, wifi tip, trage pc myth, senioren hulp), elk max 120w, foto-suggestie, CTA 06-87433537
+- [x] **Outreach planning:** `marketing/outreach-planning-dag2.md` — batches 1/2/3/7/8/9 gekoppeld (50 leads), cadans 10 mails/week, template-keuze per branche
+- [x] **Outreach drafts klaar:** `marketing/outreach-drafts/01-accountant-batch1.txt` t/m `04-fysio-batch2.txt` — elk max 90w, 1 hook, €60 bezoek, geen Zeker in mail 1, afzender spillwerk@gmail.com handmatig
+- [x] **Ads gereserveerd:** `marketing/ads-creative-gereserveerd.md` — 3 Search varianten (koppen 30 tekens, desc 90), 8 phrase keywords + 12 negatieve, max CPC €1,20, dagcap €2,33, Performance Max UIT — GERESERVEERD TOT KvK
+
+**Volgende stap Dag 3 (30-dagen-plan week 1 dag 2-3):**
+- [ ] GBP beschrijving 750 tekens + 5 diensten + openingstijden **do/wo/za/zo 08-20 + ma/di/vr 17-20** (nieuwe beschikbaarheid) + 5 foto's uploaden — zie `google-business-profile.md` §3-5
+- [ ] Site fix `telephone` volledig + `geo` + `PostalAddress` in alle 6 HTML bestanden (week 1 dag 3)
+- [ ] GBP eerste post plaatsen + Q&A vullen (dag 4)
 
 ## ✅ Dag 1 — 2026-09-05 KICKOFF (30-dagen plan E100 gestart)
 
