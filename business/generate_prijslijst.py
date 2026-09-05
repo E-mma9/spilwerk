@@ -28,23 +28,12 @@ OUT = ROOT / "prijslijst-2026.pdf"
 
 CREME = colors.HexColor("#FBF6EE")
 GROEN = colors.HexColor("#4A7C59")
-ORANJE = colors.HexColor("#E8865B")
-DONKER = colors.HexColor("#2E2E2E")
+DONKER = colors.HexColor("#2A2A28")
 WHITE = colors.white
 
 FONT = "Helvetica"
 FONT_BOLD = "Helvetica-Bold"
 
-title_style = ParagraphStyle(
-    "title", fontName=FONT_BOLD, fontSize=22, textColor=WHITE, leading=26,
-)
-tagline_style = ParagraphStyle(
-    "tagline", fontName=FONT, fontSize=11, textColor=CREME, leading=14,
-)
-contact_style = ParagraphStyle(
-    "contact", fontName=FONT, fontSize=10, textColor=CREME, leading=13,
-    alignment=TA_CENTER,
-)
 section_style = ParagraphStyle(
     "section", fontName=FONT_BOLD, fontSize=13, textColor=GROEN, leading=16,
     spaceBefore=10, spaceAfter=4,
@@ -90,15 +79,16 @@ def header_band(canvas, doc):
     canvas.rect(0, A4[1] - 42 * mm, A4[0], 42 * mm, stroke=0, fill=1)
     canvas.setFillColor(WHITE)
     canvas.circle(24 * mm, A4[1] - 21 * mm, 6 * mm, stroke=0, fill=1)
-    canvas.setFillColor(WHITE)
+    canvas.setFillColor(GROEN)
     canvas.circle(24 * mm, A4[1] - 21 * mm, 2.2 * mm, stroke=0, fill=1)
     canvas.setFont(FONT_BOLD, 22)
     canvas.setFillColor(WHITE)
     canvas.drawString(36 * mm, A4[1] - 18 * mm, "Spilwerk")
     canvas.setFont(FONT, 11)
-    canvas.setFillColor(CREME)
+    canvas.setFillColor(WHITE)
     canvas.drawString(36 * mm, A4[1] - 25 * mm, "IT-hulp — Twente")
     canvas.setFont(FONT, 10)
+    canvas.setFillColor(WHITE)
     canvas.drawRightString(A4[0] - 15 * mm, A4[1] - 15 * mm, "06-87433537")
     canvas.drawRightString(A4[0] - 15 * mm, A4[1] - 20 * mm, "spillwerk@gmail.com")
     canvas.drawRightString(A4[0] - 15 * mm, A4[1] - 25 * mm, "spilwerk.nl")
@@ -107,7 +97,7 @@ def header_band(canvas, doc):
     canvas.setFont(FONT, 8)
     canvas.drawCentredString(
         A4[0] / 2, 12 * mm,
-        "Spilwerk · Emmanuel Tekle · Algemene voorwaarden op aanvraag via spillwerk@gmail.com · prijzen onder voorbehoud van wijzigingen",
+        "Spilwerk · Emmanuel Tekle · Algemene voorwaarden op aanvraag · prijzen onder voorbehoud",
     )
     canvas.drawCentredString(A4[0] / 2, 8 * mm, f"Pagina {doc.page}")
     canvas.restoreState()
@@ -139,23 +129,23 @@ def build() -> None:
     story.append(Paragraph("Prijzen", section_style))
     story.append(price_table([
         ("Bezoek (1e uur incl. voorrijden)", "€60"),
-        ("Voorrijden buiten Twente (Zwolle, Deventer, Kampen, Steenwijk e.o.)", "+€30"),
+        ("Voorrijden buiten Twente", "+€30"),
         ("Daarna per begonnen kwartier", "€15"),
-        ("Hulp op afstand", "€45 /uur"),
+        ("Hulp op afstand", "€45/u"),
         ("Klein klusje (<30 min, op afstand)", "€30"),
-        ("Avond & weekend", "geen toeslag"),
-        ("Halve dag op locatie (zelfstandigen)", "€250"),
+        ("Avond &amp; weekend", "geen toeslag"),
+        ("Halve dag op locatie", "€250"),
     ]))
     story.append(Paragraph(
-        "“Werkt het niet?” — dan betaal je €0 voor de reparatiepoging zelf "
-        "(geldt niet voor voorrijden/diagnosetijd als hardware al kapot bleek vóór het bezoek).",
+        "Werkt het niet? €0 voor de reparatiepoging (excl. voorrijden/diagnose "
+        "als hardware al defect was).",
         note_style,
     ))
 
-    story.append(Paragraph("Voor zelfstandigen &amp; klein kantoor — vaste prijzen", section_style))
+    story.append(Paragraph("Voor zelfstandigen — vaste prijzen", section_style))
     story.append(price_table([
-        ("Werkplek-setup nieuwe medewerker", "€185"),
-        ("Gedeelde mappen instellen", "€170"),
+        ("Werkplek nieuwe medewerker", "€185"),
+        ("Gedeelde mappen", "€170"),
         ("Bedrijfs-backup (3-2-1 + getest herstel)", "€300"),
         ("Synology / NAS basis-setup", "€195"),
         ("Vertrekkende medewerker offboarden", "€115"),
@@ -163,17 +153,17 @@ def build() -> None:
 
     story.append(Paragraph("Spilwerk Zeker — maandabonnement", section_style))
     story.append(price_table([
-        ("Basis — werkplek, bewaakte back-up, 30 min remote inbegrepen", "€45 /mnd"),
-        ("Plus — werkplekken kantoor, 1,5 uur, voorrang", "€85 /mnd"),
+        ("Basis — werkplek, bewaakte back-up, 30 min remote", "€45 p/m"),
+        ("Plus — werkplekken kantoor, 1,5 uur, voorrang", "€85 p/m"),
     ]))
     story.append(Paragraph(
-        "Maandelijks opzegbaar. Reactie binnen 1 werkdag — nooit sneller beloofd dan waargemaakt kan worden.",
+        "Maandelijks opzegbaar. Reactie binnen 1 werkdag.",
         note_style,
     ))
 
     story.append(Spacer(1, 6 * mm))
     story.append(Paragraph(
-        "Boek een bezoek via <b>spilwerk.nl/boeken</b> of bel <b>06-87433537</b>.",
+        "Boek via <b>spilwerk.nl/boeken</b> of bel <b>06-87433537</b>.",
         footer_style,
     ))
 
