@@ -3,66 +3,93 @@
 <head>
 <meta charset="utf-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1" />
+<meta name="color-scheme" content="light" />
 <title>{{ONDERWERP}}</title>
+<!--[if mso]>
+<style>table,td{font-family:Arial,Helvetica,sans-serif !important;}</style>
+<![endif]-->
 </head>
-<body style="margin:0; padding:0; background-color:#f8f8f8; font-family:Arial, Helvetica, sans-serif;">
-<table role="presentation" width="100%" cellpadding="0" cellspacing="0" border="0" style="background-color:#f8f8f8;">
+<body style="margin:0; padding:0; background-color:#FBF6EE; font-family:'Manrope',system-ui,'Segoe UI',Helvetica,Arial,sans-serif;">
+<table role="presentation" width="100%" cellpadding="0" cellspacing="0" border="0" style="background-color:#FBF6EE;">
   <tr>
     <td align="center" style="padding:24px 12px;">
-      <table role="presentation" width="600" cellpadding="0" cellspacing="0" border="0" style="max-width:600px; width:100%; background-color:#ffffff; border:1px solid #e8e8e8;">
+      <table role="presentation" width="600" cellpadding="0" cellspacing="0" border="0" style="max-width:600px; width:100%; background-color:#ffffff;">
+
+        <!-- Header -->
         <tr>
-          <td style="padding:20px 28px; border-bottom:2px solid #4A7C59;">
-            <span style="font-size:18px; font-weight:700; color:#2a2a2a;">Spilwerk</span>
-            <span style="font-size:13px; color:#6b6b6b; margin-left:10px;">IT-hulp · Twente</span>
-          </td>
-        </tr>
-        <tr>
-          <td style="padding:28px;">
-            <p style="margin:0 0 14px; font-size:14px; line-height:1.6; color:#2a2a2a;">
-              Beste {{AANHEF}},
-            </p>
-            <p style="margin:0 0 14px; font-size:14px; line-height:1.6; color:#2a2a2a;">
-              Ik zag {{HOOK}} bij {{BEDRIJFSNAAM}} in {{PLAATS}}. Ik help kleine bedrijven in Twente met IT die gewoon werkt — zonder gedoe.
-            </p>
-            <p style="margin:0 0 20px; font-size:14px; line-height:1.6; color:#2a2a2a;">
-              Voor jullie: {{PITCH}}
-            </p>
-            <table role="presentation" cellpadding="0" cellspacing="0" border="0" width="100%" style="background-color:#f5f5f5; margin:0 0 20px;">
+          <td style="border-bottom:2px solid #4A7C59;">
+            <table role="presentation" width="100%" cellpadding="0" cellspacing="0" border="0">
               <tr>
-                <td style="padding:14px 16px;">
-                  <p style="margin:0 0 8px; font-size:12px; font-weight:700; color:#4A7C59; text-transform:uppercase;">Prijzen</p>
-                  <table role="presentation" cellpadding="0" cellspacing="0" border="0" width="100%" style="font-size:13px; color:#2a2a2a;">
-                    <tr><td style="padding:3px 0;">Bezoek (1e uur)</td><td align="right" style="font-weight:700;">€60</td></tr>
-                    <tr><td style="padding:3px 0;">Hulp op afstand</td><td align="right" style="font-weight:700;">€45/u</td></tr>
-                    <tr><td style="padding:3px 0;">Halve dag op locatie</td><td align="right" style="font-weight:700;">€250</td></tr>
-                    <tr><td style="padding:3px 0;">Spilwerk Zeker (bewaakte backup)</td><td align="right" style="font-weight:700;">€45 p/m · €85 p/m</td></tr>
-                  </table>
-                  <p style="margin:10px 0 0; font-size:12px;"><a href="https://spilwerk.nl/prijslijst-2026.pdf" style="color:#4A7C59;">Volledige prijslijst (PDF) →</a></p>
+                <td style="padding:14px 16px; font-size:16px; font-weight:700; color:#2a2a2a;">
+                  Spilwerk <span style="font-weight:500; color:#5a5853;">IT-hulp Twente</span>
+                </td>
+                <td align="right" style="padding:14px 16px; font-size:13px; color:#5a5853;">
+                  06-87433537
                 </td>
               </tr>
             </table>
+          </td>
+        </tr>
+
+        <!-- Body: hook + pitch + prijsbox -->
+        <tr>
+          <td style="padding:16px;">
+            <p style="margin:0 0 10px; font-size:14px; line-height:1.55; color:#2a2a2a;">
+              Beste {{AANHEF}},
+            </p>
+            <p style="margin:0 0 10px; font-size:14px; line-height:1.55; color:#2a2a2a;">
+              Ik zag {{HOOK}} bij {{BEDRIJFSNAAM}} in {{PLAATS}}.
+            </p>
+            <p style="margin:0 0 14px; font-size:14px; line-height:1.55; color:#2a2a2a;">
+              {{PITCH}}
+            </p>
+
+            <table role="presentation" width="100%" cellpadding="0" cellspacing="0" border="0" style="background-color:#FBF6EE;">
+              <tr>
+                <td style="padding:14px 16px;">
+                  <table role="presentation" width="100%" cellpadding="0" cellspacing="0" border="0" style="font-size:13px; color:#2a2a2a;">
+                    <tr><td style="padding:3px 0;">Bezoek (1e uur)</td><td align="right" style="padding:3px 0; font-weight:700;">€60</td></tr>
+                    <tr><td style="padding:3px 0;">Hulp op afstand</td><td align="right" style="padding:3px 0; font-weight:700;">€45/u</td></tr>
+                    <tr><td style="padding:3px 0;">Halve dag op locatie</td><td align="right" style="padding:3px 0; font-weight:700;">€250</td></tr>
+                    <tr><td style="padding:3px 0;">Spilwerk Zeker (werkplek/werkplekken)</td><td align="right" style="padding:3px 0; font-weight:700;">€45 / €85 p/m</td></tr>
+                  </table>
+                </td>
+              </tr>
+            </table>
+          </td>
+        </tr>
+
+        <!-- CTA -->
+        <tr>
+          <td align="center" style="padding:14px 16px;">
             <table role="presentation" cellpadding="0" cellspacing="0" border="0">
               <tr>
                 <td style="background-color:#4A7C59;">
-                  <a href="https://spilwerk.nl/boeken" style="display:inline-block; padding:11px 22px; font-size:14px; font-weight:700; color:#ffffff; text-decoration:none;">Afspraak plannen</a>
+                  <a href="https://spilwerk.nl/boeken" style="display:inline-block; padding:11px 22px; font-size:14px; font-weight:700; color:#ffffff; text-decoration:none; font-family:'Manrope',system-ui,'Segoe UI',Helvetica,Arial,sans-serif;">Afspraak plannen</a>
                 </td>
               </tr>
             </table>
-            <p style="margin:14px 0 0; font-size:13px; color:#6b6b6b;">
-              Liever bellen? <a href="tel:+31687433537" style="color:#4A7C59; font-weight:700; text-decoration:none;">06-87433537</a> · <a href="mailto:spillwerk@gmail.com" style="color:#4A7C59;">spillwerk@gmail.com</a>
+            <p style="margin:10px 0 0; font-size:12px; color:#5a5853;">
+              Liever bellen of mailen? <a href="tel:+31687433537" style="color:#4A7C59; font-weight:700; text-decoration:none;">06-87433537</a> · <a href="mailto:spillwerk@gmail.com" style="color:#4A7C59; text-decoration:none;">spillwerk@gmail.com</a>
             </p>
-            <p style="margin:16px 0 0; font-size:12px; color:#8a8a8a;">
+          </td>
+        </tr>
+
+        <!-- Footer -->
+        <tr>
+          <td style="padding:14px 16px; border-top:1px solid #e8e8e8;">
+            <p style="margin:0 0 6px; font-size:11px; line-height:1.5; color:#9a9a9a;">
+              Werkt het niet? Dan betaal je niets voor de reparatiepoging.
+            </p>
+            <p style="margin:0 0 6px; font-size:11px; line-height:1.5; color:#9a9a9a;">
               Geen interesse? Reply met stop, dan mail ik niet meer.
             </p>
-          </td>
-        </tr>
-        <tr>
-          <td style="padding:14px 28px; border-top:1px solid #e8e8e8;">
             <p style="margin:0; font-size:11px; color:#9a9a9a;">
-              Spilwerk · Emmanuel Tekle · 06-87433537 · spilwerk.nl
+              Spilwerk · Emmanuel Tekle · spilwerk.nl
             </p>
           </td>
         </tr>
+
       </table>
     </td>
   </tr>
