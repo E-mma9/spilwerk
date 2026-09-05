@@ -1,0 +1,12 @@
+Spilwerk kickoff — 5 sep 2026 (dag 1/30, budget 100eur)
+
+Live: spilwerk.nl 200 OK, Pages deployed 893c95d (booking widget + marketing plan), CNAME spilwerk.nl, cron dagelijks 09:00 actief (Telegram 7533141775), SEO check OK (canonical/schema/GSC ja)
+
+Volgende 3 acties (15-20 min/dag):
+1. VANDAAG: GBP tweede eigenaar toevoegen (emmanueltekle@gmail.com + spillwerk@gmail.com) + categorie Computerservice + 20 plaatsen servicegebied invoeren — business.google.com > Instellingen > Gebruikers (voorkomt verlies bij schorsing)
+2. MORGEN: GBP beschrijving 750 tekens + 5 diensten + openingstijden ma-vr 18-21 za-zo 10-18 + 5 fotos uploaden (zie marketing/google-business-profile.md sectie 3-5)
+3. DAG 3: Site schema fix — telephone volledig maken (+31687433537) + geo coords Enschede toevoegen in alle 5 HTML bestanden, dan GBP eerste post plaatsen
+
+Human nodig: KvK-inschrijving regelen voor Google Ads certificering (ads nu geblokkeerd onder "Technische support door derden" — zonder KvK geen 70eur ads, fallback = 100eur print/flyers, zie 30-dagen-plan).
+
+Vraag bij elke aanvraag: "Hoe ben je bij me terecht gekomen?" noteren in tracker.md + leads.csv

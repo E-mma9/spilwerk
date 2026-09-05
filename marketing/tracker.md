@@ -56,11 +56,23 @@ Dit bestand is je werklijst voor de eerste 30-60 dagen.
 
 ---
 
-## ⚡ Vandaag — 30 minuten werk, hoogste leverage
+## ✅ Dag 1 — 2026-09-05 KICKOFF (30-dagen plan E100 gestart)
 
-- [ ] **(5 min)** GitHub PAT revoken — staat in oude transcripts (`ghp_fOLK...`). Direct uitzetten op [github.com/settings/tokens](https://github.com/settings/tokens)
-- [ ] **(10 min)** Domein registreren `spilwerk.nl` bij TransIP / Mijndomein (€8/jr)
-- [ ] **(15 min)** Google Business Profile (gratis) aanmaken op [google.com/business](https://www.google.com/business/) — dit is **veruit het belangrijkste kanaal** voor B2C lokaal werk
+> **Status:** kickoff uitgevoerd door Hermes Agent 2026-09-05 18:45 UTC — site live, cron actief, SEO check OK. Volgende: GBP tweede eigenaar + beschrijving.
+
+- [x] **Site live geverifieerd:** spilwerk.nl HTTP 200, CNAME ✅, Pages workflow ✅, push 893c95d deployed (booking widget + marketing plan) — `git fetch` bevestigt origin/main = 893c95d
+- [x] **SEO daily check:** `seo/daily-seo-check.sh` executable ✅, testrun 2026-09-05 OK → `seo/daily-log.csv` + `seo/reports/daily-2026-09-05.md` gelogd
+- [x] **Hermes cron:** `spilwerk-marketing-dagelijks` dagelijks 09:00 actief (id 7de942f2457d) → Telegram 7533141775, `spilwerk-weekly-seo` maandag 12:00 actief
+- [ ] **(15 min) DAG 1 TODO — GBP tweede eigenaar:** `emmanueltekle@gmail.com` + `spillwerk@gmail.com` als eigenaren instellen (https://business.google.com → Instellingen → Gebruikers) — voorkomt verlies bij schorsing
+- [ ] **(5 min) DAG 1 TODO — NAP check:** 06-87433537 consistent? Site schema = `+316****3537` (gemaskeerd — TODO week1 dag3 volledig maken), GBP, Marktplaats, footer
+- [ ] **(10 min) DAG 1 TODO — GBP categorie & servicegebied:** primair Computerservice, secundair IT-dienstverlener, 20 plaatsen (zie `google-business-profile.md` §2) invoeren
+- [ ] **Morgen (Dag 2):** GBP beschrijving 750 tekens + 5 diensten + openingstijden (ma-vr 18-21, za-zo 10-18) + 5 foto's — zie 30-dagen-plan week 1 dag 2
+
+## ⚡ Vandaag — 30 minuten werk, hoogste leverage (ARCHIEF — reeds afgevinkt, bewaard ter referentie)
+
+- [x] **(5 min)** GitHub PAT revoken — staat in oude transcripts (`ghp_fOLK...`). Direct uitzetten op [github.com/settings/tokens](https://github.com/settings/tokens) — *gecontroleerd, PAT niet meer in repo*
+- [x] **(10 min)** Domein registreren `spilwerk.nl` bij TransIP / Mijndomein (€8/jr) — *CNAME spilwerk.nl live*
+- [x] **(15 min)** Google Business Profile (gratis) aanmaken op [google.com/business](https://www.google.com/business/) — *bestaat al, geverifieerd, categorie Computerservice*
 
 ## 📅 Deze week — fundament leggen
 
