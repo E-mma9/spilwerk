@@ -5,10 +5,10 @@
     email: 'spillwerk@gmail.com',
     phone: '06-87433537',
     phoneLink: '+31687433537',
-    onsiteDays: [0, 3, 6],           // zo, wo, za — aan huis 08-19 (full)
-    onsiteDaysEvening: [1,2,4,5],     // ma, di, do, vr — aan huis vanaf 17:00
-    onsiteHours: [8,9,10,11,12,13,14,15,16,17,18],
-    onsiteHoursEvening: [17,18],      // doordeweeks 17-19 op locatie mogelijk
+    onsiteDays: [0, 3, 4, 6],        // zo, wo, do, za — aan huis 08-19 (full)
+    onsiteDaysEvening: [1,2,5],       // ma, di, vr — aan huis vanaf 17:00
+    onsiteHours: [8,9,10,11,12,13,14,15,16,17,18,19], // 08-20 op locatie (full days)
+    onsiteHoursEvening: [17,18,19],   // doordeweeks 17-20 op locatie
     remoteHours: [18,19],            // elke dag 18-20 op afstand
     icsProdId: '-//Spilwerk//Afspraak//NL',
   };
