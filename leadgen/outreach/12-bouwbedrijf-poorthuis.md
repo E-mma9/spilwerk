@@ -3,15 +3,15 @@ Website: https://www.poorthuis-bouw.nl
 
 **Subject:** Bouwbedrijf Poorthuis — IT uit handen, focus op je werk
 
-**Hook:** jullie website
-**Pitch:** Ik help bouwbedrijven in Twente met offertes, foto's en tekeningen veilig en vindbaar — op kantoor en onderweg.
+**Hook:** jullie bedrijf in Oldenzaal
+**Pitch:** Hoe vervelend is het als offertes, foto's of tekeningen net niet vindbaar zijn op kantoor of onderweg. Ik zorg dat het gewoon werkt — veilig en vindbaar.
 
 ---
 Beste Bouwbedrijf Poorthuis,
 
-Ik kwam Bouwbedrijf Poorthuis tegen in Oldenzaal — jullie website viel me op.
+Ik kwam jullie bedrijf in Oldenzaal tegen.
 
-Ik help bouwbedrijven in Twente met offertes, foto's en tekeningen veilig en vindbaar — op kantoor en onderweg.
+Hoe vervelend is het als offertes, foto's of tekeningen net niet vindbaar zijn op kantoor of onderweg. Ik zorg dat het gewoon werkt — veilig en vindbaar.
 
 Ik haal IT-gedoe van je schouders, zodat jij je kunt focussen op je werk en klanten — zonder omkijken naar updates, backups of gedoe.
 
@@ -20,5 +20,3 @@ Als het handig lijkt, kijk gerust naar spilwerk.nl/prijzen voor alle opties — 
 Groet,
 Emmanuel — Spilwerk
 06-87433537 · spillwerk@gmail.com · spilwerk.nl/boeken
-
-HTML template: templates/outreach-mail.html met reassurance, geen harde prijzen, geen afkraken.

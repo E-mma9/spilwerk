@@ -3,15 +3,15 @@ Website: https://autoschadehofvantwente.nl
 
 **Subject:** Autoschade Hof van Twente — IT uit handen, focus op je werk
 
-**Hook:** jullie website
-**Pitch:** Ik help autobedrijven in Twente met werkplaats-software, offertes en foto's veilig — zonder gedoe.
+**Hook:** jullie bedrijf in Goor
+**Pitch:** Hoe vervelend is het als werkplaats-software, offertes of foto's net niet meewerken. Ik zorg dat het gewoon werkt — zonder gedoe.
 
 ---
 Beste Autoschade Hof van Twente,
 
-Ik kwam Autoschade Hof van Twente tegen in Goor — jullie website viel me op.
+Ik kwam jullie bedrijf in Goor tegen.
 
-Ik help autobedrijven in Twente met werkplaats-software, offertes en foto's veilig — zonder gedoe.
+Hoe vervelend is het als werkplaats-software, offertes of foto's net niet meewerken. Ik zorg dat het gewoon werkt — zonder gedoe.
 
 Ik haal IT-gedoe van je schouders, zodat jij je kunt focussen op je werk en klanten — zonder omkijken naar updates, backups of gedoe.
 
@@ -20,5 +20,3 @@ Als het handig lijkt, kijk gerust naar spilwerk.nl/prijzen voor alle opties — 
 Groet,
 Emmanuel — Spilwerk
 06-87433537 · spillwerk@gmail.com · spilwerk.nl/boeken
-
-HTML template: templates/outreach-mail.html met reassurance, geen harde prijzen, geen afkraken.

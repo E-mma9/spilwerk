@@ -3,15 +3,15 @@ Website: https://www.wooldersteen.nl
 
 **Subject:** Fysiotherapie Wooldersteen — IT uit handen, focus op je werk
 
-**Hook:** jullie website
-**Pitch:** Ik help fysiopraktijken in Twente met agenda en patiëntdata veilig geregeld — AVG-proof en zonder omkijken.
+**Hook:** jullie praktijk in Hengelo
+**Pitch:** Hoe vervelend is het als agenda of patiëntdata net niet meewerkt en klanten moeten wachten. Ik zorg dat het veilig geregeld is — AVG-proof en zonder omkijken.
 
 ---
 Beste Fysiotherapie Wooldersteen,
 
-Ik kwam Fysiotherapie Wooldersteen tegen in Hengelo — jullie website viel me op.
+Ik kwam jullie praktijk in Hengelo tegen.
 
-Ik help fysiopraktijken in Twente met agenda en patiëntdata veilig geregeld — AVG-proof en zonder omkijken.
+Hoe vervelend is het als agenda of patiëntdata net niet meewerkt en klanten moeten wachten. Ik zorg dat het veilig geregeld is — AVG-proof en zonder omkijken.
 
 Ik haal IT-gedoe van je schouders, zodat jij je kunt focussen op je werk en klanten — zonder omkijken naar updates, backups of gedoe.
 
@@ -20,5 +20,3 @@ Als het handig lijkt, kijk gerust naar spilwerk.nl/prijzen voor alle opties — 
 Groet,
 Emmanuel — Spilwerk
 06-87433537 · spillwerk@gmail.com · spilwerk.nl/boeken
-
-HTML template: templates/outreach-mail.html met reassurance, geen harde prijzen, geen afkraken.

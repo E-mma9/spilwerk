@@ -3,15 +3,15 @@ Website: https://bbeautiful.nl
 
 **Subject:** B Beautiful — IT uit handen, focus op je werk
 
-**Hook:** jullie website
-**Pitch:** Ik help salons in Twente met boeking, klantkaarten en wifi die gewoon werken — zonder gedoe.
+**Hook:** jullie salon in Almelo
+**Pitch:** Hoe irritant is het als klanten mislopen omdat boeking, klantkaarten of wifi net niet meewerkt. Ik zorg dat het gewoon werkt — zonder dat jij er naar om hoeft te kijken.
 
 ---
 Beste B Beautiful,
 
-Ik kwam B Beautiful tegen in Almelo — jullie website viel me op.
+Ik kwam jullie salon in Almelo tegen.
 
-Ik help salons in Twente met boeking, klantkaarten en wifi die gewoon werken — zonder gedoe.
+Hoe irritant is het als klanten mislopen omdat boeking, klantkaarten of wifi net niet meewerkt. Ik zorg dat het gewoon werkt — zonder dat jij er naar om hoeft te kijken.
 
 Ik haal IT-gedoe van je schouders, zodat jij je kunt focussen op je werk en klanten — zonder omkijken naar updates, backups of gedoe.
 
@@ -20,5 +20,3 @@ Als het handig lijkt, kijk gerust naar spilwerk.nl/prijzen voor alle opties — 
 Groet,
 Emmanuel — Spilwerk
 06-87433537 · spillwerk@gmail.com · spilwerk.nl/boeken
-
-HTML template: templates/outreach-mail.html met reassurance, geen harde prijzen, geen afkraken.

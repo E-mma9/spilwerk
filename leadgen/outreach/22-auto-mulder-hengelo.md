@@ -3,15 +3,15 @@ Website: https://www.automulderhengelo.nl
 
 **Subject:** Auto Mulder Hengelo — IT uit handen, focus op je werk
 
-**Hook:** jullie website
-**Pitch:** Ik help autobedrijven in Twente met werkplaats-software, offertes en foto's veilig — zonder gedoe.
+**Hook:** jullie bedrijf in Hengelo
+**Pitch:** Hoe vervelend is het als werkplaats-software, offertes of foto's net niet meewerken. Ik zorg dat het gewoon werkt — zonder gedoe.
 
 ---
 Beste Auto Mulder Hengelo,
 
-Ik kwam Auto Mulder Hengelo tegen in Hengelo — jullie website viel me op.
+Ik kwam jullie bedrijf in Hengelo tegen.
 
-Ik help autobedrijven in Twente met werkplaats-software, offertes en foto's veilig — zonder gedoe.
+Hoe vervelend is het als werkplaats-software, offertes of foto's net niet meewerken. Ik zorg dat het gewoon werkt — zonder gedoe.
 
 Ik haal IT-gedoe van je schouders, zodat jij je kunt focussen op je werk en klanten — zonder omkijken naar updates, backups of gedoe.
 
@@ -20,5 +20,3 @@ Als het handig lijkt, kijk gerust naar spilwerk.nl/prijzen voor alle opties — 
 Groet,
 Emmanuel — Spilwerk
 06-87433537 · spillwerk@gmail.com · spilwerk.nl/boeken
-
-HTML template: templates/outreach-mail.html met reassurance, geen harde prijzen, geen afkraken.

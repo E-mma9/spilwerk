@@ -3,15 +3,15 @@ Website: https://www.finadien.nl
 
 **Subject:** FINADIEN — IT uit handen, focus op je werk
 
-**Hook:** jullie website
-**Pitch:** Ik help kleine kantoren in Twente met werkplekken, backup en mappen die gewoon werken — overzichtelijk en veilig.
+**Hook:** jullie kantoor in Enschede
+**Pitch:** Hoe vervelend is het als werkplekken, mappen of backup net niet meewerken en werk blijft liggen. Ik zorg dat het gewoon werkt — overzichtelijk en veilig.
 
 ---
 Beste FINADIEN,
 
-Ik kwam FINADIEN tegen in Enschede — jullie website viel me op.
+Ik kwam jullie kantoor in Enschede tegen.
 
-Ik help kleine kantoren in Twente met werkplekken, backup en mappen die gewoon werken — overzichtelijk en veilig.
+Hoe vervelend is het als werkplekken, mappen of backup net niet meewerken en werk blijft liggen. Ik zorg dat het gewoon werkt — overzichtelijk en veilig.
 
 Ik haal IT-gedoe van je schouders, zodat jij je kunt focussen op je werk en klanten — zonder omkijken naar updates, backups of gedoe.
 
@@ -20,5 +20,3 @@ Als het handig lijkt, kijk gerust naar spilwerk.nl/prijzen voor alle opties — 
 Groet,
 Emmanuel — Spilwerk
 06-87433537 · spillwerk@gmail.com · spilwerk.nl/boeken
-
-HTML template: templates/outreach-mail.html met reassurance, geen harde prijzen, geen afkraken.

@@ -3,15 +3,15 @@ Website: https://renova-twente-bouw.com
 
 **Subject:** Renova Twente Bouw — IT uit handen, focus op je werk
 
-**Hook:** jullie website
-**Pitch:** Ik help bouwbedrijven in Twente met offertes, foto's en tekeningen veilig en vindbaar — op kantoor en onderweg.
+**Hook:** jullie bedrijf in Enschede
+**Pitch:** Hoe vervelend is het als offertes, foto's of tekeningen net niet vindbaar zijn op kantoor of onderweg. Ik zorg dat het gewoon werkt — veilig en vindbaar.
 
 ---
 Beste Renova Twente Bouw,
 
-Ik kwam Renova Twente Bouw tegen in Enschede — jullie website viel me op.
+Ik kwam jullie bedrijf in Enschede tegen.
 
-Ik help bouwbedrijven in Twente met offertes, foto's en tekeningen veilig en vindbaar — op kantoor en onderweg.
+Hoe vervelend is het als offertes, foto's of tekeningen net niet vindbaar zijn op kantoor of onderweg. Ik zorg dat het gewoon werkt — veilig en vindbaar.
 
 Ik haal IT-gedoe van je schouders, zodat jij je kunt focussen op je werk en klanten — zonder omkijken naar updates, backups of gedoe.
 
@@ -20,5 +20,3 @@ Als het handig lijkt, kijk gerust naar spilwerk.nl/prijzen voor alle opties — 
 Groet,
 Emmanuel — Spilwerk
 06-87433537 · spillwerk@gmail.com · spilwerk.nl/boeken
-
-HTML template: templates/outreach-mail.html met reassurance, geen harde prijzen, geen afkraken.
