@@ -104,6 +104,7 @@
     const successEl = root.querySelector('[data-bk-success]');
     const addressField = root.querySelector('[name=\"address\"]');
     const addressLabel = root.querySelector('[data-address-label]');
+    const addressText = root.querySelector('[data-address-text]');
 
     let selectedKind = 'onsite'; // 'onsite' | 'remote'
     let selectedDate = null;     // Date
@@ -195,8 +196,8 @@
       const kind = currentKind();
       const isRemote = (selectedKindForSlot==='remote') || (!selectedKindForSlot && kind==='remote');
       if(addressField){
-        if(isRemote){ addressField.removeAttribute('required'); if(addressLabel) addressLabel.innerHTML='Adres <span class="bk-optional">(niet nodig voor op afstand)</span>'; addressField.placeholder='Alleen bij aan huis nodig'; }
-        else { addressField.setAttribute('required',''); if(addressLabel) addressLabel.textContent='Adres *'; addressField.placeholder='Straat, huisnr, plaats'; }
+        if(isRemote){ addressField.removeAttribute('required'); if(addressText) addressText.innerHTML='Adres <span class="bk-optional">(niet nodig voor op afstand)</span>'; else if(addressLabel) addressLabel.innerHTML='Adres <span class="bk-optional">(niet nodig voor op afstand)</span>'; addressField.placeholder='Alleen bij aan huis nodig'; addressField.style.display=''; if(addressLabel) addressLabel.style.display=''; }
+        else { addressField.setAttribute('required',''); if(addressText) addressText.textContent='Adres *'; else if(addressLabel) addressLabel.textContent='Adres *'; addressField.placeholder='Straat, huisnr, plaats'; }
       }
       if(summaryEl){
         if(selectedDate && selectedHour!=null){
