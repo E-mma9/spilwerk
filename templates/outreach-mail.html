@@ -1,196 +1,68 @@
-<!--
-  Spilwerk — outreach e-mailtemplate (HTML)
-  =========================================
-  Tabel-layout + inline CSS voor brede e-mailclient-compatibiliteit (Gmail, Outlook).
-
-  PLACEHOLDERS (vervang vóór verzenden):
-    {{BEDRIJFSNAAM}}   — officiële bedrijfsnaam, bijv. "Mufide Hair & Art"
-    {{AANHEF}}         — "Jan" (contactnaam) of "team van {{BEDRIJFSNAAM}}" als geen naam bekend is
-    {{PLAATS}}         — vestigingsplaats, bijv. "Hengelo"
-    {{HOOK}}           — 1 zin die laat zien dat de site/branche is bekeken (uit reden_waarom_interessant in leads.csv)
-    {{PITCH}}          — branche-specifieke dienst-zin, zie voorbeelden hieronder
-    {{ONDERWERP}}      — onderwerpregel van de mail (los invullen in je mailclient)
-
-  VOORBEELDEN PER BRANCHE VOOR {{PITCH}} (kopieer wat past, personaliseer met CSV-notitie):
-    - Bouw:        "Synology/NAS-opzet (€195) voor je bouwfoto's en tekeningen, plus een bewaakte
-                     bedrijfs-backup (€300) zodat een offerte of tekening nooit kwijt is."
-    - Auto:        "Werkplek-setup (€185) voor de kassa/werkplaats-pc en een netwerkprinter (€130)
-                     die het gewoon doet tijdens een drukke zaterdag."
-    - Salon/kappers: "Spilwerk Zeker (€45/mnd) voor je kassa en online agenda, met een bewaakte
-                     backup (€300) van je klant- en boekingsgegevens erbij."
-    - Accountant:  "Een bewaakte backup (€300) van dossiers plus gedeelde mappen (€170) zodat
-                     iedereen op kantoor bij dezelfde actuele versie kan."
-    - Fysio:       "Spilwerk Zeker (€45/mnd): je boekingssysteem en patiëntdata blijven veilig en
-                     up-to-date, zonder dat je er zelf naar hoeft om te kijken."
-
-  Prijslijst-PDF: link hieronder verwijst naar https://spilwerk.nl/prijslijst-2026.pdf.
-  Zet 'm ook als bijlage bij het versturen — een link kan door spamfilters worden afgevangen,
-  een PDF-bijlage komt altijd aan.
-
-  AVG: alleen naar publieke, zakelijke e-mailadressen (info@, contact@ e.d.) — zie templates/README.md.
-  Opt-out-zin in de footer is verplicht en mag niet worden verwijderd.
--->
 <!doctype html>
 <html lang="nl">
 <head>
 <meta charset="utf-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1" />
 <title>{{ONDERWERP}}</title>
-<!--[if mso]>
-<noscript>
-<xml>
-<o:OfficeDocumentSettings>
-<o:PixelsPerInch>96</o:PixelsPerInch>
-</o:OfficeDocumentSettings>
-</xml>
-</noscript>
-<![endif]-->
 </head>
-<body style="margin:0; padding:0; background-color:#FBF6EE; font-family:'Manrope', Arial, Helvetica, sans-serif;">
-<table role="presentation" width="100%" cellpadding="0" cellspacing="0" border="0" style="background-color:#FBF6EE;">
+<body style="margin:0; padding:0; background-color:#f8f8f8; font-family:Arial, Helvetica, sans-serif;">
+<table role="presentation" width="100%" cellpadding="0" cellspacing="0" border="0" style="background-color:#f8f8f8;">
   <tr>
     <td align="center" style="padding:24px 12px;">
-      <table role="presentation" width="600" cellpadding="0" cellspacing="0" border="0" style="max-width:600px; width:100%; background-color:#ffffff; border-radius:16px; overflow:hidden;">
-
-        <!-- Header -->
+      <table role="presentation" width="600" cellpadding="0" cellspacing="0" border="0" style="max-width:600px; width:100%; background-color:#ffffff; border:1px solid #e8e8e8;">
         <tr>
-          <td style="background-color:#4A7C59; padding:28px 32px;">
-            <table role="presentation" cellpadding="0" cellspacing="0" border="0">
-              <tr>
-                <td style="padding-right:10px;">
-                  <table role="presentation" cellpadding="0" cellspacing="0" border="0" width="28" height="28">
-                    <tr>
-                      <td width="28" height="28" style="background-color:#ffffff; border-radius:50%; text-align:center; vertical-align:middle;">
-                        <div style="width:10px; height:10px; margin:9px auto 0; background-color:#E8865B; border-radius:50%;"></div>
-                      </td>
-                    </tr>
-                  </table>
-                </td>
-                <td style="font-size:22px; font-weight:700; color:#ffffff; font-family:'Manrope', Arial, Helvetica, sans-serif;">
-                  Spilwerk
-                </td>
-              </tr>
-            </table>
-            <p style="margin:8px 0 0; color:#FBF6EE; font-size:13px;">Vriendelijke IT-hulp aan huis — heel Overijssel</p>
+          <td style="padding:20px 28px; border-bottom:2px solid #4A7C59;">
+            <span style="font-size:18px; font-weight:700; color:#2a2a2a;">Spilwerk</span>
+            <span style="font-size:13px; color:#6b6b6b; margin-left:10px;">IT-hulp aan huis · Twente</span>
           </td>
         </tr>
-
-        <!-- Body -->
         <tr>
-          <td style="padding:32px;">
-            <p style="margin:0 0 16px; font-size:15px; line-height:1.6; color:#2E2E2E;">
+          <td style="padding:28px;">
+            <p style="margin:0 0 14px; font-size:14px; line-height:1.6; color:#2a2a2a;">
               Beste {{AANHEF}},
             </p>
-            <p style="margin:0 0 16px; font-size:15px; line-height:1.6; color:#2E2E2E;">
-              Ik zag {{HOOK}} bij {{BEDRIJFSNAAM}} in {{PLAATS}} — herkenbaar hoe vervelend het is als de
-              techniek er even mee ophoudt op een drukke dag. Ik help zelfstandigen en kleine bedrijven in
-              Twente met precies dat: aan huis of op kantoor, zonder jargon, Heuvelshulp-stijl.
+            <p style="margin:0 0 14px; font-size:14px; line-height:1.6; color:#2a2a2a;">
+              Ik zag {{HOOK}} bij {{BEDRIJFSNAAM}} in {{PLAATS}}. Ik help kleine bedrijven in Twente met IT die gewoon werkt — aan huis, zonder gedoe.
             </p>
-            <p style="margin:0 0 20px; font-size:15px; line-height:1.6; color:#2E2E2E;">
-              Voor {{BEDRIJFSNAAM}} denk ik aan: {{PITCH}}
+            <p style="margin:0 0 20px; font-size:14px; line-height:1.6; color:#2a2a2a;">
+              Voor jullie: {{PITCH}}
             </p>
-
-            <!-- Photo placeholder -->
-            <table role="presentation" cellpadding="0" cellspacing="0" border="0" width="100%" style="margin:0 0 20px;">
+            <table role="presentation" cellpadding="0" cellspacing="0" border="0" width="100%" style="background-color:#f5f5f5; margin:0 0 20px;">
               <tr>
-                <td width="72" style="padding-right:14px; vertical-align:top;">
-                  <!-- Vervang src door een echte foto van Emmanuel (vierkant, min. 144x144px) -->
-                  <img src="https://spilwerk.nl/assets/emmanuel-foto-placeholder.jpg"
-                       alt="Emmanuel Tekle — Spilwerk"
-                       width="72" height="72"
-                       style="display:block; width:72px; height:72px; border-radius:50%; background-color:#FBF6EE; border:1px solid #E6DDD0;" />
-                </td>
-                <td style="vertical-align:middle;">
-                  <p style="margin:0; font-size:14px; line-height:1.5; color:#2E2E2E;">
-                    <strong>Emmanuel Tekle</strong><br />
-                    <span style="color:#5b5b5b;">Spilwerk · HBO ICT, Cybersecurity &amp; Cloud</span>
-                  </p>
-                </td>
-              </tr>
-            </table>
-
-            <!-- Prices box -->
-            <table role="presentation" cellpadding="0" cellspacing="0" border="0" width="100%" style="background-color:#FBF6EE; border-radius:12px; margin:0 0 24px;">
-              <tr>
-                <td style="padding:18px 20px;">
-                  <p style="margin:0 0 10px; font-size:13px; font-weight:700; color:#4A7C59; text-transform:uppercase; letter-spacing:.03em;">
-                    Prijzen in het kort
-                  </p>
-                  <table role="presentation" cellpadding="0" cellspacing="0" border="0" width="100%" style="font-size:14px; color:#2E2E2E;">
-                    <tr>
-                      <td style="padding:4px 0;">Bezoek aan huis in Twente (1e uur)</td>
-                      <td align="right" style="padding:4px 0; font-weight:700; color:#E8865B;">€60</td>
-                    </tr>
-                    <tr>
-                      <td style="padding:4px 0;">Hulp op afstand</td>
-                      <td align="right" style="padding:4px 0; font-weight:700; color:#E8865B;">€45 /u</td>
-                    </tr>
-                    <tr>
-                      <td style="padding:4px 0;">Klein klusje (&lt;30 min, op afstand)</td>
-                      <td align="right" style="padding:4px 0; font-weight:700; color:#E8865B;">€30</td>
-                    </tr>
-                    <tr>
-                      <td style="padding:4px 0;">Halve dag op locatie</td>
-                      <td align="right" style="padding:4px 0; font-weight:700; color:#E8865B;">€250</td>
-                    </tr>
-                    <tr>
-                      <td style="padding:4px 0;">Spilwerk Zeker — Basis / Plus</td>
-                      <td align="right" style="padding:4px 0; font-weight:700; color:#E8865B;">€45 / €85 mnd</td>
-                    </tr>
+                <td style="padding:14px 16px;">
+                  <p style="margin:0 0 8px; font-size:12px; font-weight:700; color:#4A7C59; text-transform:uppercase;">Prijzen</p>
+                  <table role="presentation" cellpadding="0" cellspacing="0" border="0" width="100%" style="font-size:13px; color:#2a2a2a;">
+                    <tr><td style="padding:3px 0;">Bezoek aan huis (1e uur, Twente)</td><td align="right" style="font-weight:700;">€60</td></tr>
+                    <tr><td style="padding:3px 0;">Hulp op afstand</td><td align="right" style="font-weight:700;">€45/u</td></tr>
+                    <tr><td style="padding:3px 0;">Halve dag op locatie</td><td align="right" style="font-weight:700;">€250</td></tr>
+                    <tr><td style="padding:3px 0;">Spilwerk Zeker (bewaakte backup)</td><td align="right" style="font-weight:700;">€45 / €85 p/m</td></tr>
                   </table>
-                  <p style="margin:12px 0 0; font-size:13px;">
-                    <a href="https://spilwerk.nl/prijslijst-2026.pdf" style="color:#4A7C59; font-weight:700;">Volledige prijslijst (PDF, incl. vaste prijzen) →</a>
-                  </p>
+                  <p style="margin:10px 0 0; font-size:12px;"><a href="https://spilwerk.nl/prijslijst-2026.pdf" style="color:#4A7C59;">Volledige prijslijst (PDF) →</a></p>
                 </td>
               </tr>
             </table>
-
-            <!-- CTA -->
-            <table role="presentation" cellpadding="0" cellspacing="0" border="0" width="100%">
+            <table role="presentation" cellpadding="0" cellspacing="0" border="0">
               <tr>
-                <td align="center" style="padding:0 0 8px;">
-                  <table role="presentation" cellpadding="0" cellspacing="0" border="0">
-                    <tr>
-                      <td style="background-color:#E8865B; border-radius:10px;">
-                        <a href="https://spilwerk.nl/boeken" style="display:inline-block; padding:14px 28px; font-size:15px; font-weight:700; color:#ffffff; text-decoration:none;">
-                          Boek een afspraak
-                        </a>
-                      </td>
-                    </tr>
-                  </table>
-                </td>
-              </tr>
-              <tr>
-                <td align="center">
-                  <p style="margin:8px 0 0; font-size:13px; color:#5b5b5b;">
-                    of bel/app direct: <a href="tel:+31687433537" style="color:#4A7C59; font-weight:700; text-decoration:none;">06-87433537</a>
-                  </p>
+                <td style="background-color:#4A7C59;">
+                  <a href="https://spilwerk.nl/boeken" style="display:inline-block; padding:11px 22px; font-size:14px; font-weight:700; color:#ffffff; text-decoration:none;">Afspraak plannen</a>
                 </td>
               </tr>
             </table>
-
-            <p style="margin:24px 0 0; font-size:13px; line-height:1.6; color:#5b5b5b;">
-              Geen druk om iets te beslissen — een reactie hoeft niet vandaag. Werkt de reparatie niet,
-              dan betaal je niets voor de poging.
+            <p style="margin:14px 0 0; font-size:13px; color:#6b6b6b;">
+              Liever bellen? <a href="tel:+31687433537" style="color:#4A7C59; font-weight:700; text-decoration:none;">06-87433537</a> · <a href="mailto:spillwerk@gmail.com" style="color:#4A7C59;">spillwerk@gmail.com</a>
+            </p>
+            <p style="margin:16px 0 0; font-size:12px; color:#8a8a8a;">
+              Geen interesse? Reply met stop, dan mail ik niet meer.
             </p>
           </td>
         </tr>
-
-        <!-- Footer -->
         <tr>
-          <td style="padding:20px 32px 28px; border-top:1px solid #E6DDD0;">
-            <p style="margin:0 0 6px; font-size:12px; line-height:1.6; color:#8a8a8a;">
-              Spilwerk · Emmanuel Tekle · spilwerk.nl · 06-87433537 · spillwerk@gmail.com
-            </p>
-            <p style="margin:0 0 6px; font-size:12px; line-height:1.6; color:#8a8a8a;">
-              Algemene voorwaarden op aanvraag via spillwerk@gmail.com.
-            </p>
-            <p style="margin:0; font-size:12px; line-height:1.6; color:#8a8a8a;">
-              Liever geen bericht meer van mij? Laat het weten via een reply, dan haal ik je direct van de lijst.
+          <td style="padding:14px 28px; border-top:1px solid #e8e8e8;">
+            <p style="margin:0; font-size:11px; color:#9a9a9a;">
+              Spilwerk · Emmanuel Tekle · 06-87433537 · spilwerk.nl
             </p>
           </td>
         </tr>
-
       </table>
     </td>
   </tr>
