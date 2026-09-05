@@ -28,7 +28,6 @@ OUT = ROOT / "prijslijst-2026.pdf"
 
 CREME = colors.HexColor("#FBF6EE")
 GROEN = colors.HexColor("#4A7C59")
-ORANJE = colors.HexColor("#E8865B")
 DONKER = colors.HexColor("#2E2E2E")
 WHITE = colors.white
 
@@ -141,7 +140,7 @@ def build() -> None:
         ("Bezoek (1e uur incl. voorrijden)", "€60"),
         ("Voorrijden buiten Twente (Zwolle, Deventer, Kampen, Steenwijk e.o.)", "+€30"),
         ("Daarna per begonnen kwartier", "€15"),
-        ("Hulp op afstand", "€45 /uur"),
+        ("Hulp op afstand", "€45/u"),
         ("Klein klusje (<30 min, op afstand)", "€30"),
         ("Avond & weekend", "geen toeslag"),
         ("Halve dag op locatie (zelfstandigen)", "€250"),
@@ -163,8 +162,8 @@ def build() -> None:
 
     story.append(Paragraph("Spilwerk Zeker — maandabonnement", section_style))
     story.append(price_table([
-        ("Basis — werkplek, bewaakte back-up, 30 min remote inbegrepen", "€45 /mnd"),
-        ("Plus — werkplekken kantoor, 1,5 uur, voorrang", "€85 /mnd"),
+        ("Basis — werkplek, bewaakte back-up, 30 min remote inbegrepen", "€45 p/m"),
+        ("Plus — werkplekken kantoor, 1,5 uur, voorrang", "€85 p/m"),
     ]))
     story.append(Paragraph(
         "Maandelijks opzegbaar. Reactie binnen 1 werkdag — nooit sneller beloofd dan waargemaakt kan worden.",
