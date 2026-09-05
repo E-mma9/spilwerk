@@ -70,7 +70,7 @@ def price_table(rows: list[tuple[str, str]]) -> Table:
         ("BACKGROUND", (0, 0), (-1, 0), GROEN),
         ("ALIGN", (1, 0), (1, -1), "RIGHT"),
         ("FONTNAME", (1, 1), (1, -1), FONT_BOLD),
-        ("TEXTCOLOR", (1, 1), (1, -1), ORANJE),
+        ("TEXTCOLOR", (1, 1), (1, -1), DONKER),
         ("TOPPADDING", (0, 0), (-1, -1), 6),
         ("BOTTOMPADDING", (0, 0), (-1, -1), 6),
         ("LEFTPADDING", (0, 0), (-1, -1), 8),
@@ -89,14 +89,14 @@ def header_band(canvas, doc):
     canvas.rect(0, A4[1] - 42 * mm, A4[0], 42 * mm, stroke=0, fill=1)
     canvas.setFillColor(WHITE)
     canvas.circle(24 * mm, A4[1] - 21 * mm, 6 * mm, stroke=0, fill=1)
-    canvas.setFillColor(ORANJE)
+    canvas.setFillColor(WHITE)
     canvas.circle(24 * mm, A4[1] - 21 * mm, 2.2 * mm, stroke=0, fill=1)
     canvas.setFont(FONT_BOLD, 22)
     canvas.setFillColor(WHITE)
     canvas.drawString(36 * mm, A4[1] - 18 * mm, "Spilwerk")
     canvas.setFont(FONT, 11)
     canvas.setFillColor(CREME)
-    canvas.drawString(36 * mm, A4[1] - 25 * mm, "Vriendelijke IT-hulp aan huis — heel Overijssel")
+    canvas.drawString(36 * mm, A4[1] - 25 * mm, "IT-hulp — Twente")
     canvas.setFont(FONT, 10)
     canvas.drawRightString(A4[0] - 15 * mm, A4[1] - 15 * mm, "06-87433537")
     canvas.drawRightString(A4[0] - 15 * mm, A4[1] - 20 * mm, "spillwerk@gmail.com")
@@ -130,14 +130,14 @@ def build() -> None:
         "h1", fontName=FONT_BOLD, fontSize=18, textColor=GROEN, spaceAfter=4,
     )))
     story.append(Paragraph(
-        "Je betaalt per tijd of per klus — geen abonnementsdwang, geen verborgen kosten. "
+        "Per tijd of per klus — geen verborgen kosten. "
         "Werkt het niet, dan betaal je niets voor de reparatiepoging.",
         ParagraphStyle("lede", fontName=FONT, fontSize=10.5, textColor=DONKER, spaceAfter=10, leading=14),
     ))
 
-    story.append(Paragraph("Aan huis &amp; op afstand", section_style))
+    story.append(Paragraph("Prijzen", section_style))
     story.append(price_table([
-        ("Bezoek aan huis in Twente (1e uur incl. voorrijden)", "€60"),
+        ("Bezoek (1e uur incl. voorrijden)", "€60"),
         ("Voorrijden buiten Twente (Zwolle, Deventer, Kampen, Steenwijk e.o.)", "+€30"),
         ("Daarna per begonnen kwartier", "€15"),
         ("Hulp op afstand", "€45 /uur"),
@@ -154,7 +154,6 @@ def build() -> None:
     story.append(Paragraph("Voor zelfstandigen &amp; klein kantoor — vaste prijzen", section_style))
     story.append(price_table([
         ("Werkplek-setup nieuwe medewerker", "€185"),
-        ("Gedeelde printer in netwerk (tot 5 werkplekken)", "€130"),
         ("Gedeelde mappen instellen", "€170"),
         ("Bedrijfs-backup (3-2-1 + getest herstel)", "€300"),
         ("Synology / NAS basis-setup", "€195"),
