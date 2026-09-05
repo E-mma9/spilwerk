@@ -56,7 +56,7 @@ p{margin:0 0 1em}
 .row-card .meta{font-size:.85rem;color:var(--ink-3)}
 /* Prijzen — simple list */
 .price-list{margin-top:1.5rem;border:1px solid var(--paper-3);border-radius:var(--radius);overflow:hidden;background:#fff}
-.price-list .row{display:flex;justify-content:space-between;gap:1rem;padding:.85rem 1.1rem;border-bottom:1px solid var(--paper-3);font-size:.95rem}
+.price-list .row{display:flex;justify-content:space-between;gap:1rem;padding:.6rem 1rem;border-bottom:1px solid var(--paper-3);font-size:.95rem}
 .price-list .row:last-child{border-bottom:0}
 .price-list .row b{white-space:nowrap}
 .price-list .row.head{background:var(--paper-2);font-weight:700}

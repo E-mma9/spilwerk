@@ -47,7 +47,7 @@ contact_style = ParagraphStyle(
 )
 section_style = ParagraphStyle(
     "section", fontName=FONT_BOLD, fontSize=13, textColor=GROEN, leading=16,
-    spaceBefore=14, spaceAfter=6,
+    spaceBefore=10, spaceAfter=4,
 )
 note_style = ParagraphStyle(
     "note", fontName=FONT, fontSize=9, textColor=DONKER, leading=12,
@@ -61,7 +61,7 @@ footer_style = ParagraphStyle(
 
 def price_table(rows: list[tuple[str, str]]) -> Table:
     data = [["Omschrijving", "Prijs"]] + [list(r) for r in rows]
-    t = Table(data, colWidths=[120 * mm, 45 * mm])
+    t = Table(data, colWidths=[128 * mm, 37 * mm])
     style = [
         ("FONTNAME", (0, 0), (-1, 0), FONT_BOLD),
         ("FONTNAME", (0, 1), (-1, -1), FONT),
@@ -71,9 +71,10 @@ def price_table(rows: list[tuple[str, str]]) -> Table:
         ("ALIGN", (1, 0), (1, -1), "RIGHT"),
         ("FONTNAME", (1, 1), (1, -1), FONT_BOLD),
         ("TEXTCOLOR", (1, 1), (1, -1), DONKER),
-        ("TOPPADDING", (0, 0), (-1, -1), 6),
-        ("BOTTOMPADDING", (0, 0), (-1, -1), 6),
+        ("TOPPADDING", (0, 0), (-1, -1), 4),
+        ("BOTTOMPADDING", (0, 0), (-1, -1), 4),
         ("LEFTPADDING", (0, 0), (-1, -1), 8),
+        ("RIGHTPADDING", (0, 0), (-1, -1), 8),
         ("LINEBELOW", (0, 0), (-1, -2), 0.5, colors.HexColor("#E6DDD0")),
     ]
     for i in range(1, len(data)):
@@ -116,7 +117,7 @@ def build() -> None:
     doc = SimpleDocTemplate(
         str(OUT),
         pagesize=A4,
-        topMargin=52 * mm,
+        topMargin=48 * mm,
         bottomMargin=20 * mm,
         leftMargin=15 * mm,
         rightMargin=15 * mm,
@@ -132,7 +133,7 @@ def build() -> None:
     story.append(Paragraph(
         "Per tijd of per klus — geen verborgen kosten. "
         "Werkt het niet, dan betaal je niets voor de reparatiepoging.",
-        ParagraphStyle("lede", fontName=FONT, fontSize=10.5, textColor=DONKER, spaceAfter=10, leading=14),
+        ParagraphStyle("lede", fontName=FONT, fontSize=10.5, textColor=DONKER, spaceAfter=8, leading=13),
     ))
 
     story.append(Paragraph("Prijzen", section_style))
@@ -162,15 +163,15 @@ def build() -> None:
 
     story.append(Paragraph("Spilwerk Zeker — maandabonnement", section_style))
     story.append(price_table([
-        ("Basis — 1 werkplek, bewaakte back-up, 30 min remote inbegrepen", "€45 /mnd"),
-        ("Plus — tot 3 werkplekken, 1,5 uur, voorrang", "€85 /mnd"),
+        ("Basis — werkplek, bewaakte back-up, 30 min remote inbegrepen", "€45 /mnd"),
+        ("Plus — werkplekken kantoor, 1,5 uur, voorrang", "€85 /mnd"),
     ]))
     story.append(Paragraph(
         "Maandelijks opzegbaar. Reactie binnen 1 werkdag — nooit sneller beloofd dan waargemaakt kan worden.",
         note_style,
     ))
 
-    story.append(Spacer(1, 10 * mm))
+    story.append(Spacer(1, 6 * mm))
     story.append(Paragraph(
         "Boek een bezoek via <b>spilwerk.nl/boeken</b> of bel <b>06-87433537</b>.",
         footer_style,
