@@ -257,7 +257,7 @@
   }
 
   document.addEventListener('DOMContentLoaded',()=>{
-    document.querySelectorAll('[data-booking-root]').forEach(init);
+    document.querySelectorAll('[data-booking-root], #booking-root').forEach(init);
     window.SpilwerkBooking={ CONFIG, buildICS, gcalUrl };
   });
 })();
