@@ -46,7 +46,7 @@
     const CONTACT = {
       email:    'admin@spilwerk.nl',
       whatsapp: '+31687433537',
-      phone:    '+31687433537',
+      phone: '06-87433537',
     };
     // ▲ EDIT HERE ▲
 
