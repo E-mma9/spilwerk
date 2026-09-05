@@ -2,6 +2,18 @@
 
 Vriendelijke IT-hulp aan huis op uurbasis. Geen pakketten — wel heldere tarieven en een rekenmodel zodat je weet wat een werkdag oplevert.
 
+## Drie tiers (klant-framing)
+
+Naar buiten toe (site, Marktplaats, Google Business Profile) presenteren we dit als drie tiers. De onderliggende tarieven en marges hieronder veranderen niet — dit is alleen de naam waaronder een klant het tegenkomt.
+
+| Tier | Wat | Prijs | Voor wie |
+|---|---|---:|---|
+| **Instap** | Losse bezoeken (uurbasis) + vaste-prijs klusjes particulier | vanaf €60/bezoek, eenmalig | Particulier |
+| **Zeker** | Spilwerk Zeker maandabonnement — back-up bewaakt, voorrang | €45/mnd Basis · €85/mnd Plus | ZZP / klein kantoor |
+| **Zakelijk Retainer** | Vaste-prijs klussen voor zelfstandigen/kantoren + halve dag op locatie | €115–€300 · halve dag vanaf €250 | ZZP / zelfstandige professional |
+
+**Upsell-pad:** elk Instap-bezoek eindigt met een korte Zeker-pitch — vooral bij particulieren/zzp die vaker dan 1×/jaar langskomen, want Zeker heeft een beter effectief uurtarief dan losse bezoeken (zie "Abonnement" hieronder). Elke Zeker-klant krijgt op een logisch moment (kwartaalcheck, storing) de vraag of een eigen NAS of geteste bedrijfsback-up (Zakelijk Retainer, vanaf €195) wenselijk is — dat is ook de vaste-prijs categorie met de beste marge (zie "Vaste-prijs klusjes" hieronder). Beide zijn losse pitches, geen verplichte funnel — forceer niet als de klant geen behoefte heeft.
+
 ## Vaste kosten per maand
 
 | Categorie | Wat | Kosten (€/mnd) |

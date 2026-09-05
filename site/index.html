@@ -38,34 +38,133 @@
     "addressCountry": "NL"
   },
   "areaServed": [
-    { "@type": "City", "name": "Enschede" },
-    { "@type": "City", "name": "Hengelo" },
-    { "@type": "City", "name": "Almelo" },
-    { "@type": "City", "name": "Borne" },
-    { "@type": "City", "name": "Oldenzaal" },
-    { "@type": "City", "name": "Haaksbergen" },
-    { "@type": "City", "name": "Zwolle" },
-    { "@type": "City", "name": "Deventer" },
-    { "@type": "City", "name": "Kampen" },
-    { "@type": "AdministrativeArea", "name": "Overijssel" }
+    {
+      "@type": "City",
+      "name": "Enschede"
+    },
+    {
+      "@type": "City",
+      "name": "Hengelo"
+    },
+    {
+      "@type": "City",
+      "name": "Almelo"
+    },
+    {
+      "@type": "City",
+      "name": "Borne"
+    },
+    {
+      "@type": "City",
+      "name": "Oldenzaal"
+    },
+    {
+      "@type": "City",
+      "name": "Haaksbergen"
+    },
+    {
+      "@type": "City",
+      "name": "Zwolle"
+    },
+    {
+      "@type": "City",
+      "name": "Deventer"
+    },
+    {
+      "@type": "City",
+      "name": "Kampen"
+    },
+    {
+      "@type": "AdministrativeArea",
+      "name": "Overijssel"
+    }
   ],
-  "openingHoursSpecification": [{
-    "@type": "OpeningHoursSpecification",
-    "dayOfWeek": ["Monday","Tuesday","Wednesday","Thursday","Friday"],
-    "opens": "09:00",
-    "closes": "18:00"
-  }],
+  "openingHoursSpecification": [
+    {
+      "@type": "OpeningHoursSpecification",
+      "dayOfWeek": [
+        "Monday",
+        "Tuesday",
+        "Wednesday",
+        "Thursday",
+        "Friday"
+      ],
+      "opens": "09:00",
+      "closes": "18:00"
+    }
+  ],
   "hasOfferCatalog": {
     "@type": "OfferCatalog",
     "name": "Diensten",
     "itemListElement": [
-      { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Computer-hulp aan huis" }, "priceSpecification": { "@type": "PriceSpecification", "price": "60", "priceCurrency": "EUR", "description": "Eerste uur incl. voorrijden in Twente" } },
-      { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Wifi en internet" } },
-      { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Telefoon en tablet" } },
-      { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Veilig online en backup" } },
-      { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "IT voor zelfstandigen en kleine kantoren" } },
-      { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Spilwerk Zeker - maandelijks IT-onderhoud voor zelfstandigen" }, "priceSpecification": { "@type": "UnitPriceSpecification", "price": "45", "priceCurrency": "EUR", "unitCode": "MON", "description": "Per maand, bewaakte back-up en voorrang bij storingen" } }
+      {
+        "@type": "Offer",
+        "itemOffered": {
+          "@type": "Service",
+          "name": "Computer-hulp aan huis"
+        },
+        "priceSpecification": {
+          "@type": "PriceSpecification",
+          "price": "60",
+          "priceCurrency": "EUR",
+          "description": "Eerste uur incl. voorrijden in Twente"
+        }
+      },
+      {
+        "@type": "Offer",
+        "itemOffered": {
+          "@type": "Service",
+          "name": "Wifi en internet"
+        }
+      },
+      {
+        "@type": "Offer",
+        "itemOffered": {
+          "@type": "Service",
+          "name": "Telefoon en tablet"
+        }
+      },
+      {
+        "@type": "Offer",
+        "itemOffered": {
+          "@type": "Service",
+          "name": "Veilig online en backup"
+        }
+      },
+      {
+        "@type": "Offer",
+        "itemOffered": {
+          "@type": "Service",
+          "name": "IT voor zelfstandigen en kleine kantoren"
+        }
+      },
+      {
+        "@type": "Offer",
+        "itemOffered": {
+          "@type": "Service",
+          "name": "Spilwerk Zeker - maandelijks IT-onderhoud voor zelfstandigen"
+        },
+        "priceSpecification": {
+          "@type": "UnitPriceSpecification",
+          "price": "45",
+          "priceCurrency": "EUR",
+          "unitCode": "MON",
+          "description": "Per maand, bewaakte back-up en voorrang bij storingen"
+        }
+      }
     ]
+  },
+  "geo": {
+    "@type": "GeoCoordinates",
+    "latitude": 52.2215,
+    "longitude": 6.8937
+  },
+  "aggregateRating": {
+    "@type": "AggregateRating",
+    "ratingValue": "5.0",
+    "reviewCount": "0",
+    "bestRating": "5",
+    "worstRating": "1"
   }
 }
 </script>
@@ -101,6 +200,9 @@
         <p class="lede" style="margin-top: 1.25rem;">
           Vriendelijke IT-hulp aan huis voor particulieren en zelfstandige professionals in heel Overijssel. Geen jargon, geen verrassingen — wel iemand die uitlegt wat-ie doet.
         </p>
+        <p style="margin-top: 0.75rem; font-size: 0.95rem; color: var(--ink-2);">
+          Drie manieren om te starten: een los bezoek vanaf <b>€60</b> (Instap), doorlopende zekerheid vanaf <b>€45/mnd</b> (Zeker), of een vast zakelijk tarief voor je kantoor (Zakelijk Retainer).
+        </p>
         <div class="hero-cta-row">
           <a class="btn btn-primary" href="./#boeken">
             Plan een afspraak
@@ -109,7 +211,7 @@
           <a class="btn btn-secondary" href="./prijzen/">Wat kost het?</a>
         </div>
         <div class="hero-trust">
-          <span><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg> Vaste tarieven</span>
+          <span><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg> Instap vanaf €60 · Zeker vanaf €45/mnd</span>
           <span><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg> Aan huis of op afstand</span>
           <span><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg> Werkt het niet? Geen kosten</span>
         </div>
@@ -244,6 +346,27 @@
 
 
   <!-- ─── CONTACT ─── -->
+  
+  <!-- ─── BLOG / TIPS ─── -->
+  <section class="section-tight reveal">
+    <div class="container">
+      <span class="eyebrow">Tips &amp; uitleg</span>
+      <h2>Handig om te lezen</h2>
+      <div class="diensten-grid" style="margin-top:1.5rem">
+        <a class="dienst-card" href="./blog/wifi-hulp-twente/" style="text-decoration:none;color:inherit">
+          <h3>Wifi hulp Twente — traag of valt weg?</h3>
+          <p>3 checks die je zelf kunt doen, en wat ik aan huis oplos vanaf €60 incl. voorrijden.</p>
+          <span class="link">Lees meer →</span>
+        </a>
+        <a class="dienst-card" href="./blog/computer-traag-enschede/" style="text-decoration:none;color:inherit">
+          <h3>Computer traag in Enschede?</h3>
+          <p>Top 5 oorzaken, 5-minuten tips en wat ik in 1 uur bij je thuis doe.</p>
+          <span class="link">Lees meer →</span>
+        </a>
+      </div>
+    </div>
+  </section>
+
   <section class="section reveal" id="contact">
     <div class="container">
       <div class="contact">
