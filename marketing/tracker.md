@@ -1,5 +1,55 @@
 # Marketing-tracker — eerste klanten voor IT-hulp aan huis
 
+> **Actueel 30-dagen plan (sept 2026, €100/mnd):** zie [`30-dagen-plan-e100.md`](./30-dagen-plan-e100.md) voor week-voor-week uitvoering. Dit bestand is je **dagelijkse werklijst + budgetbewaking**.
+
+---
+
+## 💰 Budget €100/maand — verdeling (sept 2026)
+
+| Pot | Bedrag | Bestemming | Regel |
+|-----|--------|------------|-------|
+| **Google Ads (Zoeken, hyperlocal Twente)** | **€70** | Zoeken-campagne `Spilwerk · Zoeken · Overijssel`, max CPC €1,20, dagcap €2,33 (`marketing/google-ads-setup.md`) | Alleen aanzetten als GBP ≥1 review én Ads-account goedgekeurd (KvK-certificering). Anders: zie fallback |
+| **Reserve** | **€30** | Bijbestelling visitekaartjes/flyers, weekblad proef-editie, of Ads buffer bij CPC-piek | Niet uitgeven tenzij Ads 0 aanvragen na €70 → dan heralloceren naar print |
+
+**Fallback als Ads geblokkeerd (beleid "Technische support door derden", zie CLAUDE.md):**
+- Ads €0 → reserve wordt €100 voor fysiek: 100 flyers A6 Drukwerkdeal ±€20 + 250 kaartjes ±€25 + weekblad proef €30-60. Senioren converteren beter via prikbord dan via Ads.
+
+**Bewaking:** dagelijks check in checklist hieronder. Stopregel: na €70 Ads zonder 1 aanvraag → pauzeren. Bij 1 klant doorlopen, bij 3+ klanten opschalen naar €5/dag (volgende maand).
+
+| Maand | Ads uitgegeven | Reserve uitgegeven | Leads (Ads/GBP/Marktplaats/mond-tot-mond) | Kosten/klant | Actie volgende maand |
+|-------|----------------|-------------------|-------------------------------------------|--------------|----------------------|
+| sept 2026 | € /70 | € /30 | / / / | € |  |
+| okt 2026 | € /70 | € /30 | / / / | € |  |
+
+> Vraag bij ELKE aanvraag: "Hoe ben je bij me terechtgekomen?" — noteer kanaal in tabel hierboven + in `leads.csv`.
+
+---
+
+## ✅ Dagelijkse checklist — 5 min (kopieer per dag)
+
+**Ochtend (09:00, Hermes cron `spilwerk-marketing-dagelijks` herinnert):**
+
+- [ ] **Reactie:** WhatsApp/telefoon binnen 2u beantwoord? Gemiste oproep teruggebeld?
+- [ ] **GBP:** notificaties checken, nieuwe review beantwoorden binnen 48u, foto/post klaar?
+- [ ] **Ads (als actief):** dagbudget <€2,50? Zoekpartners nog UIT? Rare zoektermen → negatief toevoegen?
+- [ ] **Search Console:** Prestaties → zoekopdrachten → impressies op `computerhulp`/`wifi hulp`/`IT hulp aan huis` noteren
+- [ ] **1 micro-actie (kies 1):** GBP foto/Q&A, Facebook-reactie in lokale groep, visitekaartje uitdelen, review verzoek versturen
+
+**Wekelijks (maandag 09:00, `seo/weekly-seo-check.sh` draait):**
+
+- [ ] `seo/reports/weekly-YYYY-MM-DD.md` lezen + SERP posities handmatig aanvullen (incognito, locatie Enschede)
+- [ ] `seo/weekly-log.csv` trend checken — stijgt `IT hulp aan huis Overijssel` van #8?
+- [ ] GBP post plaatsen (1 per 1-2 weken, zie `google-business-profile.md` 3 posts)
+- [ ] Marktplaats advertentie positie checken (nog top 20? Na 4 weken verlengen)
+- [ ] Ads zoektermen-rapport (als Ads loopt) → negatieven toevoegen, 0-klik keywords pauzeren
+
+**Na elke klus (5 min):**
+
+- [ ] "Werkt het nog goed?" appje na 5-7 dagen → daarna review-link `https://g.page/r/CahMjwgVmxX7EBM/review` sturen (template in `reviews.md`)
+- [ ] 2 visitekaartjes meegeven (1 voor klant, 1 om door te geven)
+
+---
+
 Voor een B2C "computer-hulp aan huis"-dienst werken cold-DMs en LinkedIn-outreach **niet**. Particulieren bellen op het moment dat hun laptop crasht — dan moet jij gevonden worden. Dat betekent: lokaal vindbaar, betrouwbaar uitstralen, mond-tot-mond.
 
 Dit bestand is je werklijst voor de eerste 30-60 dagen.

@@ -14,7 +14,7 @@ Werkmap voor **Spilwerk**, eenmanszaak (in voorbereiding) van Emmanuel Tekle. **
 
 | Map | Wat |
 |---|---|
-| `site/` | Website met vier pagina's: `index.html` (home + contact), `diensten/`, `prijzen/`, `over/`, plus de case study `werk/tankstation.html`. Statisch HTML/CSS/JS, **geen build-step** — header, footer en scripts staan dus in elk bestand apart. Wijzig je de nav, het telefoonnummer of de footer, doe dat in **alle vijf** de HTML-bestanden. |
+| `site/` | Website met zes pagina's: `index.html` (home + contact + boeken-widget), `boeken/` (volledige boekingspagina), `diensten/`, `prijzen/`, `over/`, plus de case study `werk/tankstation.html`. Statisch HTML/CSS/JS, **geen build-step** — header, footer en scripts staan dus in elk bestand apart. Wijzig je de nav, het telefoonnummer of de footer, doe dat in **alle zes** de HTML-bestanden. Boekingslogica staat in `site/assets/booking.js` + styles in `site/assets/style.css` (booking-sectie). |
 | `leadgen/` | Python-tool voor outreach-concepten. Minder relevant voor B2C — vooral nuttig voor zelfstandige-professionals tier. |
 | `marketing/` | Outreach-plan: Marktplaats, Google Business Profile, lokale Facebook-groepen, buurt-flyers. LinkedIn is **geparkeerd** — Emmanuel doet het bewust (nog) helemaal niet; niet in planning opnemen. |
 | `business/` | Algemene voorwaarden, factuur-template, kostprijs. Discovery-script en offerte-template zijn vooral relevant voor zelfstandige-professionals tier. |
@@ -72,10 +72,10 @@ Plus optioneel: webapp-bouw zoals Total Tankstation (case study staat op `/werk/
 ## Belangrijke contextpunten
 
 - Domein `spilwerk.nl` is **geregistreerd** (met een i — niet "spelwerk"). Site wordt gedeployed vanuit déze repo via `.github/workflows/pages.yml` (GitHub Pages, `site/CNAME`). De oude repo `E-mma9/spilwerk.nl` is vervangen en onschadelijk gemaakt — niet meer gebruiken.
-- **Google-accounts:** `emmanueltekle@gmail.com` is het stabiele hoofdaccount (Search Console + Marktplaats). `spillwerk@gmail.com` (2 L, sept 2026 nieuw zakelijk Gmail) — bij Google Business Profile altijd **twee eigenaren** instellen, want een profiel sneuvelt met zijn account.
+- **Google-accounts:** `emmanueltekle@gmail.com` (soms getypt als `emmanueltekl@gmail.com` — zonder e; check GBP-dashboard) is het stabiele hoofdaccount (Search Console + Marktplaats). `spillwerk@gmail.com` (2 L, sept 2026 nieuw zakelijk Gmail) — bij Google Business Profile altijd **twee eigenaren** instellen, want een profiel sneuvelt met zijn account.
 - **Reviewlink Google Business Profile:** `https://g.page/r/CahMjwgVmxX7EBM/review` — staat in de footer van de site en in `marketing/reviews.md` (script om erom te vragen, en wat niet mag).
 - **Google Business Profile bestaat al en is geverifieerd** — categorie Computerservice, beheerd vanaf `emmanueltekle@gmail.com`. Niet opnieuw aanmaken (dubbele profielen = spam-signaal en schorsing). Openstaand: tweede eigenaar toevoegen, beschrijving/diensten/servicegebied invullen, foto van Emmanuel zelf toevoegen. Teksten staan in `marketing/google-business-profile.md`.
-- **Google Ads draait** sinds juli 2026 — expertmodus, Zoeknetwerk-campagne. Advies over "nog niet starten" in `marketing/betaalde-promotie.md` is dus achterhaald; wat blijft gelden is het maandelijkse onderhoud (zoektermen-rapport nalopen, uitsluitingszoekwoorden toevoegen) en de stopregel na 30 dagen.
+- **Google Ads draaide** sinds juli 2026 maar werkte niet goed (aug 2026: afgekeurd — zie hieronder) — expertmodus, Zoeknetwerk-campagne. Advies over "nog niet starten" in `marketing/betaalde-promotie.md` is dus achterhaald; wat blijft gelden is het maandelijkse onderhoud (zoektermen-rapport nalopen, uitsluitingszoekwoorden toevoegen) en de stopregel na 30 dagen.
 - **Google Search Console is verifieerd** (URL-prefix property `https://spilwerk.nl/`, account emmanueltekle@gmail.com). De `google-site-verification` metatag in `site/index.html` **moet blijven staan** — verwijderen verbreekt de verificatie. Homepage is geïndexeerd sinds juli 2026.
 - KvK-inschrijving wordt opgepakt; Emmanuel wil dit voor expense-aftrek + officieel kunnen factureren.
 - **Telefoonnummer is definitief: 06-87433537.** Besloten juli 2026 — dit blijft het zakelijke nummer en staat op site, drukwerk, Marktplaats, Google Business Profile en Ads. Wil Emmanuel werk/privé scheiden, dan komt er een nieuw *privé*nummer; dat deel je met een paar appjes en er hoeft niets herdrukt te worden. Drukwerk is dus **niet meer geblokkeerd**. `marketing/nummer-wissel.md` blijft bewaard voor het geval het zakelijke nummer ooit tóch wijzigt.
@@ -84,6 +84,12 @@ Plus optioneel: webapp-bouw zoals Total Tankstation (case study staat op `/werk/
 - Total Tankstation case study staat live als `werk/tankstation.html` — gebruik 'm voor zelfstandige-professionals doelgroep, niet als hoofdverhaal voor particulieren.
 - ⚠️ **Werkgever en opleiding niet bij naam noemen in klantgerichte teksten** (aug 2026, op verzoek van Emmanuel). Op de site, in advertenties, op Marktplaats en in het Google Business Profile staat alleen "HBO ICT, Cybersecurity & Cloud" en "systeembeheerder (2e lijn)" — geen Livio, geen Saxion, geen Student aan Huis. Interne werkdocumenten mogen de feiten wél bevatten; `marketing/zzp-opdrachten.md` is een sollicitatiedocument en houdt de namen bewust.
 - Emmanuel woont in Enschede, zit in zijn **3e jaar** HBO ICT (Cybersecurity & Cloud, afstuderen 2028) en werkt als **2e-lijns systeembeheerder** (sinds mei 2026; daarvoor 1e-lijns helpdesk). Deed eerder IT-hulp aan huis (nov 2024–apr 2025) — sterk credibility-punt voor Spilwerk. Draait thuis een 3-node Proxmox-cluster. Bron voor deze feiten: emmanueltekle.nl (repo `E-mma9/E-mma9.github.io`, `content/about.md`) — let op: die about-pagina is van mei 2026 en zegt nog "second year"; per juli 2026 is dat 3e jaar (bevestigd door Emmanuel). Eerlijk over student-status op site — geen schande, juist credibility-boost.
+
+## Boeken / planning-widget (sept 2026)
+- **Route:** `/boeken/` (standalone) + `#boeken` anchor op homepage. Beiden gebruiken `data-booking-root` widget in `assets/booking.js`.
+- **Beschikbaarheid:** za/zo **08:00–19:00** + **woensdag** 08:00–19:00 on-site (60-min slots); elke dag 18:00–20:00 remote only. Weekdag is `CONFIG.weekdayOnSite` (default 3 = woensdag) + `CONFIG.weekdayLabel` — pas beide aan zodra Emmanuel's vrije dag bekend is (wijzigt ook `weekdayLabel` en `onsiteDays`).
+- **Opslag:** demo-boekingen in `localStorage` (`spilwerk_bookings`), geen backend. Submit = `mailto:spillwerk@gmail.com` (2 L) met alle velden + `.ics`-download + **Google Calendar link** (`https://calendar.google.com/calendar/render?action=TEMPLATE`).
+- **Styling:** Manrope, crème #FBF6EE / groen #4A7C59 / oranje #E8865B, via `style.css` booking-sectie. Kalender + slot-grid, responsive.
 
 ## Werkwijze in deze repo
 

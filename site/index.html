@@ -79,6 +79,7 @@
       <a class="btn-ghost hide-sm" href="./diensten/">Wat ik doe</a>
       <a class="btn-ghost hide-sm" href="./prijzen/">Prijzen</a>
       <a class="btn-ghost hide-sm" href="./over/">Over mij</a>
+      <a class="btn-ghost hide-sm" href="./boeken/">Afspraak</a>
       <a class="btn btn-primary" href="./#contact">
         <svg class="btn-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"/></svg>
         Bel of app me
@@ -101,7 +102,7 @@
           Vriendelijke IT-hulp aan huis voor particulieren en zelfstandige professionals in heel Overijssel. Geen jargon, geen verrassingen — wel iemand die uitlegt wat-ie doet.
         </p>
         <div class="hero-cta-row">
-          <a class="btn btn-primary" href="./#contact">
+          <a class="btn btn-primary" href="./#boeken">
             Plan een afspraak
             <svg class="btn-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg>
           </a>
@@ -190,6 +191,58 @@
     </div>
   </section>
 
+  <!-- ─── BOEKEN / AFSPRAAK PLANNEN ─── -->
+  <section class="section reveal" id="boeken">
+    <div class="container">
+      <div class="booking-section" data-booking-root>
+        <span class="eyebrow">Afspraak plannen</span>
+        <h2>Plan direct een moment</h2>
+        <div class="booking-intro">
+          <p>Kies hieronder een datum en tijd die jou uitkomt. Beschikbaarheid is live: <b>za &amp; zo 08:00–19:00</b> en <b data-weekday-note>woensdag</b> 08:00–19:00 kom ik aan huis; <b>elke avond 18:00–20:00</b> help ik op afstand (videocall/TeamViewer). Je aanvraag gaat via e-mail naar <b>spillwerk@gmail.com</b> — ik bevestig binnen een werkdag.</p>
+        </div>
+        <div class="bk-availability-note">
+          <b>Hoe het werkt:</b> 1) kies datum → 2) kies tijd (groen = aan huis, oranje = remote) → 3) vul je gegevens in → 4) klik Versturen → je mailprogramma opent met alles ingevuld + je kunt een .ics-agendaitem downloaden. Geen backend — werkt ook als je offline bent. Demo-boekingen blijven alleen op jouw apparaat (<code>localStorage</code>).
+        </div>
+
+        <div class="bk-picker">
+          <div class="bk-cal" data-bk-calendar aria-label="Kalender — kies een datum"></div>
+          <div class="bk-slots" data-bk-slots aria-label="Beschikbare tijden"></div>
+        </div>
+
+        <div class="bk-date-display" data-bk-date-display>Nog geen datum gekozen</div>
+        <button type="button" class="bk-clear" data-bk-clear style="margin-left:.75rem">Demo-boekingen wissen</button>
+
+        <form class="bk-form" data-booking novalidate>
+          <input type="hidden" name="dateISO" />
+          <input type="hidden" name="hour" />
+          <input type="hidden" name="kind" />
+          <div class="bk-form-row">
+            <label>Naam *<input type="text" name="name" required autocomplete="name" placeholder="Voor- en achternaam" /></label>
+            <label>E-mail *<input type="email" name="email" required autocomplete="email" placeholder="jij@voorbeeld.nl" /></label>
+          </div>
+          <div class="bk-form-row">
+            <label>Telefoon *<input type="tel" name="phone" required autocomplete="tel" placeholder="06 ..." /></label>
+            <label>Dienst *<select name="service" required>
+              <option value="" disabled selected>Kies een dienst</option>
+              <option value="computer">Computer-hulp</option>
+              <option value="wifi">Wifi &amp; internet</option>
+              <option value="telefoon">Telefoon &amp; tablet</option>
+              <option value="veilig">Veilig online &amp; backup</option>
+              <option value="zakelijk">Voor zelfstandigen / zakelijk</option>
+            </select></label>
+          </div>
+          <label data-address-label>Adres *<input type="text" name="address" autocomplete="street-address" placeholder="Straat, huisnr, plaats" /></label>
+          <label>Omschrijving *<textarea name="description" required placeholder="Bv. 'Laptop heel traag sinds update' of 'Wifi haalt de slaapkamer niet' — hoe meer je vertelt, hoe beter ik kan inschatten."></textarea></label>
+          <div class="bk-form-footer">
+            <button class="btn btn-primary" type="submit">Verstuur aanvraag via e-mail →</button>
+            <span style="font-size:.85rem;color:var(--ink-3)">Opent je mailprogramma (mailto: spillwerk@gmail.com) + .ics-download</span>
+          </div>
+        </form>
+      </div>
+    </div>
+  </section>
+
+
   <!-- ─── CONTACT ─── -->
   <section class="section reveal" id="contact">
     <div class="container">
@@ -254,6 +307,7 @@
 </footer>
 
 <script src="./assets/script.js"></script>
+<script src="./assets/booking.js"></script>
 
 <!-- GoatCounter — privacyvriendelijk, geen cookies, geen Google.
      Meet niet bij lokaal openen (file:// of localhost). -->
