@@ -4,9 +4,9 @@ GBP is gratis en zorgt dat Spilwerk verschijnt in **Google Maps** en in het kaar
 
 Aanmaken via [business.google.com](https://business.google.com).
 
-> ⚠️ **Zet er meteen een tweede eigenaar op.** Een GBP-profiel hangt aan één Google-account; raakt dat account kwijt, dan ben je het profiel én al je reviews kwijt — onherstelbaar. `spilwerk@gmail.com` is in juli 2026 één keer verwijderd geweest en pas na bezwaar teruggekomen.
+> ⚠️ **Zet er meteen een tweede eigenaar op.** Een GBP-profiel hangt aan één Google-account; raakt dat account kwijt, dan ben je het profiel én al je reviews kwijt — onherstelbaar. `spillwerk@gmail.com` is in juli 2026 één keer verwijderd geweest en pas na bezwaar teruggekomen.
 >
-> Direct na het aanmaken: **Instellingen → Gebruikers → eigenaar toevoegen**, en zet het andere account erbij. Kleine voorkeur voor `emmanueltekle@gmail.com` als hoofdaccount (nooit geschorst, draait Search Console al), met `spilwerk@gmail.com` als mede-eigenaar.
+> Direct na het aanmaken: **Instellingen → Gebruikers → eigenaar toevoegen**, en zet het andere account erbij. Kleine voorkeur voor `emmanueltekle@gmail.com` als hoofdaccount (nooit geschorst, draait Search Console al), met `spillwerk@gmail.com` als mede-eigenaar.
 
 ## 1. Bedrijfsbasis
 
