@@ -3,13 +3,10 @@ Website: https://renova-twente-bouw.com
 
 **Subject:** Renova Twente Bouw — IT uit handen, focus op je werk
 
-**Hook:** jullie bedrijf in Enschede
 **Pitch:** Hoe vervelend is het als offertes, foto's of tekeningen net niet vindbaar zijn op kantoor of onderweg. Ik zorg dat het gewoon werkt — veilig en vindbaar.
 
 ---
 Beste Renova Twente Bouw,
-
-Ik kwam jullie bedrijf in Enschede tegen.
 
 Hoe vervelend is het als offertes, foto's of tekeningen net niet vindbaar zijn op kantoor of onderweg. Ik zorg dat het gewoon werkt — veilig en vindbaar.
 

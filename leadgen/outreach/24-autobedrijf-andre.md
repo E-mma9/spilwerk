@@ -3,13 +3,10 @@ Website: https://autobedrijfandre.nl
 
 **Subject:** Autobedrijf Andre — IT uit handen, focus op je werk
 
-**Hook:** jullie bedrijf in Almelo
 **Pitch:** Hoe vervelend is het als werkplaats-software, offertes of foto's net niet meewerken. Ik zorg dat het gewoon werkt — zonder gedoe.
 
 ---
 Beste Autobedrijf Andre,
-
-Ik kwam jullie bedrijf in Almelo tegen.
 
 Hoe vervelend is het als werkplaats-software, offertes of foto's net niet meewerken. Ik zorg dat het gewoon werkt — zonder gedoe.
 

@@ -3,13 +3,10 @@ Website: https://www.bilanx.nl
 
 **Subject:** Bilanx Accountants — IT uit handen, focus op je werk
 
-**Hook:** jullie kantoor in Almelo
 **Pitch:** Hoe vervelend is het als werkplekken, mappen of backup net niet meewerken en werk blijft liggen. Ik zorg dat het gewoon werkt — overzichtelijk en veilig.
 
 ---
 Beste Bilanx Accountants,
-
-Ik kwam jullie kantoor in Almelo tegen.
 
 Hoe vervelend is het als werkplekken, mappen of backup net niet meewerken en werk blijft liggen. Ik zorg dat het gewoon werkt — overzichtelijk en veilig.
 

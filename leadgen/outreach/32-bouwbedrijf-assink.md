@@ -3,13 +3,10 @@ Website: https://bouwbedrijfassink.nl
 
 **Subject:** Bouwbedrijf Assink — IT uit handen, focus op je werk
 
-**Hook:** jullie bedrijf in Haaksbergen
 **Pitch:** Hoe vervelend is het als offertes, foto's of tekeningen net niet vindbaar zijn op kantoor of onderweg. Ik zorg dat het gewoon werkt — veilig en vindbaar.
 
 ---
 Beste Bouwbedrijf Assink,
-
-Ik kwam jullie bedrijf in Haaksbergen tegen.
 
 Hoe vervelend is het als offertes, foto's of tekeningen net niet vindbaar zijn op kantoor of onderweg. Ik zorg dat het gewoon werkt — veilig en vindbaar.
 

@@ -3,13 +3,10 @@ Website: https://www.auto-schiphorst.nl
 
 **Subject:** Auto Schiphorst — IT uit handen, focus op je werk
 
-**Hook:** jullie bedrijf in Almelo
 **Pitch:** Hoe vervelend is het als werkplaats-software, offertes of foto's net niet meewerken. Ik zorg dat het gewoon werkt — zonder gedoe.
 
 ---
 Beste Auto Schiphorst,
-
-Ik kwam jullie bedrijf in Almelo tegen.
 
 Hoe vervelend is het als werkplaats-software, offertes of foto's net niet meewerken. Ik zorg dat het gewoon werkt — zonder gedoe.
 

@@ -3,13 +3,10 @@ Website: https://www.bewustfysio.nl
 
 **Subject:** Bewust Fysio — IT uit handen, focus op je werk
 
-**Hook:** jullie praktijk in Hengelo
 **Pitch:** Hoe vervelend is het als agenda of patiëntdata net niet meewerkt en klanten moeten wachten. Ik zorg dat het veilig geregeld is — AVG-proof en zonder omkijken.
 
 ---
 Beste Bewust Fysio,
-
-Ik kwam jullie praktijk in Hengelo tegen.
 
 Hoe vervelend is het als agenda of patiëntdata net niet meewerkt en klanten moeten wachten. Ik zorg dat het veilig geregeld is — AVG-proof en zonder omkijken.
 

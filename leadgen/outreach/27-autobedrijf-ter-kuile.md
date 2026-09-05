@@ -3,13 +3,10 @@ Website: https://www.autoterkuile.nl
 
 **Subject:** Autobedrijf Ter Kuile — IT uit handen, focus op je werk
 
-**Hook:** jullie bedrijf in Enschede
 **Pitch:** Hoe vervelend is het als werkplaats-software, offertes of foto's net niet meewerken. Ik zorg dat het gewoon werkt — zonder gedoe.
 
 ---
 Beste Autobedrijf Ter Kuile,
-
-Ik kwam jullie bedrijf in Enschede tegen.
 
 Hoe vervelend is het als werkplaats-software, offertes of foto's net niet meewerken. Ik zorg dat het gewoon werkt — zonder gedoe.
 

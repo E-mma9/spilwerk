@@ -3,13 +3,10 @@ Website: https://www.sjiekenschede.nl
 
 **Subject:** Kapsalon Sjiek — IT uit handen, focus op je werk
 
-**Hook:** jullie salon in Enschede
 **Pitch:** Hoe irritant is het als klanten mislopen omdat kassa, agenda of wifi net niet meewerkt. Ik zorg dat het gewoon werkt — zonder dat jij er naar om hoeft te kijken.
 
 ---
 Beste Kapsalon Sjiek,
-
-Ik kwam jullie salon in Enschede tegen.
 
 Hoe irritant is het als klanten mislopen omdat kassa, agenda of wifi net niet meewerkt. Ik zorg dat het gewoon werkt — zonder dat jij er naar om hoeft te kijken.
 

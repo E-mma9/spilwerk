@@ -3,13 +3,10 @@ Website: https://bouwbedrijf-dejong.nl
 
 **Subject:** Bouwbedrijf De Jong Twente — IT uit handen, focus op je werk
 
-**Hook:** jullie bedrijf in Hengelo
 **Pitch:** Hoe vervelend is het als offertes, foto's of tekeningen net niet vindbaar zijn op kantoor of onderweg. Ik zorg dat het gewoon werkt — veilig en vindbaar.
 
 ---
 Beste Bouwbedrijf De Jong Twente,
-
-Ik kwam jullie bedrijf in Hengelo tegen.
 
 Hoe vervelend is het als offertes, foto's of tekeningen net niet vindbaar zijn op kantoor of onderweg. Ik zorg dat het gewoon werkt — veilig en vindbaar.
 

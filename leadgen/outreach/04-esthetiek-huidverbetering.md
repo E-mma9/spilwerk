@@ -3,13 +3,10 @@ Website: https://esthetiekhuidverbetering.nl
 
 **Subject:** Esthetiek Huidverbetering — IT uit handen, focus op je werk
 
-**Hook:** jullie salon in Hengelo
 **Pitch:** Hoe irritant is het als klanten mislopen omdat boeking, klantkaarten of wifi net niet meewerkt. Ik zorg dat het gewoon werkt — zonder dat jij er naar om hoeft te kijken.
 
 ---
 Beste Esthetiek Huidverbetering,
-
-Ik kwam jullie salon in Hengelo tegen.
 
 Hoe irritant is het als klanten mislopen omdat boeking, klantkaarten of wifi net niet meewerkt. Ik zorg dat het gewoon werkt — zonder dat jij er naar om hoeft te kijken.
 

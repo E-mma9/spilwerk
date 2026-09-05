@@ -3,13 +3,10 @@ Website: https://www.autohuis-enschede.nl
 
 **Subject:** Autohuis Enschede — IT uit handen, focus op je werk
 
-**Hook:** jullie bedrijf in Enschede
 **Pitch:** Hoe vervelend is het als werkplaats-software, offertes of foto's net niet meewerken. Ik zorg dat het gewoon werkt — zonder gedoe.
 
 ---
 Beste Autohuis Enschede,
-
-Ik kwam jullie bedrijf in Enschede tegen.
 
 Hoe vervelend is het als werkplaats-software, offertes of foto's net niet meewerken. Ik zorg dat het gewoon werkt — zonder gedoe.
 

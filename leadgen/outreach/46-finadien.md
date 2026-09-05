@@ -3,13 +3,10 @@ Website: https://www.finadien.nl
 
 **Subject:** FINADIEN — IT uit handen, focus op je werk
 
-**Hook:** jullie kantoor in Enschede
 **Pitch:** Hoe vervelend is het als werkplekken, mappen of backup net niet meewerken en werk blijft liggen. Ik zorg dat het gewoon werkt — overzichtelijk en veilig.
 
 ---
 Beste FINADIEN,
-
-Ik kwam jullie kantoor in Enschede tegen.
 
 Hoe vervelend is het als werkplekken, mappen of backup net niet meewerken en werk blijft liggen. Ik zorg dat het gewoon werkt — overzichtelijk en veilig.
 

@@ -3,13 +3,10 @@ Website: https://www.automulderhengelo.nl
 
 **Subject:** Auto Mulder Hengelo — IT uit handen, focus op je werk
 
-**Hook:** jullie bedrijf in Hengelo
 **Pitch:** Hoe vervelend is het als werkplaats-software, offertes of foto's net niet meewerken. Ik zorg dat het gewoon werkt — zonder gedoe.
 
 ---
 Beste Auto Mulder Hengelo,
-
-Ik kwam jullie bedrijf in Hengelo tegen.
 
 Hoe vervelend is het als werkplaats-software, offertes of foto's net niet meewerken. Ik zorg dat het gewoon werkt — zonder gedoe.
 

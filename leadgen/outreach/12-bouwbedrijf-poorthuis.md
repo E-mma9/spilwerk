@@ -3,13 +3,10 @@ Website: https://www.poorthuis-bouw.nl
 
 **Subject:** Bouwbedrijf Poorthuis — IT uit handen, focus op je werk
 
-**Hook:** jullie bedrijf in Oldenzaal
 **Pitch:** Hoe vervelend is het als offertes, foto's of tekeningen net niet vindbaar zijn op kantoor of onderweg. Ik zorg dat het gewoon werkt — veilig en vindbaar.
 
 ---
 Beste Bouwbedrijf Poorthuis,
-
-Ik kwam jullie bedrijf in Oldenzaal tegen.
 
 Hoe vervelend is het als offertes, foto's of tekeningen net niet vindbaar zijn op kantoor of onderweg. Ik zorg dat het gewoon werkt — veilig en vindbaar.
 

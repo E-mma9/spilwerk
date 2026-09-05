@@ -3,13 +3,10 @@ Website: https://www.kleinbouw-twente.nl
 
 **Subject:** Kleinbouw Twente — IT uit handen, focus op je werk
 
-**Hook:** jullie bedrijf in Enschede
 **Pitch:** Hoe vervelend is het als offertes, foto's of tekeningen net niet vindbaar zijn op kantoor of onderweg. Ik zorg dat het gewoon werkt — veilig en vindbaar.
 
 ---
 Beste Kleinbouw Twente,
-
-Ik kwam jullie bedrijf in Enschede tegen.
 
 Hoe vervelend is het als offertes, foto's of tekeningen net niet vindbaar zijn op kantoor of onderweg. Ik zorg dat het gewoon werkt — veilig en vindbaar.
 

@@ -3,13 +3,10 @@ Website: https://holtkampbouw.nl
 
 **Subject:** Holtkamp Bouw — IT uit handen, focus op je werk
 
-**Hook:** jullie bedrijf in Almelo
 **Pitch:** Hoe vervelend is het als offertes, foto's of tekeningen net niet vindbaar zijn op kantoor of onderweg. Ik zorg dat het gewoon werkt — veilig en vindbaar.
 
 ---
 Beste Holtkamp Bouw,
-
-Ik kwam jullie bedrijf in Almelo tegen.
 
 Hoe vervelend is het als offertes, foto's of tekeningen net niet vindbaar zijn op kantoor of onderweg. Ik zorg dat het gewoon werkt — veilig en vindbaar.
 

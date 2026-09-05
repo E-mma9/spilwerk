@@ -3,13 +3,10 @@ Website: https://autoschadehofvantwente.nl
 
 **Subject:** Autoschade Hof van Twente — IT uit handen, focus op je werk
 
-**Hook:** jullie bedrijf in Goor
 **Pitch:** Hoe vervelend is het als werkplaats-software, offertes of foto's net niet meewerken. Ik zorg dat het gewoon werkt — zonder gedoe.
 
 ---
 Beste Autoschade Hof van Twente,
-
-Ik kwam jullie bedrijf in Goor tegen.
 
 Hoe vervelend is het als werkplaats-software, offertes of foto's net niet meewerken. Ik zorg dat het gewoon werkt — zonder gedoe.
 

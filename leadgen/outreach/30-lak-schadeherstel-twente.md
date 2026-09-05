@@ -3,13 +3,10 @@ Website: https://www.lakschadehersteltwente.nl
 
 **Subject:** Lak Schadeherstel Twente — IT uit handen, focus op je werk
 
-**Hook:** jullie bedrijf in Hengelo
 **Pitch:** Hoe vervelend is het als werkplaats-software, offertes of foto's net niet meewerken. Ik zorg dat het gewoon werkt — zonder gedoe.
 
 ---
 Beste Lak Schadeherstel Twente,
-
-Ik kwam jullie bedrijf in Hengelo tegen.
 
 Hoe vervelend is het als werkplaats-software, offertes of foto's net niet meewerken. Ik zorg dat het gewoon werkt — zonder gedoe.
 

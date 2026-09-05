@@ -3,13 +3,10 @@ Website: https://hetahuis.nl
 
 **Subject:** Het Ahuis Schoonheidssalon — IT uit handen, focus op je werk
 
-**Hook:** jullie salon in Enschede
 **Pitch:** Hoe irritant is het als klanten mislopen omdat boeking, klantkaarten of wifi net niet meewerkt. Ik zorg dat het gewoon werkt — zonder dat jij er naar om hoeft te kijken.
 
 ---
 Beste Het Ahuis Schoonheidssalon,
-
-Ik kwam jullie salon in Enschede tegen.
 
 Hoe irritant is het als klanten mislopen omdat boeking, klantkaarten of wifi net niet meewerkt. Ik zorg dat het gewoon werkt — zonder dat jij er naar om hoeft te kijken.
 

@@ -3,13 +3,10 @@ Website: https://kapsalonzes.nl
 
 **Subject:** Kapsalon ZES — IT uit handen, focus op je werk
 
-**Hook:** jullie salon in Oldenzaal
 **Pitch:** Hoe irritant is het als klanten mislopen omdat kassa, agenda of wifi net niet meewerkt. Ik zorg dat het gewoon werkt — zonder dat jij er naar om hoeft te kijken.
 
 ---
 Beste Kapsalon ZES,
-
-Ik kwam jullie salon in Oldenzaal tegen.
 
 Hoe irritant is het als klanten mislopen omdat kassa, agenda of wifi net niet meewerkt. Ik zorg dat het gewoon werkt — zonder dat jij er naar om hoeft te kijken.
 

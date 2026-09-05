@@ -3,13 +3,10 @@ Website: https://bbeautiful.nl
 
 **Subject:** B Beautiful — IT uit handen, focus op je werk
 
-**Hook:** jullie salon in Almelo
 **Pitch:** Hoe irritant is het als klanten mislopen omdat boeking, klantkaarten of wifi net niet meewerkt. Ik zorg dat het gewoon werkt — zonder dat jij er naar om hoeft te kijken.
 
 ---
 Beste B Beautiful,
-
-Ik kwam jullie salon in Almelo tegen.
 
 Hoe irritant is het als klanten mislopen omdat boeking, klantkaarten of wifi net niet meewerkt. Ik zorg dat het gewoon werkt — zonder dat jij er naar om hoeft te kijken.
 
