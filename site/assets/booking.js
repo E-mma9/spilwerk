@@ -5,9 +5,11 @@
     email: 'spillwerk@gmail.com',
     phone: '06-87433537',
     phoneLink: '+31687433537',
-    onsiteDays: [0, 3, 6],           // zo, wo, za  (0=zo ... 6=za) — aan huis 08-19
+    onsiteDays: [0, 3, 6],           // zo, wo, za — aan huis 08-19 (full)
+    onsiteDaysEvening: [1,2,4,5],     // ma, di, do, vr — aan huis vanaf 17:00
     onsiteHours: [8,9,10,11,12,13,14,15,16,17,18],
-    remoteHours: [18,19],            // elke dag 18-20 alleen remote
+    onsiteHoursEvening: [17,18],      // doordeweeks 17-19 op locatie mogelijk
+    remoteHours: [18,19],            // elke dag 18-20 op afstand
     icsProdId: '-//Spilwerk//Afspraak//NL',
   };
   const SERVICE_LABELS = {
@@ -22,7 +24,9 @@
   const fmtNL = d => d.toLocaleDateString('nl-NL',{weekday:'long',day:'numeric',month:'long'});
   const fmtTime = h => `${pad(h)}:00`;
 
-  function isOnSiteDay(dow){ return CONFIG.onsiteDays.includes(dow); }
+  function isOnSiteDay(dow){ return CONFIG.onsiteDays.includes(dow) || CONFIG.onsiteDaysEvening.includes(dow); }
+  function isFullOnsiteDay(dow){ return CONFIG.onsiteDays.includes(dow); }
+  function isEveningOnsiteDay(dow){ return CONFIG.onsiteDaysEvening.includes(dow); }
 
   // Volgende 6 beschikbare dagen: eerst za/zo/wo, daarna overige dagen (remote-only) als opvulling
   function nextAvailableDays(n){
@@ -48,11 +52,14 @@
   }
 
   function hoursFor(date, kind){
-    // kind: 'onsite' | 'remote' | null (beide)
+    const dow = date.getDay();
+    const full = isFullOnsiteDay(dow);
+    const evening = isEveningOnsiteDay(dow);
+    const onsiteHours = full ? CONFIG.onsiteHours : (evening ? CONFIG.onsiteHoursEvening : []);
     if(kind==='remote') return CONFIG.remoteHours.map(h=>({hour:h,kind:'remote',label:`${fmtTime(h)} · op afstand`}));
-    if(kind==='onsite') return CONFIG.onsiteHours.map(h=>({hour:h,kind:'onsite',label:fmtTime(h)}));
+    if(kind==='onsite') return onsiteHours.map(h=>({hour:h,kind:'onsite',label:fmtTime(h)}));
     // beide: toon onsite 08-19 + remote 19 alleen als niet al gedekt (18 overlap)
-    const onsite = CONFIG.onsiteHours.map(h=>({hour:h,kind:'onsite',label:fmtTime(h)}));
+    const onsite = onsiteHours.map(h=>({hour:h,kind:'onsite',label:fmtTime(h)}));
     const remoteExtra = CONFIG.remoteHours.filter(h=>!CONFIG.onsiteHours.includes(h)).map(h=>({hour:h,kind:'remote',label:`${fmtTime(h)} · op afstand`}));
     return [...onsite, ...remoteExtra];
   }
@@ -114,13 +121,13 @@
       const days = nextAvailableDays(6);
       days.forEach(d=>{
         const dow=d.getDay();
-        const onsite=isOnSiteDay(dow);
+        const full=isFullOnsiteDay(dow); const evening=isEveningOnsiteDay(dow); const onsite=full||evening;
         const btn=document.createElement('button');
         btn.type='button';
         btn.className='bk-day'+(onsite?' is-onsite':' is-remote-only')+(selectedDate && fmtISO(d)===fmtISO(selectedDate)?' is-selected':'');
         // Grote ronde knop
-        btn.innerHTML=`<span class="bk-day-wd">${DAY_LABELS[dow]}</span><span class="bk-day-nr">${d.getDate()}</span><span class="bk-day-mo">${d.toLocaleDateString('nl-NL',{month:'short'})}</span>${onsite?'<span class="bk-day-badge">aan huis</span>':'<span class="bk-day-badge is-remote">op afstand</span>'}`;
-        btn.setAttribute('aria-label', fmtNL(d) + (onsite?' — aan huis 08:00–19:00 + remote 18:00–20:00':' — alleen op afstand 18:00–20:00'));
+        btn.innerHTML=`<span class="bk-day-wd">${DAY_LABELS[dow]}</span><span class="bk-day-nr">${d.getDate()}</span><span class="bk-day-mo">${d.toLocaleDateString('nl-NL',{month:'short'})}</span>${full?'<span class="bk-day-badge">aan huis</span>':(evening?'<span class="bk-day-badge">vanaf 17:00</span>':'<span class="bk-day-badge is-remote">op afstand</span>')}`;
+        btn.setAttribute('aria-label', fmtNL(d) + (full?' — aan huis 08:00–19:00 + remote 18:00–20:00':(evening?' — aan huis vanaf 17:00 + op afstand 18:00–20:00':' — alleen op afstand 18:00–20:00')));
         btn.setAttribute('aria-pressed', selectedDate && fmtISO(d)===fmtISO(selectedDate) ? 'true':'false');
         btn.addEventListener('click',()=>{
           selectedDate=new Date(d); selectedHour=null; selectedKindForSlot=null;
@@ -154,14 +161,13 @@
       }
       const kind = currentKind();
       const dow=selectedDate.getDay();
-      const onsiteAvailable=isOnSiteDay(dow);
-      // Als gebruiker "aan huis" koos maar dag is geen onsite-dag → toon melding + alleen remote
+      const fullDay=isFullOnsiteDay(dow); const eveningDay=isEveningOnsiteDay(dow); const onsiteAvailable=fullDay||eveningDay;
       let list;
       if(kind==='onsite' && !onsiteAvailable){
-        if(timeHead) timeHead.innerHTML=`<strong>${fmtNL(selectedDate)}</strong> — op deze dag alleen op afstand (18:00\u201320:00). Kies een za/zo/wo voor aan huis, of switch naar \u201cop afstand\u201d hierboven.`;
+        if(timeHead) timeHead.innerHTML=`<strong>${fmtNL(selectedDate)}</strong> — op deze dag alleen op afstand (18:00\u201320:00).`;
         list = hoursFor(selectedDate,'remote');
       } else if(kind==='onsite'){
-        if(timeHead) timeHead.innerHTML=`<strong>${fmtNL(selectedDate)}</strong> — aan huis 08:00\u201319:00 (en 18:00\u201320:00 ook op afstand)`;
+        if(timeHead) timeHead.innerHTML= fullDay ? `<strong>${fmtNL(selectedDate)}</strong> — aan huis 08:00\u201319:00 (en 18:00\u201320:00 ook op afstand)` : `<strong>${fmtNL(selectedDate)}</strong> — aan huis vanaf 17:00 (17:00\u201319:00) + op afstand 18:00\u201320:00`;
         list = hoursFor(selectedDate,'onsite');
         // voeg 19:00 remote nog toe als extra
         if(!list.some(s=>s.hour===19)) list.push({hour:19,kind:'remote',label:`${fmtTime(19)} · op afstand`});
