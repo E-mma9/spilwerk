@@ -51,10 +51,14 @@
         <div class="bk-slots-grid" data-bk-times aria-label="Beschikbare tijden"></div>
         <div class="bk-date-display" data-bk-summary style="margin-top:.75rem">Nog geen dag gekozen</div>
       </div>
-      <form class="bk-form" data-booking novalidate style="margin-top:1rem">
+      <div data-fs-success style="display:none;margin-top:1rem;padding:.9rem 1rem;background:#e8f5e9;border:1px solid #4A7C59;border-radius:10px;color:#2e5a3b;"></div>
+      <div data-fs-error style="display:none;margin-top:1rem;padding:.9rem 1rem;background:#fdecea;border:1px solid #d8a0a0;border-radius:10px;color:#7a2b2b;"></div>
+      <form class="bk-form" data-booking novalidate style="margin-top:1rem" id="booking-form">
         <input type="hidden" name="dateISO" />
         <input type="hidden" name="hour" />
         <input type="hidden" name="kind" />
+        <input type="hidden" name="_subject" value="Boeking via spilwerk.nl/boeken" />
+        <input type="text" name="_gotcha" style="display:none" tabindex="-1" autocomplete="off" />
         <h3 style="margin:0">Jouw gegevens</h3>
         <div class="bk-form-row">
           <label>Naam *<input type="text" name="name" required autocomplete="name" placeholder="Voor- en achternaam" /></label>
@@ -67,8 +71,8 @@
         <label data-address-label><span data-address-text>Adres *</span><input type="text" name="address" autocomplete="street-address" placeholder="Straat, plaats" /></label>
         <label>Wat speelt er? *<textarea name="description" required placeholder="Bv. 'laptop traag' of 'wifi haalt keuken niet'"></textarea></label>
         <div class="bk-form-footer">
-          <button class="btn btn-primary" type="submit">Verstuur via e-mail →</button>
-          <span style="font-size:.85rem;color:var(--ink-3)">Opent je mail + agenda-uitnodiging</span>
+          <button class="btn btn-primary" type="submit" data-fs-submit-btn>Verstuur aanvraag →</button>
+          <span style="font-size:.85rem;color:var(--ink-3)">Direct via portaal — je hoeft je mail niet te openen</span>
         </div>
       </form>
       <div class="bk-success" data-bk-success hidden></div>

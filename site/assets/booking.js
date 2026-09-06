@@ -220,7 +220,7 @@
     renderDays(); renderTimes(); updateSummary();
 
     if(form){
-      form.addEventListener('submit',(ev)=>{
+      form.addEventListener('submit',async (ev)=>{
         ev.preventDefault();
         if(!selectedDate || selectedHour==null){
           alert('Kies eerst een dag en een tijd hierboven.');
@@ -247,18 +247,54 @@
         const serviceLabel=SERVICE_LABELS[data.service]||data.service;
         const when=`${fmtNL(selectedDate)} om ${fmtTime(data.hour)} (${data.kind==='remote'?'op afstand':'aan huis'})`;
         const subject=`Spilwerk \u2014 afspraakverzoek: ${serviceLabel} op ${data.dateISO} ${fmtTime(data.hour)}`;
-        const body=[`Hallo Emmanuel,`,`Ik wil graag een afspraak plannen via spilwerk.nl:`,`Naam: ${data.name}`,`E-mail: ${data.email}`,`Telefoon: ${data.phone}`,`Dienst: ${serviceLabel}`,`Voorkeursmoment: ${when}`,`Type: ${data.kind==='remote'?'Hulp op afstand (18:00\u201320:00)':'Aan huis'}`,`Adres: ${data.address||'(op afstand)'}`,`Probleem / vraag:`,`${data.description}`,`\u2014 verstuurd via spilwerk.nl/boeken`].join('\n');
-        const mailto=`mailto:${CONFIG.email}?subject=${encodeURIComponent(subject)}&body=${encodeURIComponent(body)}`;
-        const gUrl=gcalUrl(data);
-        const icsName=`spilwerk-afspraak-${data.dateISO}-${pad(data.hour)}00.ics`;
-        if(successEl){
-          successEl.hidden=false;
-          successEl.innerHTML=`<h3>\u2713 Aanvraag klaar \u2014 nog \u00e9\u00e9n klik</h3><p>Klik hieronder om je mailprogramma te openen. Daarna bevestig ik per mail of WhatsApp.</p><div class="bk-success-actions"><a class="btn btn-primary" href="${mailto}">Open e-mail naar ${CONFIG.email}</a><a class="btn btn-secondary" href="${gUrl}" target="_blank" rel="noopener">Toevoegen aan Google Calendar</a><button type="button" class="btn btn-secondary" data-dl-ics>Download .ics</button></div><p class="bk-success-meta">Gekozen: <b>${when}</b> \u00b7 ${serviceLabel}</p>`;
-          const dlBtn=successEl.querySelector('[data-dl-ics]');
-          if(dlBtn) dlBtn.addEventListener('click',()=> downloadICS(buildICS(data), icsName));
-          successEl.scrollIntoView({behavior:'smooth',block:'nearest'});
+        // Formspree payload — direct via portaal, geen mail-client nodig
+        const submitBtn=form.querySelector('[data-fs-submit-btn]')||form.querySelector('button[type=submit]');
+        const successBox=root.querySelector('[data-fs-success]');
+        const errorBox=root.querySelector('[data-fs-error]');
+        if(submitBtn) submitBtn.disabled=true;
+        if(errorBox) errorBox.style.display='none';
+        if(successBox) successBox.style.display='none';
+        // Ensure hidden fields are set for Formspree
+        const payload=new FormData(form);
+        payload.set('_subject', subject);
+        payload.set('naam', data.name);
+        payload.set('email', data.email);
+        payload.set('telefoon', data.phone);
+        payload.set('dienst', serviceLabel);
+        payload.set('adres', data.address||'(op afstand)');
+        payload.set('bericht', data.description);
+        payload.set('voorkeursmoment', when);
+        payload.set('type', data.kind==='remote'?'Hulp op afstand':'Aan huis');
+        payload.set('dateISO', data.dateISO);
+        payload.set('hour', String(data.hour));
+        payload.set('kind', data.kind);
+        try{
+          const res=await fetch('https://formspree.io/f/mbgjaydn',{method:'POST',body:payload,headers:{Accept:'application/json'}});
+          const json=await res.json().catch(()=>({}));
+          if(!res.ok) throw new Error(json.error||json.errors?.[0]?.message||'Versturen mislukt');
+          const gUrl=gcalUrl(data);
+          const icsName=`spilwerk-afspraak-${data.dateISO}-${pad(data.hour)}00.ics`;
+          if(successBox){
+            successBox.textContent='';
+            successBox.style.display='block';
+            successBox.innerHTML=`<strong>✓ Verstuurd — aanvraag binnen</strong><br>Gekozen: <b>${when}</b> · ${serviceLabel}<br>Ik bevestig binnen 1 werkdag via ${data.email} / ${data.phone}.`;
+          }
+          if(successEl){
+            successEl.hidden=false;
+            successEl.innerHTML=`<h3>\u2713 Aanvraag verstuurd</h3><p>Je hoeft je mail niet te openen — ik heb alles binnen. Ik bevestig binnen 1 werkdag.</p><div class="bk-success-actions"><a class="btn btn-secondary" href="${gUrl}" target="_blank" rel="noopener">Toevoegen aan Google Calendar</a><button type="button" class="btn btn-secondary" data-dl-ics>Download .ics</button><a class="btn btn-ghost" href="mailto:${CONFIG.email}?subject=${encodeURIComponent(subject)}">Toch via mail sturen</a></div><p class="bk-success-meta">Gekozen: <b>${when}</b> \u00b7 ${serviceLabel}</p>`;
+            const dlBtn=successEl.querySelector('[data-dl-ics]');
+            if(dlBtn) dlBtn.addEventListener('click',()=> downloadICS(buildICS(data), icsName));
+            successEl.scrollIntoView({behavior:'smooth',block:'nearest'});
+          }
+          form.reset();
+          // reset selection? keep date but clear hour
+          selectedHour=null; selectedKindForSlot=null; renderTimes(); updateSummary();
+        }catch(err){
+          if(errorBox){ errorBox.style.display='block'; errorBox.textContent='Versturen mislukt: '+(err.message||err)+' — probeer opnieuw of mail naar '+CONFIG.email; }
+          else alert('Versturen mislukt: '+(err.message||err));
+        }finally{
+          if(submitBtn) submitBtn.disabled=false;
         }
-        setTimeout(()=>{ window.location.href=mailto; }, 400);
       });
     }
   }
