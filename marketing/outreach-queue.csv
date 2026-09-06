@@ -38,3 +38,53 @@ nr,naam,plaats,branche,website,email,subject,variant,slug
 37,Fysiotherapie Zuid Hengelo,Hengelo,fysio,https://www.fysiotherapiezuidhengelo.nl,info@fysiozuidhengelo.nl,"Fysiotherapie Zuid Hengelo — IT uit handen, focus op je werk",CONTROL-origineel,37-fysiotherapie-zuid-hengelo
 38,Fysiotherapie Wooldersteen,Hengelo,fysio,https://www.wooldersteen.nl,fysiotherapie@wooldersteen.nl,"Fysiotherapie Wooldersteen — IT uit handen, focus op je werk",CONTROL-origineel,38-fysiotherapie-wooldersteen
 39,Fysiotherapie Hasseler Es,Hengelo,fysio,https://www.fysiotherapiehasseleres.nl,info@fysiotherapiehasseleres.nl,"Fysiotherapie Hasseler Es — IT uit handen, focus op je werk",CONTROL-origineel,39-fysiotherapie-hasseler-es
+40,Ehair,Hengelo,kappers,https://ehair.nl,info@ehair.nl,Ehair — Gratis quickscan back-up / M365 / security?,TEST-quickscan,40-ehair
+41,Kapsalon Leus,Hengelo,kappers,https://kapsalonleus.nl,info@kapsalonleus.nl,Kapsalon Leus — Gratis quickscan back-up / M365 / security?,TEST-quickscan,41-kapsalon-leus
+42,Kapsalon Figaro,Almelo,kappers,https://figaro-almelo.nl,info@figaro-almelo.nl,Kapsalon Figaro — Gratis quickscan back-up / M365 / security?,TEST-quickscan,42-kapsalon-figaro
+43,Kapsalon Robin,Almelo,kappers,https://kapsalonrobin.nl,info@kapsalonrobin.nl,Kapsalon Robin — Gratis quickscan back-up / M365 / security?,TEST-quickscan,43-kapsalon-robin
+44,Kapsalon Hair Desire,Almelo,kappers,https://www.kapsalonhairdesire.nl,info@kapsalonhairdesire.nl,Kapsalon Hair Desire — Gratis quickscan back-up / M365 / security?,TEST-quickscan,44-kapsalon-hair-desire
+45,Kapsalon Silkhair,Enschede,kappers,https://www.kapsalonsilkhair.com,info@kapsalonsilkhair.com,Kapsalon Silkhair — Gratis quickscan back-up / M365 / security?,TEST-quickscan,45-kapsalon-silkhair
+46,Berteke Hairstyling,Hengelo,kappers,https://www.berteke.nl,info@berteke.nl,Berteke Hairstyling — Gratis quickscan back-up / M365 / security?,TEST-quickscan,46-berteke-hairstyling
+47,Marimorphose,Borne,kappers,https://www.marimorphose.nl,info@marimorphose.nl,Marimorphose — Gratis quickscan back-up / M365 / security?,TEST-quickscan,47-marimorphose
+48,Kapsalon Frederique,Borne,kappers,https://www.kapsalon-frederique.nl,info@kapsalon-frederique.nl,Kapsalon Frederique — Gratis quickscan back-up / M365 / security?,TEST-quickscan,48-kapsalon-frederique
+49,Kapsalon Esther,Almelo,kappers,https://kapsalon-esther.nl,info@kapsalon-esther.nl,Kapsalon Esther — Gratis quickscan back-up / M365 / security?,TEST-quickscan,49-kapsalon-esther
+50,Glam Skin,Enschede,schoonheidssalon,https://www.glamskin.nl,info@glamskin.nl,Glam Skin — Gratis quickscan back-up / M365 / security?,TEST-quickscan,50-glam-skin
+51,Schoonheidssalon Femma,Oldenzaal,schoonheidssalon,https://www.schoonheidssalonfemma.nl,info@schoonheidssalonfemma.nl,Schoonheidssalon Femma — Gratis quickscan back-up / M365 / security?,TEST-quickscan,51-schoonheidssalon-femma
+52,Beauty Salon Borne,Borne,schoonheidssalon,https://beautysalonborne.nl,info@beautysalonborne.nl,Beauty Salon Borne — Gratis quickscan back-up / M365 / security?,TEST-quickscan,52-beauty-salon-borne
+53,Zen & Zuiver,Nijverdal,schoonheidssalon,https://zenenzuiver.nl,info@zenenzuiver.nl,Zen & Zuiver — Gratis quickscan back-up / M365 / security?,TEST-quickscan,53-zen-zuiver
+54,Huidinstituut Wierden,Wierden,schoonheidssalon,https://huidinstituutwierden.nl,info@huidinstituutwierden.nl,Huidinstituut Wierden — Gratis quickscan back-up / M365 / security?,TEST-quickscan,54-huidinstituut-wierden
+55,Sense Wellness,Rijssen,schoonheidssalon,https://www.sense-wellness.nl,info@sense-wellness.nl,Sense Wellness — Gratis quickscan back-up / M365 / security?,TEST-quickscan,55-sense-wellness
+56,Beautyvette,Borne,schoonheidssalon,https://beautyvette.nl,info@beautyvette.nl,Beautyvette — Gratis quickscan back-up / M365 / security?,TEST-quickscan,56-beautyvette
+57,Schoonheidssalon Marielle,Goor,schoonheidssalon,https://www.schoonheidssalonmarielle.nl,info@schoonheidssalonmarielle.nl,Schoonheidssalon Marielle — Gratis quickscan back-up / M365 / security?,TEST-quickscan,57-schoonheidssalon-marielle
+58,Mystyle Beauty,Almelo,schoonheidssalon,https://www.mystyle-beautyenyoga.nl,info@mystyle-beautyenyoga.nl,Mystyle Beauty — Gratis quickscan back-up / M365 / security?,TEST-quickscan,58-mystyle-beauty
+59,Puur Ilse,Almelo,schoonheidssalon,https://www.puur-ilse.nl,info@puur-ilse.nl,Puur Ilse — Gratis quickscan back-up / M365 / security?,TEST-quickscan,59-puur-ilse
+60,Haafkes Goor,Goor,bouwbedrijf,https://www.haafkesgoor.nl,info@haafkesgoor.nl,"Haafkes Goor — IT uit handen, focus op je werk",CONTROL-origineel,60-haafkes-goor
+61,Bouwbedrijf Homan,Hengelo,bouwbedrijf,https://www.bouwbedrijfhoman.nl,info@bouwbedrijfhoman.nl,"Bouwbedrijf Homan — IT uit handen, focus op je werk",CONTROL-origineel,61-bouwbedrijf-homan
+62,Bouwbedrijf Kormelink,Haaksbergen,bouwbedrijf,https://www.kormelinkbouw.nl,info@kormelinkbouw.nl,"Bouwbedrijf Kormelink — IT uit handen, focus op je werk",CONTROL-origineel,62-bouwbedrijf-kormelink
+63,Van Ommeren Kleinbouw,Enschede,bouwbedrijf,https://www.vanommerenkleinbouw.nl,info@vanommerenkleinbouw.nl,"Van Ommeren Kleinbouw — IT uit handen, focus op je werk",CONTROL-origineel,63-van-ommeren-kleinbouw
+64,Extra Bouwen,Enschede,bouwbedrijf,https://extrabouwen.nl,info@extrabouwen.nl,"Extra Bouwen — IT uit handen, focus op je werk",CONTROL-origineel,64-extra-bouwen
+65,Hogenhout Bouw,Enschede,bouwbedrijf,https://hogenhoutbouw.nl,info@hogenhoutbouw.nl,"Hogenhout Bouw — IT uit handen, focus op je werk",CONTROL-origineel,65-hogenhout-bouw
+66,Bouwbedrijf Hulst,Enschede,bouwbedrijf,https://bouwbedrijf-hulst.nl,info@bouwbedrijf-hulst.nl,"Bouwbedrijf Hulst — IT uit handen, focus op je werk",CONTROL-origineel,66-bouwbedrijf-hulst
+67,Fysio Berflo,Hengelo,fysio,https://www.fysioberflo.nl,info@fysioberflo.nl,"Fysio Berflo — IT uit handen, focus op je werk",CONTROL-origineel,67-fysio-berflo
+68,Fysiotherapie Noordman,Enschede,fysio,https://www.fysiotherapienoordman.nl,info@fysiotherapienoordman.nl,"Fysiotherapie Noordman — IT uit handen, focus op je werk",CONTROL-origineel,68-fysiotherapie-noordman
+69,Verdipark Fysio,Almelo,fysio,https://verdiparkfysio.nl,info@verdiparkfysio.nl,"Verdipark Fysio — IT uit handen, focus op je werk",CONTROL-origineel,69-verdipark-fysio
+70,Acacia Fysio,Almelo,fysio,https://acaciaplein.nl,info@acaciaplein.nl,"Acacia Fysio — IT uit handen, focus op je werk",CONTROL-origineel,70-acacia-fysio
+71,Fysio Bewust,Rijssen,fysio,https://fysiobewust.nl,info@fysiobewust.nl,"Fysio Bewust — IT uit handen, focus op je werk",CONTROL-origineel,71-fysio-bewust
+72,Fyziototaal,Rijssen,fysio,https://fyziototaal.nl,info@fyziototaal.nl,"Fyziototaal — IT uit handen, focus op je werk",CONTROL-origineel,72-fyziototaal
+73,Fysiomedisch Centrum Rijssen,Rijssen,fysio,https://fysiomedischcentrumrijssen.nl,info@fysiomcr.nl,"Fysiomedisch Centrum Rijssen — IT uit handen, focus op je werk",CONTROL-origineel,73-fysiomedisch-centrum-rijssen
+74,Fysio Breshamer,Enschede,fysio,https://www.fysiobreshamer.nl,info@fysiobreshamer.nl,"Fysio Breshamer — IT uit handen, focus op je werk",CONTROL-origineel,74-fysio-breshamer
+75,FysioFit Borne,Borne,fysio,https://www.fysiofitborne.nl,info@fysiofitborne.nl,"FysioFit Borne — IT uit handen, focus op je werk",CONTROL-origineel,75-fysiofit-borne
+76,Fysio van Delden,Delden,fysio,https://www.fysiovandelden.nl,info@fysiovandelden.nl,"Fysio van Delden — IT uit handen, focus op je werk",CONTROL-origineel,76-fysio-van-delden
+77,Fysio Centrum Sengers,Goor,fysio,https://fysiocentrumsengers.nl,info@fysiocentrumsengers.nl,"Fysio Centrum Sengers — IT uit handen, focus op je werk",CONTROL-origineel,77-fysio-centrum-sengers
+78,Fysiotherapie Delden,Delden,fysio,https://www.fysiotherapie-delden.nl,info@fysiotherapie-delden.nl,"Fysiotherapie Delden — IT uit handen, focus op je werk",CONTROL-origineel,78-fysiotherapie-delden
+79,Autoschade Hengelo,Hengelo,autobedrijf,https://www.autoschadehengelo.nl,info@autoschadehengelo.nl,"Autoschade Hengelo — IT uit handen, focus op je werk",CONTROL-origineel,79-autoschade-hengelo
+80,Auto Sprakel,Hengelo,autobedrijf,https://www.autosprakel.nl,info@autosprakel.nl,"Auto Sprakel — IT uit handen, focus op je werk",CONTROL-origineel,80-auto-sprakel
+81,Auto Reuvers,Losser,autobedrijf,https://www.auto-reuvers.nl,verkoop@auto-reuvers.nl,"Auto Reuvers — IT uit handen, focus op je werk",CONTROL-origineel,81-auto-reuvers
+82,Stadsauto Twente,Enschede,autobedrijf,https://stadsautotwente.nl,info@stadsautotwente.nl,"Stadsauto Twente — IT uit handen, focus op je werk",CONTROL-origineel,82-stadsauto-twente
+83,Autobedrijf Aktief,Haaksbergen,autobedrijf,https://www.aktief.com,info@autobedrijfaktief.nl,"Autobedrijf Aktief — IT uit handen, focus op je werk",CONTROL-origineel,83-autobedrijf-aktief
+84,Temminghoff,Rijssen,autobedrijf,https://www.temminghoff.nl,info@temminghoff.nl,"Temminghoff — IT uit handen, focus op je werk",CONTROL-origineel,84-temminghoff
+85,Auto Zwijnenberg,Wierden,autobedrijf,https://www.auto-zwijnenberg.nl,verkoop@auto-zwijnenberg.nl,"Auto Zwijnenberg — IT uit handen, focus op je werk",CONTROL-origineel,85-auto-zwijnenberg
+86,Baan Automotive,Almelo,autobedrijf,https://baanautomotive.nl,info@baanautomotive.nl,"Baan Automotive — IT uit handen, focus op je werk",CONTROL-origineel,86-baan-automotive
+87,Autobedrijf Hulsman,Goor,autobedrijf,https://autobedrijfhulsman.nl,info@autobedrijfhulsman.nl,"Autobedrijf Hulsman — IT uit handen, focus op je werk",CONTROL-origineel,87-autobedrijf-hulsman
+88,Autoservice Michiel Jonker,Enschede,autobedrijf,https://www.autoservicemichieljonker.nl,info@autoservicemichieljonker.nl,"Autoservice Michiel Jonker — IT uit handen, focus op je werk",CONTROL-origineel,88-autoservice-michiel-jonker
+89,Fabulous Hairstudio,Hengelo,kappers,https://fabuloushairstudio.nl,fabuloushairstudio@hotmail.com,"Fabulous Hairstudio — IT uit handen, focus op je werk",CONTROL-origineel,89-fabulous-hairstudio
