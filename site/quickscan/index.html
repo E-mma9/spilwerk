@@ -35,27 +35,60 @@
     <div class="row-card" style="padding:1.25rem;">
       <h3 style="margin-top:0;">Aanvragen — zonder mail te openen</h3>
       <p style="color:var(--ink-2);margin-top:.25rem;">Vul in, ik reageer binnen 1 werkdag. Liever bellen? <a class="link" href="tel:+31687433537">06-87433537</a></p>
-      <form action="https://formsubmit.co/spillwerk@gmail.com" method="POST" style="margin-top:1rem;display:grid;gap:.9rem;">
-        <input type="hidden" name="_subject" value="Quickscan aanvraag via spilwerk.nl/quickscan">
-        <input type="hidden" name="_captcha" value="false">
-        <input type="hidden" name="_next" value="https://spilwerk.nl/quickscan/bedankt.html">
-        <input type="hidden" name="_template" value="table">
-        <label style="display:grid;gap:.3rem;">Bedrijfsnaam<input name="bedrijf" required placeholder="Bijv. Mufide Hair & Art" style="padding:.7rem .8rem;border:1px solid #e6ddd0;border-radius:10px;font:inherit;"></label>
-        <label style="display:grid;gap:.3rem;">Naam<input name="naam" required placeholder="Je naam" style="padding:.7rem .8rem;border:1px solid #e6ddd0;border-radius:10px;font:inherit;"></label>
-        <label style="display:grid;gap:.3rem;">E-mail<input name="email" type="email" required placeholder="info@voorbeeld.nl" style="padding:.7rem .8rem;border:1px solid #e6ddd0;border-radius:10px;font:inherit;"></label>
-        <label style="display:grid;gap:.3rem;">Telefoon<input name="telefoon" placeholder="06-..." style="padding:.7rem .8rem;border:1px solid #e6ddd0;border-radius:10px;font:inherit;"></label>
+
+      <!-- Formspree status: wordt gevuld door @formspree/ajax -->
+      <div data-fs-success style="display:none;margin-top:1rem;padding:.9rem 1rem;background:#e8f5e9;border:1px solid #4A7C59;border-radius:10px;color:#2e5a3b;"></div>
+      <div data-fs-error style="display:none;margin-top:1rem;padding:.9rem 1rem;background:#fdecea;border:1px solid #d8a0a0;border-radius:10px;color:#7a2b2b;"></div>
+
+      <form id="quickscan-form" style="margin-top:1rem;display:grid;gap:.9rem;">
+        <input type="hidden" name="_subject" value="Quickscan aanvraag via spilwerk.nl/quickscan" />
+        <!-- honeypot tegen spam -->
+        <input type="text" name="_gotcha" style="display:none" tabindex="-1" autocomplete="off" />
+
+        <label style="display:grid;gap:.3rem;">Bedrijfsnaam
+          <input name="bedrijf" required placeholder="Bijv. Mufide Hair & Art" data-fs-field style="padding:.7rem .8rem;border:1px solid #e6ddd0;border-radius:10px;font:inherit;">
+          <span data-fs-error="bedrijf" style="font-size:.85rem;color:#a33;"></span>
+        </label>
+
+        <label style="display:grid;gap:.3rem;">Naam
+          <input name="naam" required placeholder="Je naam" data-fs-field style="padding:.7rem .8rem;border:1px solid #e6ddd0;border-radius:10px;font:inherit;">
+          <span data-fs-error="naam" style="font-size:.85rem;color:#a33;"></span>
+        </label>
+
+        <label style="display:grid;gap:.3rem;">E-mail
+          <input name="email" type="email" required placeholder="info@voorbeeld.nl" data-fs-field style="padding:.7rem .8rem;border:1px solid #e6ddd0;border-radius:10px;font:inherit;">
+          <span data-fs-error="email" style="font-size:.85rem;color:#a33;"></span>
+        </label>
+
+        <label style="display:grid;gap:.3rem;">Telefoon
+          <input name="telefoon" placeholder="06-..." data-fs-field style="padding:.7rem .8rem;border:1px solid #e6ddd0;border-radius:10px;font:inherit;">
+          <span data-fs-error="telefoon" style="font-size:.85rem;color:#a33;"></span>
+        </label>
+
         <label style="display:grid;gap:.3rem;">Wat wil je laten checken?
-          <select name="check" style="padding:.7rem .8rem;border:1px solid #e6ddd0;border-radius:10px;font:inherit;">
+          <select name="check" data-fs-field style="padding:.7rem .8rem;border:1px solid #e6ddd0;border-radius:10px;font:inherit;">
             <option>Back-up + M365 + security (compleet)</option>
             <option>Alleen back-up</option>
             <option>Alleen M365</option>
             <option>Alleen security/wifi</option>
           </select>
+          <span data-fs-error="check" style="font-size:.85rem;color:#a33;"></span>
         </label>
-        <label style="display:grid;gap:.3rem;">Bericht (optioneel)<textarea name="bericht" rows="3" placeholder="Bijv. agenda loopt vast, wifi valt weg..." style="padding:.7rem .8rem;border:1px solid #e6ddd0;border-radius:10px;font:inherit;resize:vertical;"></textarea></label>
-        <button type="submit" class="btn btn-primary" style="justify-self:start;padding:.8rem 1.4rem;border:none;cursor:pointer;">Verstuur aanvraag</button>
-        <span style="font-size:.85rem;color:var(--ink-3);">Verstuur gaat direct via portaal — je hoeft je mail niet te openen. Bevestiging op volgende pagina.</span>
+
+        <label style="display:grid;gap:.3rem;">Bericht (optioneel)
+          <textarea name="bericht" rows="3" placeholder="Bijv. agenda loopt vast, wifi valt weg..." data-fs-field style="padding:.7rem .8rem;border:1px solid #e6ddd0;border-radius:10px;font:inherit;resize:vertical;"></textarea>
+          <span data-fs-error="bericht" style="font-size:.85rem;color:#a33;"></span>
+        </label>
+
+        <button type="submit" data-fs-submit-btn class="btn btn-primary" style="justify-self:start;padding:.8rem 1.4rem;border:none;cursor:pointer;">Verstuur aanvraag</button>
+        <span style="font-size:.85rem;color:var(--ink-3);">Verstuur gaat direct via portaal — je hoeft je mail niet te openen. Je ziet hieronder meteen of hij verzonden is.</span>
       </form>
+
+      <script>
+        window.formspree = window.formspree || function () { (formspree.q = formspree.q || []).push(arguments); };
+        formspree('initForm', { formElement: '#quickscan-form', formId: 'mbgjaydn' });
+      </script>
+      <script src="https://unpkg.com/@formspree/ajax@1" defer></script>
     </div>
     <p style="margin-top:1rem;color:var(--ink-3);font-size:.9rem;">Of plan direct: <a class="link" href="../boeken/">spilwerk.nl/boeken</a> · <a class="link" href="../prijzen/">prijzen</a></p>
   </div>
